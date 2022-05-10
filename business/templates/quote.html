@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+ <!--Page Title-->
+
+
+<section class="page-title" style="background-image:url({% static 'images/background/bureau5.jpg' %})">
+    <div class="auto-container">
+        <h2>{% trans 'Obtenez un devis' %}</h2>
+        <ul class="page-breadcrumb">
+            <li><a href="/">{% trans 'Accueil' %}</a></li>
+            <li>{% trans 'Obtenez un devis' %}</li>
+        </ul>
+    </div>
+</section>
+    <!--End Page Title-->
+
+	<!-- Contact Form Section -->
+	<section class="contact-form-section" style="background-image:url('images/background/contact.jpg' %})">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title">
+				<h2>{% trans 'Obtenez un devis' %}</h2>
+				<div class="text">{% trans 'Merci de remplir le formulaire pour avoir un devis approximatif.' %}</div>
+			</div>
+			<div class="ol-lg-6 col-md-6 col-sm-12">
+				<!-- message -->
+				<div id="messageQuote">
+					{% include 'snippets/message.html' %}
+				</div>
+			 </div>
+			<div class="row clearfix">
+				
+				<!-- Form Column -->
+				<div class="form-column col-lg-7 col-md-12 col-sm-12">
+					<div class="inner-column">
+						
+						<!-- Contact Form -->
+						<div class="contact-form">
+								
+							<!--Contact Form-->
+							{% comment %} <form method="POST", action={% url 'business:create_quote' %}>
+								{% csrf_token %} {% endcomment %}
+						 <form hx-post="{% url 'business:create_quote' %}" hx-swap="innerHTML" hx-target="#messageQuote">  
+								<div class="row clearfix">
+									<div class="form-group col-lg-12 col-md-6 col-sm-12">
+										<input type="email" name="email" id="id_email" value="" placeholder="{% trans 'E-Mail *' %}" required>
+									</div>
+									
+									<div class="form-group col-lg-12 col-md-6 col-sm-12">
+										<input type="text" name="phone" id="id_phone" value="" placeholder="{% trans 'Numéro *' %}" required>
+									</div>
+									<div class="form-group col-lg-12 col-md-6 col-sm-12">
+										<select class="custom-select-box" id="id_surface" name="surface">
+											<option value=""> {% trans "Surface" %} </option>
+											{% for  surface in surfaces %}
+                                                <option value="{{surface.id}}">{{surface.get_surface_display}}</option> 
+											{% endfor %}
+										  </select>
+									</div>
+									<div class="form-group col-lg-6 col-md-12 col-sm-12">
+										<select class="custom-select-box"  id="id_formule" name="formule">
+											<option value="">{% trans "Sélectionner un pack" %}</option>
+											{% for  formule in formules %}
+                                                <option value="{{formule.id}}">{{formule.formule}}</option>
+											{% endfor %}
+										  </select>
+									</div>
+									<div class="form-group col-lg-6 col-md-12 col-sm-12" >
+										<select class="custom-select-box" id="id_bien" name="bien">
+											<option value=""> {% trans "Sélectionner le type de bien" %} </option>
+											{% for  bien in biens %}
+                                                <option value="{{bien.id}}">{{bien.name}}</option>
+											{% endfor %}
+										  </select>
+									</div>
+									 
+									  
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<button class="theme-btn btn-style-one" type="submit" ><span class="txt"  style="color:#fff;">{% trans 'Soumettre' %}</span></button>
+									</div>
+									
+								</div>
+							</form>
+						</div>
+					
+					</div>
+				</div>
+				   
+				<!-- Info Column -->
+				<div class="info-column col-lg-5 col-md-12 col-sm-12">
+					<div class="inner-column">
+						
+						<!-- Contact Info List -->
+						<ul class="contact-info-list"> 
+							<li><strong>{% trans 'Pack nettoyage 1 :' %}</strong><br>{% trans "Nettoyage du sol + WC + SDB + dépoussiérage." %}</li>
+						</ul>
+						<!-- Contact Info List -->
+						<ul class="contact-info-list">
+							<li><strong>{% trans 'Pack nettoyage 2 : ' %} </strong> <br> {% trans 'Nettoyage du sol, SDB, WC ,dépoussiérage,portes et fenêtres et vitrage (cabine de douche ou autres).' %}</li>
+						
+						</ul>
+						<!-- Contact Info List --> 
+						<ul class="contact-info-list">
+							<li><strong>{% trans 'Pack nettoyage 3 :' %}</strong> <br>{% trans 'Nettoyage spécial cuisine (éléments de cuisine et électroménager)' %} </li>
+						</ul>
+						<!-- Contact Info List --> 
+						<ul class="contact-info-list">
+							<li><strong>{% trans 'Pack nettoyage ALL 4 :' %}</strong><br> {% trans 'Pack 1+2+3+ extérieur, vaisselle et repassage.' %}</li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	
+	<!-- Contact Form Section -->
+
+{% endblock content %}

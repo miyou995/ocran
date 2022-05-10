@@ -1,0 +1,102 @@
+{% load static %}
+{% load i18n %}
+		<!-- Header Style Three -->
+    <header class="main-header header-style-three">
+      <!--Header Top-->
+      <div class="header-top">
+          <div class="auto-container clearfix">
+              <div class="top-left clearfix">
+                  <div class="text"><span class="icon flaticon-call-answer"></span>{% trans " Appelez-nous:" %} <a href="tel:+213 668 092 824" class="number">+213 668 092 824</a></div>
+        
+              </div>
+              <div class="top-right clearfix">
+                  <!-- Info List -->
+                    <ul class="info-list">
+                        <li class="quote"><a href="{% url 'business:create_quote' %}">{% trans "Obtenez un devis gratuit" %}</a></li> 
+                       
+                    </ul>
+
+              </div>
+              
+          </div>
+      </div>
+      <!-- End Header Top -->
+
+      <!-- Header Upper -->
+      <div class="header-upper">
+          <div class="inner-container">
+              <div class="auto-container clearfix">
+                  <!--Info-->
+                  <div class="logo-outer">
+                      <div class="logo"><a href="/"><img src="{% static 'images/logo.png' %}"  alt="" title="" ></a></div>
+                  </div>
+
+                  <!--Nav Box-->
+                  <div class="nav-outer clearfix">
+                      <!--Mobile Navigation Toggler For Mobile--><div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+                      <nav class="main-menu navbar-expand-md navbar-light">
+                          <div class="navbar-header">
+                              <!-- Togg le Button -->      
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="icon flaticon-menu-1"></span>
+                              </button>
+                          </div>
+                          
+                          <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                              <ul class="navigation clearfix">
+                                  <li ><a href="/">{% trans "ACCUEIL" %}</a> </li>
+                                <li><a href="{% url 'business:about' %}">{% trans "OCRAN" %}</a> </li>
+                                  <li ><a href="{% url 'business:service' %}">{% trans "SERVICES" %}</a> </li>
+                                  <li><a href="{% url 'business:create_quote' %}">{% trans "DEVIS" %}</a> </li>
+                                  <li ><a href="{% url 'business:recruiting' %}">{% trans "RECRUTEMENT" %}</a> </li>
+                                  <li><a href="{% url 'business:contact' %}">{% trans "CONTACT" %}</a></li> 
+                                  <li class="dropdown"><a href="#"> {% if LANGUAGE_CODE == 'fr' %}
+                                                                        FR
+                                                                    {% elif LANGUAGE_CODE == 'ar-dz' %}
+                                                                        AR
+                                                                    {% endif %} </a>
+                                        <ul>
+                                            <li {% if LANGUAGE_CODE == 'fr' %} class="active"{% endif %}><a href="/fr">FR</a></li>
+                                            <li {% if LANGUAGE_CODE == 'ar-dz' %} class="active "{% endif %}><a href="/ar-dz">AR</a></li>
+                                            {% if config.ln_dz %}
+                                                <li {% if LANGUAGE_CODE == 'ar-dz' %} class="active "{% endif %}><a href="/ar-dz">AR</a></li>
+                                            {% endif %}
+                                            
+                                        </ul>
+                                  </li>
+                              </ul>
+                          </div>
+                          
+                      </nav>
+                      <!-- Main Menu End-->
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--End Header Upper-->
+
+    <!-- Mobile Menu  -->
+      <div class="mobile-menu">
+          <div class="menu-backdrop"></div>
+          <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+          
+          <nav class="menu-box">
+              <div class="nav-logo"><a href="/"><img src="images/logo-2.jpg" alt="" title=""></a></div>
+              <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+      <!--Social Links-->
+      <div class="social-links">
+        <ul class="clearfix">
+          <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+          <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+          <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+          <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+          <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+        </ul>
+              </div>
+          </nav>
+      </div><!-- End Mobile Menu -->
+
+  </header>
+  <!-- End Main Header -->
+</body>

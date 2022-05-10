@@ -1,0 +1,27 @@
+/venv
+.env
+/.env
+/assets
+*.sqlite3
+business.json
+*.md
+*.json
+*.rar
+media/
+/media
+/*.sqlite3
+/business.json
+/*.md
+/*.json
+/*.rar
+*/__pycache__
+*__pycache__
+__pycache__/
+/__pycache__
+__pycache__
+deploy.md
+deploy copy.md
+/*/__pycache__/
+/*/*/__pycache__/
+/*/*/*/__pycache__/
+/config/local_settings.py

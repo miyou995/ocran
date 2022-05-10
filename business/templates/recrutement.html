@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+
+  
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'images/background/bureau1.jpg' %})">
+    	<div class="auto-container">
+        	<h2> {% trans 'Recrutement' %} </h2>
+            <ul class="page-breadcrumb">
+            	<li><a href="/">{% trans 'Accueil' %}</a></li>
+                <li>{% trans 'Recrutement' %}</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->  
+	
+    	<!-- Contact Form Section -->
+	<section class="contact-form-section" style="background-image:url('images/background/contact.jpg' %})">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title">
+				<h2>{% trans 'Rejoignez notre équipe' %}</h2>
+				<div class="text">{% trans 'Merci de remplir formulaire ci-dessous,  nous vous contacterons dans les plus brefs délais.' %}</div>
+			</div>
+			<div class="ol-lg-6 col-md-6 col-sm-12">
+				   <!-- message -->
+				   {% if messages %}
+				   <ul class=" messages" >
+						   {% for message in messages %}
+						   <h6 {% if message.tags %} class="{{ message.tags }}"{% endif %} style= "background: transparent; color:green;"> {{ message }} </h6>
+						   {% endfor %}
+				   </ul> 
+				   <!-- message -->
+				   {% endif %} 
+				</div>
+			<div class="row clearfix">
+				
+				<!-- Form Column -->
+				<div class="form-column col-lg-7 col-md-12 col-sm-12">
+					<div class="inner-column">
+						
+						<!-- Contact Form -->
+						<div class="contact-form">
+								
+							<!--Contact Form-->
+							<form method="post" action="{% url 'business:recruiting' %}" enctype='multipart/form-data' >
+								{% csrf_token %}
+								<div class="row clearfix">
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="name" id="id_name" placeholder="{% trans 'Nom complet *' %}" required>
+									</div>
+									
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="phone" id="id_phone"  placeholder="{% trans "Numéro *" %}" required>
+									</div>
+									<div class="form-group col-lg-12 col-md-6 col-sm-12">
+										<input type="text" name="email" id="id_email"  placeholder="{% trans "E-mail *" %}" required>
+									</div>
+									<div class="form-group col-lg-6 col-md-12 col-sm-12">
+										<input type="date" name="birth_date" id="id_birth_date"  class="form-control" placeholder="{% trans "Date de naissance *" %}" required>
+									</div>
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="birth_place" id="id_birth_place"  placeholder="{% trans "Lieu de naissance *" %}" required>
+									</div>
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<textarea name="message" id="id_message"  placeholder="{% trans "Experience *" %}"></textarea>
+									</div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <input type="file" name="cv_file" id="id_cv_file"  placeholder="{% trans "télécharger votre cv *" %}" required>
+									</div>
+								
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<button class="theme-btn btn-style-one" type="submit" ><span class="txt"  style="color:#fff;">{% trans 'Soumettre' %}</span></button>
+									</div>
+									
+								</div>
+							</form>
+						</div>
+					
+					</div>
+				</div>
+				   
+				<!-- Info Column -->
+				<div class="info-column col-lg-5 col-md-12 col-sm-12">
+					<div class="inner-column">
+						
+						<!-- Contact Info List -->
+						<ul class="contact-info-list">
+							<li><strong>{% trans 'Adresse :' %}</strong><br>{% trans 'Centre commercial et d&#8216;affaire Mohammadia mall 16000 Alger, Algérie' %}</li>
+						</ul>
+						<!-- Contact Info List -->
+						<ul class="contact-info-list">
+							<li><strong>{% trans 'Numéro : ' %}</strong><a href="tel:1800-456-7890">{% trans '+213 668 092 824' %}</a></li>
+							<li><strong>{% trans "E-mail  : " %}</strong><a href="">{% trans 'contact@ocrannadafa.com' %} </a></li>
+						</ul>
+						<!-- Contact Info List -->
+						<ul class="contact-info-list">
+							<li><strong>{% trans 'Horaires d&#8216;ouvertures :' %}</strong><br>{% trans '8:00 AM – 17:00 PM' %} <br> {% trans 'Samedi – Jeudi' %}</li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Contact Form Section -->
+
+{% endblock content %}

@@ -1,0 +1,95 @@
+{% load static %}
+{% load i18n %}
+	<!--Main Footer-->
+  <footer class="main-footer">
+		<div class="auto-container">
+        	<!--Widgets Section-->
+            <div class="widgets-section">
+            	<div class="row clearfix">
+                	
+                    <!--big column-->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+                        
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+									<div class="logo">
+                                    	<a href=""><img src="{% static 'images/footer.png' %}" alt="" /></a>
+                                    </div>
+                                    <div class="text" style="text-align: center"><strong>{% trans "OCRAN NADAFA" %}</strong></div>
+										
+									</div>
+							</div>
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                	<h2>Liens utiles</h2>
+									<div class="widget-content">
+										<ul class="list">
+                                        	<li><a href="{% url 'business:about' %}">{% trans "OCRAN" %}</a></li>
+                                            <li><a href="{% url 'business:service' %}">{% trans "SERVICES" %}</a></li>
+                                            <li><a href="{% url 'business:create_quote' %}">{% trans "DEVIS" %}</a></li>
+                                            <li><a href="{% url 'business:recruiting' %}">{% trans "RECRUTEMENT" %}</a></li>
+                                            <li><a href="{% url 'business:contact' %}">{% trans "CONTACT" %}</a></li>
+                                        </ul>
+                                    </div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+					
+					<!--big column-->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+                        <!--Footer Column-->
+						<div class="footer-column col-lg-5 col-md-6 col-sm-12">
+							<div class="footer-widget contact-widget">
+								<h2>{% trans "Contact" %} </h2>
+								<div class="widget-content">
+									<a href="tel:23804261" class="contact-number">023 80 42 61</a>
+									<ul>
+										<li>{% trans "Centre commercial et d'affaire Mohammadia mall 16000 Alger, Algérie" %} </li>
+										<li>{% trans "Email" %} <a href="mailto:contact@ocrannadafa.com" > contact@ocrannadafa.com </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget contact-widget">
+									<h2>{% trans "réseau sociaux " %}</h2>
+									
+										<ul class="social-icons">
+											<li><a href="https://wa.me/698092844"><span class="fab fa-whatsapp">  +213698092844</span></a></li>
+											<li><a href="viber://chat?number=698092844"><span class="fab fa-viber">  +213698092844</span></a></li>
+											<li><a href="https://www.facebook.com/OCRAN-Nadafa-105973361872834"><span class="fab fa-facebook-f"> OCRAN-Nadafa </span></a></li>
+											<li><a href="https://www.instagram.com/ocran_nadafa/"><span class="fab fa-instagram"> ocran_nadafa </span></a></li>
+										
+										</ul>
+								
+								</div>
+							</div>
+							
+							
+						
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!--Footer Bottom-->
+            <div class="footer-bottom clearfix">
+                <div class="pull-center">
+                    <div class="copyright"><a href="https://www.octopus-consulting.com/"> Octopus-consulting</a></div>
+                </div>
+                
+            </div>
+			
+		</div>
+	</footer>
+</body>

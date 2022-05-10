@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+
+  
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'images/background/contact.jpg' %})">
+    	<div class="auto-container">
+        	<h2>{% trans 'Services' %}</h2>
+            <ul class="page-breadcrumb">
+            	<li><a href="/">{% trans 'Accueil' %}</a></li>
+                <li>{% trans 'Services' %}</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+		<!--Sidebar Page Container-->
+        <div class="sidebar-page-container">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    
+                    <!--Content Side / Services Detail -->
+                    <div class="content-side col-xl-9 col-lg-8 col-md-12 col-sm-12">
+                        <div class="services-detail">
+                            <div class="inner-box">
+                                <div class="bold-text"><h2>{% trans 'Désinfection d’espaces du virus COVID-19 :' %}</h2></div>
+                                <div class="text">
+                                    <!-- Two Column -->
+                                    <div class="two-column">
+                                        <div class="row clearfix">
+                                            <div class="column col-lg-4 col-md-4 col-sm-12">
+                                               
+                                                <div class="image"> <br>
+                                                    <img src="{% static 'images/gallery/covid1.jpg' %}" alt="" />
+                                                </div>
+                                            
+                                            </div>
+                                            <div class="content-column col-lg-8 col-md-8 col-sm-12">
+                                            
+                                                <div class="inner-column" id="covid">
+                                                    <p>{% trans 'Dans le cadre de la menace de propagation du coronavirus, il est extrêmement important de prendre des mesures préventives et de décontaminer régulièrement vos espaces de travail.' %} <br>
+                                                        {% trans 'Notre entreprise emploie des spécialistes sympathiques et actifs, capables de nettoyer rapidement et efficacement, de préparer votre zone pour des réunions d’invités, des conférences ou tout autre événement.' %}
+                                                        </p>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <h4>{% trans 'Meilleur service de nettoyage en algérie.' %}</h4>
+                                    <div class="service-contact-box"> <a href="{% url 'business:contact' %}" style="text-decoration: none; color:#fff;"> {% trans 'Contactez-nous' %}</a>  {% trans 'pour en savoir plus.' %} </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Sidebar Side-->
+                    <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                        <aside class="sidebar">
+                            
+                            <!-- Sidebar Widget / List Widget-->
+                            <div class="sidebar-widget list-widget">
+                                <!-- Services List -->
+                                <ul class="services-list">
+                                    <li><a href="{% url 'business:maison' %}">{% trans 'Maison ou appartement ' %}</a></li>
+                                    <li><a href="{% url 'business:office' %}">{% trans 'Bureaux et locaux' %} </a></li>
+                                    <li><a href="{% url 'business:cop' %}">{% trans 'Secteur Copropriété ' %}</a></li>
+                                    <li><a href="{% url 'business:des' %}">{% trans 'Désinfection d’espaces du virus COVID-19' %} </a></li>
+                                    <li><a href="{% url 'business:rem' %}">{% trans 'Remise en état de chantier après fin de travaux ' %}</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Sidebar Widget / Contact Widget-->
+                            <div class="sidebar-widget contact-widget">
+                                <div class="widget-content" style="background-image: url(images/background/7.jpg);">  
+                                    <a href="{% url 'business:quote' %}"> <h3>{% trans 'Obtenez un devis' %}</h3> </a>
+                                </div>
+                            </div>
+                        
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+    </div>  
+    <!--End pagewrapper-->
+
+{% endblock content %}

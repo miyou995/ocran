@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+
+  
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'images/background/contact.jpg' %})">
+    	<div class="auto-container">
+        	<h2>{% trans "Services" %}</h2>
+            <ul class="page-breadcrumb">
+            	<li><a href="/">{% trans "Accueil" %} </a></li>
+                <li>{% trans "Services " %}</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+		<!--Sidebar Page Container-->
+        <div class="sidebar-page-container">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    
+                    <!--Content Side / Services Detail -->
+                    <div class="content-side col-xl-9 col-lg-8 col-md-12 col-sm-12">
+                        <div class="services-detail">
+                            <div class="inner-box">
+                                <div class="bold-text"><h2>{% trans "Maison ou appartement :" %} </h2></div>
+                                <div class="text">
+                                    <!-- Two Column -->
+                                    <div class="two-column">
+                                        <div class="row clearfix">
+                                            <div class="column col-lg-4 col-md-4 col-sm-12"> <br><br>
+                                                <div class="image">
+                                                    <img src="{% static 'images/gallery/portfolio-6.jpg' %}" alt="" />
+                                                </div>
+                                                <br><br><br><br>
+                                                <div class="image">
+                                                    <img src="{% static 'images/gallery/portfolio-1.jpg' %}" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="content-column col-lg-8 col-md-8 col-sm-12">
+                                                <div class="inner-column" id="maison">
+                                                    <h3>{% trans "Ménage régulier :" %}</h3>
+                                                    <p>{% trans "En faisant appel à" %}  <strong> {% trans "OCRAN NADAFA" %} </strong>, {% trans "vous avez le confort d’une prestation bien faite, réalisée par un intervenant régulier pour vous assurer une qualité toujours constante." %} </p>
+                                                    <p>{% trans "Alors profitez dès maintenant d’un intérieur impeccable sans le moindre effort !" %}</p>
+                                                    <p> <strong>{% trans 'OCRAN NADAFA' %} </strong>{% trans 'a toujours mis un point d’honneur sur l’entretien et l’hygiène de votre domicile en préservant votre santé et celle de nos salariés.' %}
+                                                        {% trans "Face au covid-19, nous renforçons le nettoyage et la désinfection lors de chaque prestation à votre domicile et plus particulièrement sur les points de contact." %}
+                                                        </p>
+                                                    <h3>{% trans 'Ménage occasionnel  :' %}</h3>
+                                                    <p>{% trans 'Vous avez besoin d’un coup de pouce occasionnel pour le ménage de votre domicile ? Faites appel à OCRAN NADAFA ! Vous aurez plaisir à rentrer chez vous ! Le ménage occasionnel de votre intérieur sera fait avec précision et minutie grâce à nos experts ménage. Ménage de printemps, ménage avant le mois de Ramadan, après ou avant déménagement… N’hésitez pas ont est là.' %}
+                                                         </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>{% trans 'Meilleur service de nettoyage en algérie.' %}</h4>
+                                    <div class="service-contact-box"> <a href="{% url 'business:contact' %}" style="text-decoration: none; color:#fff;"> {% trans "Contactez-nous" %}</a> {% trans "pour en savoir plus." %} </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Sidebar Side-->
+                    <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                        <aside class="sidebar">
+                            
+                            <!-- Sidebar Widget / List Widget-->
+                            <div class="sidebar-widget list-widget">
+                                <!-- Services List -->
+                                <ul class="services-list">
+                                    <li><a href="{% url 'business:maison' %}">{% trans "Maison ou appartement " %}</a></li>
+                                    <li><a href="{% url 'business:office' %}">{% trans "Bureaux et locaux" %} </a></li>
+                                    <li><a href="{% url 'business:cop' %}">{% trans "Secteur Copropriété " %}</a></li>
+                                    <li><a href="{% url 'business:des' %}">{% trans "Désinfection d’espaces du virus COVID-19" %} </a></li>
+                                    <li><a href="{% url 'business:rem' %}">{% trans "Remise en état de chantier après fin de travaux" %} </a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Sidebar Widget / Contact Widget-->
+                            <div class="sidebar-widget contact-widget">
+                                <div class="widget-content" style="background-image: url(images/background/7.jpg);">  
+                                    <a href="{% url 'business:quote' %}"> <h3>{% trans "Obtenez un devis" %}</h3> </a>
+                                </div>
+                            </div>
+                        
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+    </div>  
+    <!--End pagewrapper-->
+
+{% endblock content %}

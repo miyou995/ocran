@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'images/background/contact.jpg' %})">
+    	<div class="auto-container">
+        	<h2>{% trans 'Services' %}</h2>
+            <ul class="page-breadcrumb">
+            	<li><a href="/">{% trans 'Accueil' %}</a></li>
+                <li>{% trans 'Services' %}</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+		<!--Sidebar Page Container-->
+     <!-- Services Section Three -->
+	<section class="services-section-three" >
+		<div class="auto-container">
+			
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<h2>{% trans 'OCRAN NADAFA Toujours étincelants !' %}</h2>
+				<div class="text">{% trans 'En faisant appel à' %} <strong>{% trans 'OCRAN NADAFA' %}</strong>{% trans ', vous avez le confort d’une prestation bien faite, réalisée par une equipe qualifié.' %}</div>
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- Service Block -->
+				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="{% url 'business:service' %}"><img src="{% static 'images/resource/maison.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="{% url 'business:maison' %}">{% trans 'Maison ou appartement' %}</a></h3>
+							<div class="text"></div>
+							<a href="{% url 'business:maison' %}" class="read-more">{% trans 'En savoir plus' %}</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="{% url 'business:office' %}"><img src="{% static 'images/resource/bureau.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="{% url 'business:office' %}">{% trans 'Bureaux et locaux' %} </a></h3>
+							<div class="text"></div>
+							<a href="{% url 'business:office' %}" class="read-more">{% trans 'En savoir plus' %}</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="{% url 'business:cop' %}"><img src="{% static 'images/resource/copropriéte.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="{% url 'business:cop' %}">{% trans 'Secteur Copropriété' %}</a></h3>
+							<div class="text"></div>
+							<a href="{% url 'business:cop' %}" class="read-more">{% trans 'En savoir plus' %}</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="{% url 'business:des' %}"><img src="{% static 'images/resource/covid.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="{% url 'business:des' %}">{% trans 'Désinfection d’espaces du virus COVID-19' %}</a></h3>
+							<div class="text"></div>
+							<a href="{% url 'business:des' %}" class="read-more">{% trans 'En savoir plus' %}</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+					<!-- Service Block -->
+          <div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
+            <div class="inner-box wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+              <div class="image">
+                <a href="{% url 'business:rem' %}"><img src="{% static 'images/resource/remise.jpg' %}"  style="width:278px; height:185px;" alt="" /></a>
+              </div>
+              <div class="lower-content">
+                <h3><a href="{% url 'business:rem' %}">{% trans 'Remise en état de chantier après fin de travaux' %}</a></h3>
+                <div class="text"></div> <br>
+                <a href="{% url 'business:rem' %}" class="read-more">{% trans 'En savoir plus' %}</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+		</div>
+	</section>
+	<!-- End Services Section -->
+        
+
+    </div>  
+    <!--End pagewrapper-->
+
+{% endblock content %}

@@ -1,0 +1,88 @@
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+{% get_language_info_list for LANGUAGES as languages %}
+<!DOCTYPE html>
+<html lang="{{LANGUAGES}}" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
+{% block title %}
+<title>base</title>
+{% endblock %}
+<head>
+<meta charset="utf-8">
+<!-- Stylesheets -->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+
+<link rel="{% static 'shortcut icon" href="images/favicon.png' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<meta name="language" content="{{LANGUAGES}}" />
+</head>
+{% include 'navbar.html' %}
+{% if LANGUAGE_CODE == 'ar' %}
+    <style>
+      h1, h2, h3, h4, h5, h6, a, p, li, span {
+        text-align: right;
+      }
+      
+     /*  .header-right {
+          margin-right: auto;
+      }
+      .megamenu {
+            left: 0; 
+            right: 100%;
+      }
+      #bannersCarousel .owl-item {
+          left: 100%;
+      }
+      #brandsCarousel .owl-item {
+          right: 0;
+      } */
+
+    </style>
+  {% endif %}
+
+<body >
+
+    {%block scripts%}
+    {%endblock scripts%}
+    {% block content %}
+    
+    {% endblock content %}
+  
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+    {% include 'footer.html' %}
+
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/jquery-ui.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+<script src="{% static 'js/isotope.js' %}"></script>
+<script src="{% static 'js/owl.js' %}"></script>
+<script src="{% static 'js/wow.js' %}"></script>
+<script src="{% static 'js/isotope.js' %}"></script>
+<script src="{% static 'js/appear.js' %}"></script>
+<script src="{% static 'js/scrollbar.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
+<script src="https://kit.fontawesome.com/d08376f6a2.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org@1.5.0" ></script>
+<!-- <script type="text/javascript" src="{% static "js/site-base.js" %}"></script> -->
+<!-- <script type="text/javascript" src="{% static "CACHE/js/awesome.8dd1a2872443.js" %}" charset="utf-8"></script> -->
+<script>
+    document.body.addEventListener('htmx:configRequest', (event) => {
+        event.detail.headers['X-CSRFToken'] = '{{ csrf_token }}';
+    })
+</script>
+</body>
+
+
+</html>
