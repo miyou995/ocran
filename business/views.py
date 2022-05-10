@@ -11,7 +11,7 @@ from .models import Bien, Contact, Formule, Quote, Hiring, Surface
 from django.utils.translation import gettext as _
 # Create your views here.
 from django.contrib import messages
-
+from django.shortcuts import redirect
 ###index 
 class IndexView(TemplateView):
     template_name= "index.html"
@@ -85,6 +85,12 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     def form_valid(self, form):
         form.send_email() 
         return super().form_valid(form)
+
+    def form_invalid(self, form):
+        messages.error(self.request,form.errors)
+        return redirect('business:recruiting')
+
+    
 
 ##email
 class EmailView(TemplateView):

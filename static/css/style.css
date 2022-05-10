@@ -2118,12 +2118,12 @@ img{
 	width:100%;
 	height:100%;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	/* background-position: center; */
+	background-size: cover; 
 	-webkit-transform:scale(1);
 	-ms-transform:scale(1);
-	transform:scale(1);
-	-webkit-transition: all 6000ms linear;
+	transform:scale(1); */
+	 -webkit-transition: all 6000ms linear;
 	-moz-transition: all 6000ms linear;
 	-ms-transition: all 6000ms linear;
 	-o-transition: all 6000ms linear;
@@ -4023,7 +4023,7 @@ img{
 
 .interior-section .content-column .inner-column{
 	position:relative;
-	padding:75px 60px 40px;
+	padding:52px 38px 6px;
 }
 
 .interior-section .content-column h2{
@@ -4891,6 +4891,7 @@ img{
 .contact-form .form-group input[type="text"],
 .contact-form .form-group input[type="tel"],
 .contact-form .form-group input[type="email"],
+.contact-form .form-group input[type="date"],
 .contact-form .form-group select,
 .contact-form .form-group textarea{
 	position:relative;

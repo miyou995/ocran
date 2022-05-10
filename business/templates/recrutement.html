@@ -23,21 +23,12 @@
 	<section class="contact-form-section" style="background-image:url('images/background/contact.jpg' %})">
 		<div class="auto-container">
 			<!-- Sec Title -->
+			{% include 'snippets/message.html' %}
 			<div class="sec-title">
 				<h2>{% trans 'Rejoignez notre équipe' %}</h2>
 				<div class="text">{% trans 'Merci de remplir formulaire ci-dessous,  nous vous contacterons dans les plus brefs délais.' %}</div>
 			</div>
-			<div class="ol-lg-6 col-md-6 col-sm-12">
-				   <!-- message -->
-				   {% if messages %}
-				   <ul class=" messages" >
-						   {% for message in messages %}
-						   <h6 {% if message.tags %} class="{{ message.tags }}"{% endif %} style= "background: transparent; color:green;"> {{ message }} </h6>
-						   {% endfor %}
-				   </ul> 
-				   <!-- message -->
-				   {% endif %} 
-				</div>
+
 			<div class="row clearfix">
 				
 				<!-- Form Column -->
@@ -56,22 +47,22 @@
 									</div>
 									
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="phone" id="id_phone"  placeholder="{% trans "Numéro *" %}" required>
+										<input type="tel" name="phone" id="id_phone"  placeholder="{% trans "Numéro *" %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
 									</div>
-									<div class="form-group col-lg-12 col-md-6 col-sm-12">
-										<input type="text" name="email" id="id_email"  placeholder="{% trans "E-mail *" %}" required>
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="email" id="id_email"  placeholder="{% trans "E-mail" %}" >
 									</div>
-									<div class="form-group col-lg-6 col-md-12 col-sm-12">
-										<input type="date" name="birth_date" id="id_birth_date"  class="form-control" placeholder="{% trans "Date de naissance *" %}" required>
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="date" name="birth_date" id="id_birth_date"   placeholder="{% trans "Date de naissance *" %}" required>
 									</div>
-                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                    {% comment %} <div class="form-group col-lg-6 col-md-6 col-sm-12">
 										<input type="text" name="birth_place" id="id_birth_place"  placeholder="{% trans "Lieu de naissance *" %}" required>
-									</div>
+									</div> {% endcomment %}
 									<div class="form-group col-lg-12 col-md-12 col-sm-12">
-										<textarea name="message" id="id_message"  placeholder="{% trans "Experience *" %}"></textarea>
+										<textarea name="message" id="id_message"  placeholder="{% trans "Experience" %}"></textarea>
 									</div>
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                        <input type="file" name="cv_file" id="id_cv_file"  placeholder="{% trans "télécharger votre cv *" %}" required>
+                                        <input type="file" name="cv_file" id="id_cv_file"  placeholder="{% trans "télécharger votre cv *" %}">
 									</div>
 								
 									<div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -110,6 +101,6 @@
 			
 		</div>
 	</section>
-	<!-- End Contact Form Section -->
+	{% include 'snippets/devis_cta.html' %}
 
 {% endblock content %}

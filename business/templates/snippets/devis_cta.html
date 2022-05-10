@@ -1,0 +1,16 @@
+{% load static %}
+{% load i18n %}
+
+<!-- End Mission Section -->
+    	<!-- Call To Action Section -->
+        <section class="call-to-action-section" style="background-image: url({% static 'images/R.jfif' %}); ">
+            <div class="auto-container">
+                <h2>{% trans 'OCRAN NADAFA Toujours étincelants !' %}</h2>
+                {% comment %} <div class="text">{% trans 'OBTENEZ UN DEVIS GRATUIT.' %} </div>	<div class="row clearfix"> {% endcomment %}
+          
+          <div class="text"> 
+        </div> 
+                <a href="{% url 'business:create_quote' %}" class="theme-btn btn-style-two"><span class="txt">{% trans 'OBTENEZ UN DEVIS GRATUIT' %}</span></a>
+            </div>
+        </section>
+        <!-- End Call To Action Section -->

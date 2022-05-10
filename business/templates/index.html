@@ -5,95 +5,34 @@
 {% block title %}
 <title>OCRAN NADAFA</title>
 {% endblock %}
-    <!-- Banner Section -->
-    <section class="banner-section" style="background-image:url({% static 'images/background/3.jpg' %})">
-      <div class="auto-container">
-        <div class="row clearfix">
-          
-          <!-- Form Column -->
-          <div class="form-column col-lg-4 col-md-12 col-sm-12">
-            <div class="inner-column">
-              <!-- Form Box -->
-              <div class="form-box">
-                <h2>{% trans 'Obtenez un devis' %}</h2> 
-                <!-- Default Form -->
-                <div class="default-form">
-					<div id="messageQuote">
-						{% include 'snippets/message.html' %}
+   <!-- Main Slider -->
+   <section class="main-slider" >
+	<div class="slider-box">
+	
+		<!-- Banner Carousel -->
+		<div class="banner-carousel owl-theme owl-carousel">
+		
+			<!-- Slide -->
+			<div class="slide">
+				<div class="image-layer" style="background-image:url({% static 'images/background/3.jpg' %})"></div>
+				<div class="auto-container">
+					<div class="content">
+						<h2>{% trans 'OCRAN NADAFA' %} </h2>
+						<div class="text"> <h4>{% trans 'ENTREPRISE DE NETTOYAGE PROFESSIONNEL' %} </h4></div>
+						{% comment %} <div class="btns-box">
+							<a href="#" class="theme-btn btn-style-one"><span class="txt">Know more</span></a>
+						</div> {% endcomment %}
 					</div>
-				{% comment %} <form method="post" action="{% url 'business:create_quote' %}" >
-						{% csrf_token %} {% endcomment %}
-					<form hx-post="{% url 'business:create_quote' %}" hx-swap="innerHTML" hx-target="#messageQuote">  
-                    <!-- Form Group -->
-                    <div class="form-group">
-						<input type="email" name="email" id="id_email" value="" placeholder="{% trans 'E-Mail *' %}" required>
-                    </div>
-                    
-                    <!-- Form Group -->
-                    <div class="form-group">
-						<input type="text" name="phone" id="id_phone" value="" placeholder="{% trans 'Numéro *' %}" required>
+				</div>
+			</div>
 
-                    </div>
-                    
-                    <!-- Form Group -->
-                    <div class="form-group">
-						<select class="custom-select-box" id="id_surface" name="surface">
-							<option value=""> {% trans "Surface" %} </option>
-							{% for  surface in surfaces %}
-								<option value="{{surface.id}}">{{surface.get_surface_display}}</option> 
-							{% endfor %}
-						  </select>
-                    </div>
-                    <!-- Form Group -->
-                      <!-- Form Group -->
-                      <div class="form-group">
-                        <select class="custom-select-box"  id="id_formule" name="formule">
-							<option value="">{% trans "Sélectionner un pack" %}</option>
-							{% for  formule in formules %}
-								<option value="{{formule.id}}">{{formule.formule}}</option>
-							{% endfor %}
-						  </select>
-                      </div>
-					   <!-- Form Group -->
-					   <div class="form-group">
-						<select class="custom-select-box" id="id_bien" name="bien">
-							<option value=""> {% trans "Sélectionner le type de bien" %} </option>
-							{% for  bien in biens %}
-								<option value="{{bien.id}}">{{bien.name}}</option>
-							{% endfor %}
-						  </select>
-                      </div>
-           
-                      <p>{% trans 'Veuillez vous rendre sur la page des' %} <a href="{% url 'business:create_quote' %}"> <strong> <u>{% trans 'devis' %} </u></strong></a>{% trans "pour plus d'informations sur les packs." %} </p>
-					         <!-- message -->
-
-                    <div class="form-group">
-                      <button type="submit" class="theme-btn submit-btn">{% trans 'Soumettre' %}</button>
-                    </div>
-                    
-                  </form>
-                </div>
-				
-              </div>
-            </div>
-          </div>
-          
-          <!-- Content Column -->
-          <div class="content-column col-lg-8 col-md-12 col-sm-12">
-            <div class="inner-column">
-              
-              <div class="content">
-                <h3>{% trans 'OCRAN NADAFA' %}</h3>
-                <div class="text">{% trans 'ENTREPRISE DE NETTOYAGE PROFESSIONNEL' %}</div>
-              </div>
-              
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-    <!-- End Banner Section -->
+			
+		</div>
+		
+	</div>
+	</section>
+<!-- End Banner Section -->
+    
 
 	<!-- Services Section Three -->
 	<section class="services-section-three" >
@@ -220,7 +159,6 @@
 		</div>
 	</section>
 
-	<!-- Interior Section -->
 	<section class="interior-section style-two">
 		<div class="auto-container">
 			<div class="inner-container">
@@ -230,7 +168,7 @@
 					<div class="image-column col-lg-4 col-md-12 col-sm-12">
 						<div class="inner-column">
 							<div class="image">
-								<img src="{% static 'images/portfolio-6.jpg' %}"  style =" height:940px; width:600px;"alt="" />
+								<img class="img-fluid ml-4 mt-4" src="{% static 'images/portfolio-6.jpg' %}"  alt="" />
 							</div>
 						</div>
 					</div>
@@ -248,8 +186,7 @@
                 {% trans 'L’honnêteté, la communication, la motivation et un travail efficace et rapide sont des valeurs qui nous tiennent à cœur afin de s’assurer la satisfaction entière de notre clientèle.' %}
               </div>
 							<div class="row clearfix">
-							
-								<!-- Interior Block -->
+{% comment %} 							
 								<div class="interior-block col-lg-4 col-md-4 col-sm-12">
 									<div class="block-inner">
 										<div class="icon-box">
@@ -259,7 +196,6 @@
 									</div>
 								</div>
 								
-								<!-- Interior Block -->
 								<div class="interior-block col-lg-4 col-md-4 col-sm-12">
 									<div class="block-inner">
 										<div class="icon-box">
@@ -269,7 +205,6 @@
 									</div>
 								</div>
 								
-								<!-- Interior Block -->
 								<div class="interior-block col-lg-4 col-md-4 col-sm-12">
 									<div class="block-inner">
 										<div class="icon-box">
@@ -280,7 +215,7 @@
 								</div>
 								
 							</div>							
-							<div class="bold-text"><a href="{% url 'business:contact' %}"> {% trans 'Contactez-nous pour plus d&#8216;informations' %}</a></div>
+							<div class="bold-text"><a href="{% url 'business:contact' %}"> {% trans 'Contactez-nous pour plus d&#8216;informations' %}</a></div> {% endcomment %}
 						</div>
 					</div>
 					
@@ -431,6 +366,7 @@
 		</div>
 	</section> {% endcomment %}
 	<!-- End Testimonial Section -->
+	{% include 'snippets/devis_cta.html' %}
 
 
 {% endblock content %}

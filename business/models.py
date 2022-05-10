@@ -33,11 +33,11 @@ class Contact(models.Model):
    
 class Hiring(models.Model):
     name        = models.CharField(max_length=150, verbose_name='Nom')
-    email       = models.EmailField(verbose_name="E-mail")
+    email       = models.EmailField(verbose_name="E-mail", null=True, blank=True)
     phone       = models.CharField(verbose_name="Téléphone" , max_length=25)
     birth_date  = models.DateField() 
-    birth_place = models.CharField(max_length=150, verbose_name='lieu de naissance')
-    message     = models.TextField(verbose_name='experience')
+    birth_place = models.CharField(max_length=150, verbose_name='lieu de naissance', null=True, blank=True)
+    message     = models.TextField(verbose_name='experience', null=True, blank=True)
     cv_file     = models.FileField(upload_to='media', verbose_name='CV', null=True, blank=True)
 
     class Meta:
