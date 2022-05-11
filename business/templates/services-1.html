@@ -44,14 +44,15 @@
                                             <div class="content-column col-lg-8 col-md-8 col-sm-12">
                                                 <div class="inner-column" id="maison">
                                                     <h3>{% trans "Ménage régulier :" %}</h3>
-                                                    <p>{% trans "En faisant appel à" %}  <strong> {% trans "OCRAN NADAFA" %} </strong>, {% trans "vous avez le confort d’une prestation bien faite, réalisée par un intervenant régulier pour vous assurer une qualité toujours constante." %} </p>
-                                                    <p>{% trans "Alors profitez dès maintenant d’un intérieur impeccable sans le moindre effort !" %}</p>
-                                                    <p> <strong>{% trans 'OCRAN NADAFA' %} </strong>{% trans 'a toujours mis un point d’honneur sur l’entretien et l’hygiène de votre domicile en préservant votre santé et celle de nos salariés.' %}
-                                                        {% trans "Face au covid-19, nous renforçons le nettoyage et la désinfection lors de chaque prestation à votre domicile et plus particulièrement sur les points de contact." %}
+                                                    <p>{% trans "En faisant appel à" %}  <strong> {% trans "OCRAN NADAFA" %} </strong> {% trans ", vous bénéficiez du confort d'un service bien fait, assuré par un intervenant régulier afin de vous assurer une qualité constante." %} </p>
+                                                    <p>{% trans "Profitez donc maintenant d'un intérieur impeccable sans aucun effort !" %}</p>
+                                                    <p> <strong>{% trans 'OCRAN NADAFA' %} </strong>{% trans " s'est toujours fait un devoir d'honneur pour l'entretien et l'hygiène de votre maison en préservant votre santé et celle de nos employés." %}
+                                                        {% trans "Dans le contexte de la COVID-19, nous améliorons le nettoyage et la désinfection à chaque prestation à votre domicile, en particulier aux points de contact." %}
                                                         </p>
                                                     <h3>{% trans 'Ménage occasionnel  :' %}</h3>
-                                                    <p>{% trans 'Vous avez besoin d’un coup de pouce occasionnel pour le ménage de votre domicile ? Faites appel à OCRAN NADAFA ! Vous aurez plaisir à rentrer chez vous ! Le ménage occasionnel de votre intérieur sera fait avec précision et minutie grâce à nos experts ménage. Ménage de printemps, ménage avant le mois de Ramadan, après ou avant déménagement… N’hésitez pas ont est là.' %}
+                                                    <p>{% trans "Vous avez besoin d'une aide occasionnelle pour nettoyer votre maison. Faites appel à " %} <strong> {% trans "OCRAN NADAFA" %} </strong> {% trans "! Vous serez heureux de rentrer chez vous ! Le nettoyage occasionnel de votre maison sera effectué précisément et méticuleusement grâce à nos experts en nettoyage.! Vous serez heureux de rentrer chez vous ! Le nettoyage occasionnel de votre maison sera effectué précisément et méticuleusement grâce à nos experts en nettoyage." %}
                                                          </p>
+                                                         <p> {% trans "Nettoyage de printemps, nettoyage avant le mois de Ramadan, après ou avant le déménagement... Pas d'hésitation, on est là." %}</p> 
                                                 </div>
                                             </div>
                                         </div>
@@ -96,5 +97,5 @@
 
     </div>  
     <!--End pagewrapper-->
-
+{% include 'snippets/devis_cta.html' %}
 {% endblock content %}

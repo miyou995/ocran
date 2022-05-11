@@ -35,7 +35,7 @@
                                             <div class="column col-lg-4 col-md-4 col-sm-12"> <br>
                                                 <div class="image">
                                                     <img src="{% static 'images/gallery/bureau1.jpg' %}" alt="" />
-                                                </div>
+                                                </div> <br><br>
                                                 <div class="image">
                                                     <img src="{% static 'images/gallery/remise.jpg' %}" alt="" />
                                                 </div>
@@ -44,9 +44,11 @@
                                             </div>
                                             <div class="content-column col-lg-8 col-md-8 col-sm-12">
                                                 <div class="inner-column" id="bureau">
-                                                    <p>{% trans 'Lorsque vous recevez du public, vos locaux se doivent être irréprochables, ils donnent un premier aperçu de votre entreprise. Des locaux bien entretenus contribuent à la bonne image de marque de votre société ainsi qu’au bien-être de vos employés. Ne laissez pas la saleté s’installer et nuire à vos affaires professionnelles. Nous intervenons à Alger et tout ces environs, nous traitons toutes vos demandes et y répondons rapidement.' %}
-                                                        </p>
-                                                    <p>{% trans 'Bureaux professionnels, centres commerciaux, concessions automobiles, copropriétés, bâtiments industriels, magasins… Lors de notre visite sur votre site, nous établissons un cahier des charges, afin de répondre au plus juste à vos attentes. ' %}</p>
+                                                    <p>{% trans 'Quand vous recevez du public, vos locaux doivent être irréprochables, ils fournissent un premier aperçu de vos affaires.' %} </p>
+                                                    <p>{% trans 'Des locaux bien entretenus favorisent la bonne image de votre entreprise et le bien-être de vos employés.' %}</p>
+                                                    <p>{% trans 'Ne laissez pas la saleté s’installer et nuire à vos affaires professionnelles.' %}</p>
+                                                    <p>{% trans 'Nous intervenons à Alger et dans tous ses environs, nous traitons toutes vos demandes et réagissons rapidement.' %}</p>
+                                                    <p>{% trans 'Bureaux professionnels, centres commerciaux, concessionnaires automobiles, copropriétés, bâtiments industriels, boutiques...Lorsque nous nous rendons sur votre site, nous élaborons des spécifications pour répondre à vos attentes.' %}</p>
                                                 </div>
                                           
                                             </div>
@@ -92,5 +94,5 @@
 
     </div>  
     <!--End pagewrapper-->
-
+{% include 'snippets/devis_cta.html' %}
 {% endblock content %}
