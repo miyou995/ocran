@@ -144,26 +144,24 @@ LOCALE_PATHS = [BASE_DIR / "locale"]
 STATIC_URL = '/static/'
 
 STATIC_ROOT = BASE_DIR / "static"
-MEDIA_URL = "/media/" 
-
-MEDIA_ROOT = BASE_DIR / "media"
-
+# STATICFILES_DIRS = ['static']
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# STATICFILES_DIR = [ BASE_DIR / 'static' ]
-STATIC_ROOT = BASE_DIR / 'assets'
-STATICFILES_DIRS = ['static']
 STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
     
     # other finders..
 )
+MEDIA_URL = "/media/" 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/' 
+MEDIA_ROOT = BASE_DIR / "media"
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# STATICFILES_DIR = [ BASE_DIR / 'static' ]
+
 ###
 
 # Default primary key field type
