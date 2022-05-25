@@ -1,0 +1,4864 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add contact",
+        "content_type": 7,
+        "codename": "add_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change contact",
+        "content_type": 7,
+        "codename": "change_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete contact",
+        "content_type": 7,
+        "codename": "delete_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view contact",
+        "content_type": 7,
+        "codename": "view_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add quote",
+        "content_type": 8,
+        "codename": "add_quote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change quote",
+        "content_type": 8,
+        "codename": "change_quote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete quote",
+        "content_type": 8,
+        "codename": "delete_quote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view quote",
+        "content_type": 8,
+        "codename": "view_quote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add hiring",
+        "content_type": 9,
+        "codename": "add_hiring"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change hiring",
+        "content_type": 9,
+        "codename": "change_hiring"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete hiring",
+        "content_type": 9,
+        "codename": "delete_hiring"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view hiring",
+        "content_type": 9,
+        "codename": "view_hiring"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add bien",
+        "content_type": 10,
+        "codename": "add_bien"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change bien",
+        "content_type": 10,
+        "codename": "change_bien"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete bien",
+        "content_type": 10,
+        "codename": "delete_bien"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view bien",
+        "content_type": 10,
+        "codename": "view_bien"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add formule",
+        "content_type": 11,
+        "codename": "add_formule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change formule",
+        "content_type": 11,
+        "codename": "change_formule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete formule",
+        "content_type": 11,
+        "codename": "delete_formule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view formule",
+        "content_type": 11,
+        "codename": "view_formule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add bien",
+        "content_type": 12,
+        "codename": "add_surface"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change bien",
+        "content_type": 12,
+        "codename": "change_surface"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete bien",
+        "content_type": 12,
+        "codename": "delete_surface"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view bien",
+        "content_type": 12,
+        "codename": "view_surface"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add about",
+        "content_type": 13,
+        "codename": "add_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change about",
+        "content_type": 13,
+        "codename": "change_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete about",
+        "content_type": 13,
+        "codename": "delete_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view about",
+        "content_type": 13,
+        "codename": "view_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add  Infomation",
+        "content_type": 14,
+        "codename": "add_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change  Infomation",
+        "content_type": 14,
+        "codename": "change_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete  Infomation",
+        "content_type": 14,
+        "codename": "delete_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view  Infomation",
+        "content_type": 14,
+        "codename": "view_business"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add  Slides haut page d'accueil",
+        "content_type": 15,
+        "codename": "add_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change  Slides haut page d'accueil",
+        "content_type": 15,
+        "codename": "change_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete  Slides haut page d'accueil",
+        "content_type": 15,
+        "codename": "delete_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view  Slides haut page d'accueil",
+        "content_type": 15,
+        "codename": "view_slide"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add service",
+        "content_type": 16,
+        "codename": "add_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change service",
+        "content_type": 16,
+        "codename": "change_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete service",
+        "content_type": 16,
+        "codename": "delete_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view service",
+        "content_type": 16,
+        "codename": "view_service"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$19kss5H3Ug9rQRgAVdrlLy$zr4kN161JQeHG6l1XiEjnKWUmXXWfU2jeYil26LR3SY=",
+        "last_login": "2022-05-25T07:59:36.343Z",
+        "is_superuser": true,
+        "username": "user",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-13T17:51:10.537Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$8ZUkL6MPMDspv1ZS9HhJxm$Nnok7LgrpK/MllAtj0bSldBBsAASBpU/Vr+T08FTyqQ=",
+        "last_login": "2022-05-08T10:05:07.663Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-08T10:04:23.943Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$cSLXzZtWTqdnIckXZJSwph$EH0zWE8X0r+q5glOoeqcLILu9zC6M3wqbKOLwIcIfmE=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "hp",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-11T10:14:00.978Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "business",
+        "model": "contact"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "business",
+        "model": "quote"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "business",
+        "model": "hiring"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "business",
+        "model": "bien"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "business",
+        "model": "formule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "business",
+        "model": "surface"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "business",
+        "model": "about"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "business",
+        "model": "business"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "business",
+        "model": "slide"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "business",
+        "model": "service"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3k2u9r8g8v4q992qfj8cpfc3gcfrbmq2",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1ng1sD:YmT5DfOlhF2XMIaTzb6wy8Lw2Fks5sIZV2NAWykVH9s",
+        "expire_date": "2022-05-01T10:11:17.159Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3suwho0ob35qycntl2u4cveflmb7gdi5",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nqwN2:TG8WsgorZ02nn6QGL0oJBx1UBs1PcWldP_TTpGZH3qE",
+        "expire_date": "2022-05-31T12:32:12.017Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6s78l3ty67slmwhzr91q7sppksz2frwo",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nnyay:rPbZ1qSlVPIAvm-9gSQ21SdvnYgTxiAKhtZBEGOW1kY",
+        "expire_date": "2022-05-23T08:18:20.919Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9c0d4jjfep2zvxaq7jj4bxay70ozj201",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nnz3N:6yfS6tCs3JhLyCf3HaHBFcHqAa5_RAUv54g6mQRy5lY",
+        "expire_date": "2022-05-23T08:47:41.796Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a6zapaktgr5q6g9t7rqgav3el6lmwjaz",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nojHh:fuQ3FGBME3sfBFJmuGZ4Zc9HoDWAVE_NVpPgyrxXaJk",
+        "expire_date": "2022-05-25T10:09:33.663Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "abrb5p4rjvuy0bz4e0n6siiqm72houj0",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nqtKY:peSisLEtCMjWEppXV5gV_plq4tG3HLHHlPZoVJ6ACOI",
+        "expire_date": "2022-05-31T09:17:26.776Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "an3053usofc8yrffril0ofaw7spe3mjm",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nl8Fu:CO2wKPH0CUqa1Esa-1sRVHivN_z91aWAiIzq_BNuYwA",
+        "expire_date": "2022-05-15T12:00:50.563Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cz403akjaml7dowgaa1gt4s6zt6h9836",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1ntlvc:pga0zrtCzkQL5SVyfb8L7LUZ2Po_pGinKvVwsmntOcA",
+        "expire_date": "2022-06-08T07:59:36.349Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eku1566cqbotn9gcasdt8ytc0ejs8ola",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nqVSP:21fQNqf4YnYSdj74WSKPE3TQKyptLIwTerZC8xSI0jE",
+        "expire_date": "2022-05-30T07:47:57.323Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gxpww14i92yxzg7m3q8vumbumo4g1tvp",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1nhUh6:JuyTOSQ7hsQUOZY0drcsusXTqMPxPJOLc8ltRtTA2_4",
+        "expire_date": "2022-05-05T11:09:52.232Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hgeb0iffvj059u76cajefkqzr77c9gdj",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1ngn73:RyLXq541kocKZsC05WdwiFMuYWvq3BKwa4z8jh6zRxg",
+        "expire_date": "2022-05-03T12:37:45.679Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kiomdhozy4um9ztz6j3oz0yf65un2chh",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1ngQSv:C_HQM-SJoHRQuf10wyCQLo9hVGecMe5jdHhUTHpkynY",
+        "expire_date": "2022-05-02T12:26:49.913Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lsn6c3ns06nllw6dg6qzrjg2ppizmruj",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nny5V:dJVG5sbUJruqDOXK4y_sKOfnHYovrrL35H5YcFMH7PI",
+        "expire_date": "2022-05-23T07:45:49.537Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nel4awvfulh0m4v2qiu6mgaeepg92ea7",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1noMEM:Ig0C2Y3cGNgbEzWutVyOLo_EodNvQoPvk3jS-NCX_kQ",
+        "expire_date": "2022-05-24T09:32:34.284Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nwg9jzlp1ubi6w8sjnh2u5wrbhls61iz",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1ngjtn:5cdBzFZ7PhrOsyDgBCSgylVfAMT7d-9xfj0JSTNu0i8",
+        "expire_date": "2022-05-03T09:11:51.718Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o23bzeohppuigl4jyjrrfumrod9gxdiu",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nq92I:pCTMkTGvsv7IWcc9FRkRram4Y7MCZKUIVHjhe7imsmo",
+        "expire_date": "2022-05-29T07:51:30.364Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r2ojou99q76vuehi4ccgv4ce2q2yxwyu",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nl593:KvyMSh9_19-_nCMmrLkzrEAWdUPhPnWcvQTWKWOWfAU",
+        "expire_date": "2022-05-15T08:41:33.217Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r501jtvbxb3nst4oe8xtuq85myv73q8s",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nqsIC:1tgcvViRN8zLrLgjmn3x5IIgzN1YrWJuPePzmLho8Zw",
+        "expire_date": "2022-05-31T08:10:56.672Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rmvm5xa5avbwmqe813f7gnkax2t6ormd",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1nh8Y4:zlI-_SSbEepi7l1AeiLG9Kclsx_ulDNRovVn0W_JC-s",
+        "expire_date": "2022-05-04T11:31:04.376Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ue890zatkk2h9y2zaqkkl78o9xu4l4cj",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1nquOW:HhS7VKhURIqeAxjPLx-jxkHflT8eM_a_LTGjnBeUtiU",
+        "expire_date": "2022-05-31T10:25:36.442Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "v6yc92i3thmxqc0eqegwp4w59awl4ffw",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlleG_yhpOcM1mZ3jQPIkeKkQtwdIqWA9s3Me6mM61Lz2mXOI6uzAnX43Qakh7QN8B3bbdI0tWUeB70peqddXyeW52V3_w4q9vqtfUIMBtgna514YyWyoxCTKVDQpYQSDQZAjx7ckSPDSUhcMRSpiFfvD9LKOAc:1nkj1y:DrWcB2_tVf8Q5IW9f_T7C8IXukwP3e79_Q3IacisVYo",
+        "expire_date": "2022-05-14T09:04:46.086Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wqo8z93pvncrj4rhe4p26s4tefhvn9im",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9ABhikaiAp7cr479qkC93ec859sYDbWsM2aAlzZmcm2el3i5ge1HaQ79hunafe1mWOfFf4QQe_9kzPy-H-HVQc9VtHss4nJ5WyqRhLIk0OtIpECXUGgCxBKC3AWKNR-CwmjNYVAiOLL4K9P9hZN2w:1nndml:WBSRQfuhxe5r38FXbIB7WyqGL-5kwkEOjtnGER2hiuM",
+        "expire_date": "2022-05-22T10:05:07.670Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y1emk0xatr1ygjxk1qbw1yhaygpsyeef",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rNcOJX3OYK1_OIAcKU4qxN1JpBTQzsx7b-ZpW6vfel78lNiVSXb5ZYHiM7dDpAe1-8zj3NZlCvxI-Gk7H-eUX7ez_Tuo1Ou-pkyKAMEJWwYjKbkEEYzTFkkLLEVp0DImtAEV4RDsDgWSKQgayLHPF9ZzN0Q:1noSFV:9C9ObIy_eLKm0hBK8fg4cJv320i350NtucD75-nxiiQ",
+        "expire_date": "2022-05-24T15:58:09.843Z"
+    }
+},
+{
+    "model": "business.hiring",
+    "pk": 1,
+    "fields": {
+        "name": "qscqsc",
+        "email": "hello@octopus-consulting.com",
+        "phone": "qXqxqX",
+        "birth_date": "1996-02-02",
+        "birth_place": null,
+        "message": "",
+        "cv_file": ""
+    }
+},
+{
+    "model": "business.formule",
+    "pk": 1,
+    "fields": {
+        "formule": "Pack nettoyage 1",
+        "formule_fr": "Pack nettoyage 1",
+        "formule_ar_dz": "حزمة التنظيف 1",
+        "porte": 6,
+        "price": 3500,
+        "description": "Nettoyage du sol + WC + SDB + dépoussiérage.",
+        "description_fr": "Nettoyage du sol + WC + SDB + dépoussiérage.",
+        "description_ar_dz": "تنظيف الارضيات + دورة مياه + حمام + ازالة الاتربة."
+    }
+},
+{
+    "model": "business.formule",
+    "pk": 5,
+    "fields": {
+        "formule": "Pack nettoyage 2",
+        "formule_fr": "Pack nettoyage 2",
+        "formule_ar_dz": "حزمة التنظيف 2",
+        "porte": null,
+        "price": 5000,
+        "description": "Nettoyage du sol, SDB, WC ,dépoussiérage,portes et fenêtres et vitrage (cabine de douche ou autres).",
+        "description_fr": "Nettoyage du sol, SDB, WC ,dépoussiérage,portes et fenêtres et vitrage (cabine de douche ou autres).",
+        "description_ar_dz": "تنظيف الأرضيات والحمام والمرحاض والغبار والأبواب والنوافذ والزجاج (مقصورة الدش أو غيرها)."
+    }
+},
+{
+    "model": "business.formule",
+    "pk": 6,
+    "fields": {
+        "formule": "Pack nettoyage 3",
+        "formule_fr": "Pack nettoyage 3",
+        "formule_ar_dz": "حزمة التنظيف 3",
+        "porte": 6,
+        "price": 2500,
+        "description": "Nettoyage spécial cuisine (éléments de cuisine et électroménager)",
+        "description_fr": "Nettoyage spécial cuisine (éléments de cuisine et électroménager)",
+        "description_ar_dz": "تنظيف المطبخ الخاص (أدوات المطبخ والأجهزة المنزلية)"
+    }
+},
+{
+    "model": "business.formule",
+    "pk": 7,
+    "fields": {
+        "formule": "Pack nettoyage ALL 4",
+        "formule_fr": "Pack nettoyage ALL 4",
+        "formule_ar_dz": "جميع حزمة التنظيف 4",
+        "porte": 6,
+        "price": 8000,
+        "description": "Pack 1+2+3+ extérieur, vaisselle et repassage.",
+        "description_fr": "Pack 1+2+3+ extérieur, vaisselle et repassage.",
+        "description_ar_dz": "عبوة 1 + 2 + 3 + الخارج والأطباق والكي."
+    }
+},
+{
+    "model": "business.bien",
+    "pk": 1,
+    "fields": {
+        "name": "Appartement",
+        "name_fr": "Appartement",
+        "name_ar_dz": "شقة",
+        "price": 0
+    }
+},
+{
+    "model": "business.bien",
+    "pk": 2,
+    "fields": {
+        "name": "Villa",
+        "name_fr": "Villa",
+        "name_ar_dz": "منزل",
+        "price": 36000
+    }
+},
+{
+    "model": "business.bien",
+    "pk": 3,
+    "fields": {
+        "name": "Bureau",
+        "name_fr": "Bureau",
+        "name_ar_dz": "مكتب",
+        "price": 150
+    }
+},
+{
+    "model": "business.bien",
+    "pk": 4,
+    "fields": {
+        "name": "Local",
+        "name_fr": "Local",
+        "name_ar_dz": "محل",
+        "price": 150
+    }
+},
+{
+    "model": "business.bien",
+    "pk": 5,
+    "fields": {
+        "name": "Autres",
+        "name_fr": "Autres",
+        "name_ar_dz": "آخر",
+        "price": 2500
+    }
+},
+{
+    "model": "business.surface",
+    "pk": 1,
+    "fields": {
+        "surface": "S1",
+        "price": 10000
+    }
+},
+{
+    "model": "business.surface",
+    "pk": 3,
+    "fields": {
+        "surface": "S2",
+        "price": 1500
+    }
+},
+{
+    "model": "business.surface",
+    "pk": 4,
+    "fields": {
+        "surface": "S3",
+        "price": 1400
+    }
+},
+{
+    "model": "business.surface",
+    "pk": 6,
+    "fields": {
+        "surface": "S4",
+        "price": 4500
+    }
+},
+{
+    "model": "business.quote",
+    "pk": 28,
+    "fields": {
+        "email": "dsvsdv@sdvdsv.com",
+        "phone": "0551515151",
+        "formule": 5,
+        "bien": 2,
+        "surface": 3
+    }
+},
+{
+    "model": "business.quote",
+    "pk": 29,
+    "fields": {
+        "email": "hello@octopus-consulting.com",
+        "phone": "00213665575859",
+        "formule": 5,
+        "bien": 2,
+        "surface": 3
+    }
+},
+{
+    "model": "business.quote",
+    "pk": 30,
+    "fields": {
+        "email": "hello@octopus-consulting.com",
+        "phone": "+213252525255",
+        "formule": 1,
+        "bien": 2,
+        "surface": 3
+    }
+},
+{
+    "model": "business.quote",
+    "pk": 31,
+    "fields": {
+        "email": "djcvbdzsv@ezdvczedv.com",
+        "phone": "0551515151",
+        "formule": 1,
+        "bien": 2,
+        "surface": 3
+    }
+},
+{
+    "model": "business.quote",
+    "pk": 32,
+    "fields": {
+        "email": "hello@octopus-consulting.com",
+        "phone": "+213665666565",
+        "formule": 5,
+        "bien": 1,
+        "surface": 1
+    }
+},
+{
+    "model": "business.quote",
+    "pk": 33,
+    "fields": {
+        "email": "hello@octopus-consulting.com",
+        "phone": "+213665252525",
+        "formule": 5,
+        "bien": 3,
+        "surface": 1
+    }
+},
+{
+    "model": "business.business",
+    "pk": 1,
+    "fields": {
+        "name": "OCRAN NADAFA",
+        "name_fr": "OCRAN NADAFA",
+        "name_ar_dz": "أوكران نظافة",
+        "logo": "images/logos/logo.png",
+        "favicon": "images/logos/favicon.png",
+        "logo_negatif": "images/slides/footer.png",
+        "title": "",
+        "title_fr": "",
+        "title_ar_dz": null,
+        "adress": "Centre commercial et d'affaire Mohammadia mall 160",
+        "adress_fr": "Centre commercial et d'affaire Mohammadia mall 160",
+        "adress_ar_dz": "مركز التسوق والأعمال المحمدية مول 16000 الجزائر",
+        "email": "contact@ocrannadafa.com",
+        "email2": "",
+        "email3": "m.tebbouche@ocrannadafa.com",
+        "phone": "023 80 42 61",
+        "phone2": "0698 09 28 44",
+        "phone3": null,
+        "about": "<h2><strong>OCRAN NADAFA </strong> Toujours &eacute;tincelants !</h2>\r\n<p>&nbsp;</p>\r\n<p><strong>OCRAN NADAFA</strong> est une entreprise qui travaille dans le domaine de nettoyage, notre objectif est d'offrir d'excellents services de nettoyage &agrave; notre client&egrave;le. Nous comprenons l&rsquo;importance de la propret&eacute; pour vous qui contribue grandement &agrave; votre apparence, c&rsquo;est pour quoi &agrave; chaque endroit que nous nettoyons nous vous garantissons&nbsp;une <strong>satisfaction totale</strong><strong>.</strong><br /><br /><strong>OCRAN NADAFA</strong> fournis les meilleurs services de nettoyage pour le nettoyage en profondeur tels que&nbsp;:</p>\r\n<p>-Nettoyage &agrave; la vapeur.<br /><br />- Nettoyage post/apr&egrave;s construction.<br /><br />- Nettoyage de bureau/commercial.<br /><br />- Polissage et cristallisation de marbre/pierre.<br /><br />- Nettoyage de joints de carrelage/sol.<br /><br />- Nettoyage sous pression.<br /><br />- Peinture maison/mur.<br /><br />- Le nettoyage des vitres.</p>",
+        "about_fr": "<h2><strong>OCRAN NADAFA </strong> Toujours &eacute;tincelants !</h2>\r\n<p>&nbsp;</p>\r\n<p><strong>OCRAN NADAFA</strong> est une entreprise qui travaille dans le domaine de nettoyage, notre objectif est d'offrir d'excellents services de nettoyage &agrave; notre client&egrave;le. Nous comprenons l&rsquo;importance de la propret&eacute; pour vous qui contribue grandement &agrave; votre apparence, c&rsquo;est pour quoi &agrave; chaque endroit que nous nettoyons nous vous garantissons&nbsp;une <strong>satisfaction totale</strong><strong>.</strong><br /><br /><strong>OCRAN NADAFA</strong> fournis les meilleurs services de nettoyage pour le nettoyage en profondeur tels que&nbsp;:</p>\r\n<p>-Nettoyage &agrave; la vapeur.<br /><br />- Nettoyage post/apr&egrave;s construction.<br /><br />- Nettoyage de bureau/commercial.<br /><br />- Polissage et cristallisation de marbre/pierre.<br /><br />- Nettoyage de joints de carrelage/sol.<br /><br />- Nettoyage sous pression.<br /><br />- Peinture maison/mur.<br /><br />- Le nettoyage des vitres.</p>",
+        "about_ar_dz": "<h2 style=\"text-align: right;\"><span style=\"font-size: 24pt; color: #ffffff;\">البراقه دائما أوكران نظافة !</span></h2>\r\n<p style=\"text-align: right;\">أوكران نظافة هي شركة تعمل في مجال التنظيف ،&nbsp; وهدفنا هو تقديم خدمات تنظيف ممتازة لعملائنا. نحن نتفهم أهمية النظافة بالنسبة لك والتي تساهم بشكل كبير في مظهرك، ولهذا السبب نضمن لك الرضا التام في كل مكان ننظفه.</p>\r\n<p style=\"text-align: right;\"><strong>أوكران نظافة</strong> تقدم أفضل خدمات التنظيف للتنظيف العميق مثل:</p>\r\n<p style=\"text-align: right;\">&nbsp;</p>\r\n<p style=\"text-align: right;\">- تنظيف البخار.</p>\r\n<p style=\"text-align: right;\">- مركز التنظيف/بعد البناء.</p>\r\n<p style=\"text-align: right;\">- مكتب/تنظيف تجاري.</p>\r\n<p style=\"text-align: right;\">- تلميع وتبلور الرخام/الحجر.</p>\r\n<p style=\"text-align: right;\">- تنظيف مفاصل البلاط/الأرضية.</p>\r\n<p style=\"text-align: right;\">- تنظيف الضغط.</p>\r\n<p style=\"text-align: right;\">- لوحة المنزل/الجدار.</p>\r\n<p style=\"text-align: right;\">- تنظيف النوافذ.</p>",
+        "about_2": "<h2>Pourquoi choisir <strong>OCRAN NADAFA</strong></h2>\r\n<p>Nous offrons des services de nettoyage r&eacute;sidentiel et professionnels. Nos membres d&rsquo;&eacute;quipe sont des sp&eacute;cialistes et bien form&eacute;s a fin de vous offrir un excellent service d&rsquo;entretien m&eacute;nager pour chaque endroit de votre immeuble, maison, bureau, cr&egrave;che ou &eacute;cole priv&eacute;e, restaurant, fa&ccedil;ade en verre ou en allucobond, h&ocirc;pital &nbsp;etc..</p>\r\n<p>&nbsp;</p>\r\n<p>Peu importe votre secteur d&rsquo;activit&eacute;, notre &eacute;quipe est en mesure d&rsquo;intervenir efficacement pour vous assurer un service d&rsquo;entretien m&eacute;nager &agrave; la hauteur de vos attentes.</p>\r\n<p><strong>OCRAN NADAFA</strong> offre un service de qualit&eacute; &agrave; un prix concurrentiel. Notre premier but est de vous offrir les meilleurs prix et s&ucirc;rement un service de qualit&eacute; sup&eacute;rieure.</p>\r\n<p>&nbsp;</p>\r\n<p>L&rsquo;&eacute;quipe d&rsquo;<strong>OCRAN NADAFA</strong> offre un service professionnel pour les &eacute;difices, &eacute;coles, centres communautaires et loisirs, site de construction, restaurants, garderie.</p>\r\n<p>Le professionnalisme, la communication, la confiance et un travail efficace et rapide sont des valeurs qui nous tiennent &agrave; c&oelig;ur afin de s&rsquo;assurer de la satisfaction enti&egrave;re de notre client&egrave;le.</p>",
+        "about_2_fr": "<h2>Pourquoi choisir <strong>OCRAN NADAFA</strong></h2>\r\n<p>Nous offrons des services de nettoyage r&eacute;sidentiel et professionnels. Nos membres d&rsquo;&eacute;quipe sont des sp&eacute;cialistes et bien form&eacute;s a fin de vous offrir un excellent service d&rsquo;entretien m&eacute;nager pour chaque endroit de votre immeuble, maison, bureau, cr&egrave;che ou &eacute;cole priv&eacute;e, restaurant, fa&ccedil;ade en verre ou en allucobond, h&ocirc;pital &nbsp;etc..</p>\r\n<p>&nbsp;</p>\r\n<p>Peu importe votre secteur d&rsquo;activit&eacute;, notre &eacute;quipe est en mesure d&rsquo;intervenir efficacement pour vous assurer un service d&rsquo;entretien m&eacute;nager &agrave; la hauteur de vos attentes.</p>\r\n<p><strong>OCRAN NADAFA</strong> offre un service de qualit&eacute; &agrave; un prix concurrentiel. Notre premier but est de vous offrir les meilleurs prix et s&ucirc;rement un service de qualit&eacute; sup&eacute;rieure.</p>\r\n<p>&nbsp;</p>\r\n<p>L&rsquo;&eacute;quipe d&rsquo;<strong>OCRAN NADAFA</strong> offre un service professionnel pour les &eacute;difices, &eacute;coles, centres communautaires et loisirs, site de construction, restaurants, garderie.</p>\r\n<p>Le professionnalisme, la communication, la confiance et un travail efficace et rapide sont des valeurs qui nous tiennent &agrave; c&oelig;ur afin de s&rsquo;assurer de la satisfaction enti&egrave;re de notre client&egrave;le.</p>",
+        "about_2_ar_dz": "<h2 style=\"text-align: right;\"><strong>لماذا تختار أوكران نظافة</strong></h2>\r\n<p style=\"text-align: right;\">نقدم خدمات تنظيف سكنية واحترافية. أعضاء فريقنا متخصصون ومدربون جيدًا لتقديم خدمة تدبير منزلي ممتازة لكل مكان في المبنى أو المنزل أو المكتب أو الحضانة أو المدرسة الخاصة أو المطعم أو</p>\r\n<p style=\"text-align: right;\">واجهة الزجاج أو اللوكوبوند أو المستشفى وما إلى ذلك.</p>\r\n<p style=\"text-align: right;\">&nbsp;</p>\r\n<p style=\"text-align: right;\">بغض النظر عن قطاع نشاطك، فإن فريقنا قادر على التدخل بفعالية للتأكد من أن خدمة التدبير المنزلي الخاصة بك تلبي توقعاتك.</p>\r\n<p style=\"text-align: right;\"><strong><em>أوكران نظافة </em></strong>تقدم خدمة عالية الجودة بسعر تنافسي. هدفنا الأول هو أن نقدم لك أفضل الأسعار وبالتأكيد خدمة عالية الجودة.</p>\r\n<p style=\"text-align: right;\">&nbsp;</p>\r\n<p style=\"text-align: right;\">يقدم فريق <strong><em>أوكران نظافة </em></strong>خدمة احترافية للمباني والمدارس والمراكز المجتمعية والترفيه وموقع البناء والمطاعم والرعاية النهارية.</p>\r\n<p style=\"text-align: right;\">الاحتراف والتواصل والثقة والعمل الفعال والسريع هي قيم مهمة بالنسبة لنا من أجل ضمان الرضا التام لعملائنا</p>",
+        "about_photo2": "images/slides/portfolio-6.jpg",
+        "mini_about": "",
+        "mini_about_fr": "",
+        "mini_about_ar_dz": null,
+        "about_photo": "images/slides/why.jpg",
+        "facebook": "https://www.facebook.com/OCRAN-Nadafa-105973361872834",
+        "insta": "https://www.instagram.com/ocran_nadafa/",
+        "linkedin": null
+    }
+},
+{
+    "model": "business.slide",
+    "pk": 1,
+    "fields": {
+        "photo": "slides/001254.png",
+        "actif": true
+    }
+},
+{
+    "model": "business.about",
+    "pk": 1,
+    "fields": {
+        "name": "OCRAN NADAFA",
+        "name_fr": "OCRAN NADAFA",
+        "name_ar_dz": "أوكران نظافة",
+        "image_high": "images/6.jpeg",
+        "image_low": "images/photo035.jpg",
+        "title": "",
+        "title_fr": "",
+        "title_ar_dz": null,
+        "about_high": "<h2><strong><em>OCRAN NADAFA&nbsp; </em></strong></h2>\r\n<p><span style=\"color: #000000;\"><strong>ENTREPRISE DE NETTOYAGE PROFESSIONNEL</strong></span></p>\r\n<p><span style=\"color: #000000;\">Bienvenue et merci de visiter la meilleure soci&eacute;t&eacute; de nettoyage <strong><em>OCRAN NADAFA</em></strong>, nous vous proposons les meilleurs services de nettoyage et de m&eacute;nage.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: #000000;\">Notre objectif est de fournir des services d'entretien m&eacute;nager ponctuels. Choisir la bonne entreprise de nettoyage et de m&eacute;nage pour votre &eacute;tablissement parmi toutes les entreprises de nettoyage peut &ecirc;tre compliqu&eacute; mais heureusement vous avez fait le bon choix de nous faire confiance. Toutefois, les services de nettoyage et de m&eacute;nage d'<strong><em>OCRAN NADAFA</em></strong> peuvent adapter un plan de site sp&eacute;cifique pour r&eacute;pondre &agrave; toutes vos pr&eacute;occupations et besoins de nettoyage.&nbsp;</span></p>",
+        "about_high_fr": "<h2><strong><em>OCRAN NADAFA&nbsp; </em></strong></h2>\r\n<p><span style=\"color: #000000;\"><strong>ENTREPRISE DE NETTOYAGE PROFESSIONNEL</strong></span></p>\r\n<p><span style=\"color: #000000;\">Bienvenue et merci de visiter la meilleure soci&eacute;t&eacute; de nettoyage <strong><em>OCRAN NADAFA</em></strong>, nous vous proposons les meilleurs services de nettoyage et de m&eacute;nage.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: #000000;\">Notre objectif est de fournir des services d'entretien m&eacute;nager ponctuels. Choisir la bonne entreprise de nettoyage et de m&eacute;nage pour votre &eacute;tablissement parmi toutes les entreprises de nettoyage peut &ecirc;tre compliqu&eacute; mais heureusement vous avez fait le bon choix de nous faire confiance. Toutefois, les services de nettoyage et de m&eacute;nage d'<strong><em>OCRAN NADAFA</em></strong> peuvent adapter un plan de site sp&eacute;cifique pour r&eacute;pondre &agrave; toutes vos pr&eacute;occupations et besoins de nettoyage.&nbsp;</span></p>",
+        "about_high_ar_dz": "<h2 style=\"text-align: right;\"><strong><em>أوكران نظافة</em></strong></h2>\r\n<pre>&nbsp;</pre>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\"><strong>شركة تنظيف مهنية</strong></span></p>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\">مرحبًا وشكرًا على زيارة أفضل شركة تنظيف <strong><em>أوكران نظافة </em></strong>&nbsp;، تقدم لكم أفضل خدمات النظافة &nbsp;والتنظيف.</span></p>\r\n<p style=\"text-align: right;\">&nbsp;</p>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\">هدفنا هو تقديم خدمات التدبير المنزلي مخصصة. قد يكون اختيار شركة النظافة والتنظيف المناسبة لمؤسستك بين جميع شركات التنظيف أمرًا معقدًا ولكنك لحسن الحظ اتخذت الخيار الصحيح للثقة بنا. ومع ذلك، فإن خدمات التنظيف <strong><em>أوكران نظافة</em></strong> تكييف خطة موقع محددة لتلبية جميع احتياجات التنظيف ومخاوفك.</span></p>\r\n<p style=\"text-align: right;\"><strong><em>&nbsp;</em></strong></p>",
+        "about_low": "<p>&nbsp;</p>\r\n<p><span style=\"color: #000000;\">Faites le m&eacute;nage chez vous avec nos services de m&eacute;nage exceptionnels. Nous avons une &eacute;quipe de femmes de m&eacute;nage et d&rsquo;agents de nettoyage professionnelles mais amicales qui sont les meilleures pour aller au-del&agrave; des autres services de nettoyage. Nous, la soci&eacute;t&eacute; de nettoyage <strong><em>OCRAN NADAFA</em></strong>, offrons une efficacit&eacute; avec une touche personnelle, simplifiant votre vie tout en assurant que votre bien reste d'une propret&eacute; p&eacute;tillante.</span></p>\r\n<p><span style=\"color: #000000;\">Notre expertise porte sur les services de nettoyage r&eacute;sidentiel, les commerces, les bureaux, les &eacute;coles, les garderies, fin de chantier... bref, tout centim&egrave;tre qui doit &ecirc;tre nettoy&eacute;.</span></p>\r\n<p><span style=\"color: #000000;\">Qu'il s'agisse d'une petite maison ou d'un grand bureau, nous avons les ressources pour r&eacute;pondre &agrave; vos attentes avec le meilleur mat&eacute;riel et le souci du d&eacute;tail.</span></p>\r\n<p><span style=\"color: #000000;\"><strong>&nbsp;</strong></span></p>",
+        "about_low_fr": "<p>&nbsp;</p>\r\n<p><span style=\"color: #000000;\">Faites le m&eacute;nage chez vous avec nos services de m&eacute;nage exceptionnels. Nous avons une &eacute;quipe de femmes de m&eacute;nage et d&rsquo;agents de nettoyage professionnelles mais amicales qui sont les meilleures pour aller au-del&agrave; des autres services de nettoyage. Nous, la soci&eacute;t&eacute; de nettoyage <strong><em>OCRAN NADAFA</em></strong>, offrons une efficacit&eacute; avec une touche personnelle, simplifiant votre vie tout en assurant que votre bien reste d'une propret&eacute; p&eacute;tillante.</span></p>\r\n<p><span style=\"color: #000000;\">Notre expertise porte sur les services de nettoyage r&eacute;sidentiel, les commerces, les bureaux, les &eacute;coles, les garderies, fin de chantier... bref, tout centim&egrave;tre qui doit &ecirc;tre nettoy&eacute;.</span></p>\r\n<p><span style=\"color: #000000;\">Qu'il s'agisse d'une petite maison ou d'un grand bureau, nous avons les ressources pour r&eacute;pondre &agrave; vos attentes avec le meilleur mat&eacute;riel et le souci du d&eacute;tail.</span></p>\r\n<p><span style=\"color: #000000;\"><strong>&nbsp;</strong></span></p>",
+        "about_low_ar_dz": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\">نظف منزلك بخدمات التنظيف الاستثنائية لدينا. لدينا فريق من عمال النظافة وعمال النظافة المحترفين ولكن الودودين الذين هم الأفضل لتجاوز خدمات التنظيف الأخرى.</span></p>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\">نحن، شركة التنظيف <strong><em>أوكران نظافة</em></strong>،نقدم الكفاءة بلمسة شخصية، نبسط حياتك مع ضمان بقاء ممتلكاتك نظافة&nbsp; متلألئة.&nbsp;</span></p>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\">تغطي خبرتنا خدمات التنظيف السكنية والشركات والمكاتب والمدارس ومراكز الرعاية النهارية ونهاية البناء... باختصار، أي سنتيمتر يحتاج إلى التنظيف.</span></p>\r\n<p style=\"text-align: right;\"><span style=\"color: #000000;\">سواء كان منزلًا صغيرًا أو مكتبًا كبيرًا، لدينا الموارد لتلبية توقعاتك بأفضل المعدات والاهتمام بالتفاصيل.</span></p>"
+    }
+},
+{
+    "model": "business.service",
+    "pk": 1,
+    "fields": {
+        "name": "Maison ou appartement",
+        "name_fr": "Maison ou appartement",
+        "name_ar_dz": "بيت أو شقة",
+        "slug": "maison-ou-appartement",
+        "image": "images/maison_EWXoELC.jpg",
+        "image_high": "images/maison_vFN3F5K.jpg",
+        "image_low": "images/bureau_DnD5WHc.jpg",
+        "about_high": "<p><strong>M&eacute;nage r&eacute;gulier&nbsp;:</strong></p>\r\n<p>En faisant appel &agrave; <strong><em>OCRAN NADAFA</em></strong>, vous b&eacute;n&eacute;ficiez du confort d'un service bien fait, assur&eacute; par un intervenant r&eacute;gulier afin de vous assurer une qualit&eacute; constante.</p>\r\n<p>Profitez donc maintenant d'un int&eacute;rieur impeccable sans aucun effort !</p>\r\n<p>&nbsp;</p>\r\n<p><strong><em>OCRAN NADAFA</em></strong> s'est toujours fait un devoir d'honneur pour l'entretien et l'hygi&egrave;ne de votre maison en pr&eacute;servant votre sant&eacute; et celle de nos employ&eacute;s.</p>\r\n<p>&nbsp;</p>\r\n<p>Dans le contexte de la COVID-19, nous am&eacute;liorons le nettoyage et la d&eacute;sinfection &agrave; chaque prestation &agrave; votre domicile, en particulier aux points de contact.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>M&eacute;nage occasionnel&nbsp;:</strong></p>\r\n<p>Vous avez besoin d'une aide occasionnelle pour nettoyer votre maison. Faites appel &agrave; <strong><em>OCRAN NADAFA</em></strong> ! Vous serez heureux de rentrer chez vous! Le nettoyage occasionnel de votre maison sera effectu&eacute; pr&eacute;cis&eacute;ment et m&eacute;ticuleusement gr&acirc;ce &agrave; nos experts en nettoyage.</p>\r\n<p>Nettoyage de printemps, nettoyage avant le mois de Ramadan, apr&egrave;s ou avant le d&eacute;m&eacute;nagement... Pas d'h&eacute;sitation, on est l&agrave;.</p>",
+        "about_high_fr": "<p><strong>M&eacute;nage r&eacute;gulier&nbsp;:</strong></p>\r\n<p>En faisant appel &agrave; <strong><em>OCRAN NADAFA</em></strong>, vous b&eacute;n&eacute;ficiez du confort d'un service bien fait, assur&eacute; par un intervenant r&eacute;gulier afin de vous assurer une qualit&eacute; constante.</p>\r\n<p>Profitez donc maintenant d'un int&eacute;rieur impeccable sans aucun effort !</p>\r\n<p>&nbsp;</p>\r\n<p><strong><em>OCRAN NADAFA</em></strong> s'est toujours fait un devoir d'honneur pour l'entretien et l'hygi&egrave;ne de votre maison en pr&eacute;servant votre sant&eacute; et celle de nos employ&eacute;s.</p>\r\n<p>&nbsp;</p>\r\n<p>Dans le contexte de la COVID-19, nous am&eacute;liorons le nettoyage et la d&eacute;sinfection &agrave; chaque prestation &agrave; votre domicile, en particulier aux points de contact.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>M&eacute;nage occasionnel&nbsp;:</strong></p>\r\n<p>Vous avez besoin d'une aide occasionnelle pour nettoyer votre maison. Faites appel &agrave; <strong><em>OCRAN NADAFA</em></strong> ! Vous serez heureux de rentrer chez vous! Le nettoyage occasionnel de votre maison sera effectu&eacute; pr&eacute;cis&eacute;ment et m&eacute;ticuleusement gr&acirc;ce &agrave; nos experts en nettoyage.</p>\r\n<p>Nettoyage de printemps, nettoyage avant le mois de Ramadan, apr&egrave;s ou avant le d&eacute;m&eacute;nagement... Pas d'h&eacute;sitation, on est l&agrave;.</p>",
+        "about_high_ar_dz": "<p style=\"text-align: right;\"><strong>التنظيف المنتظم :</strong></p>\r\n<p style=\"text-align: right;\">من خلال الاتصال بـ<strong><em>أوكران نظافة </em></strong>، فإنك تستفيد من راحة الخدمة الجيدة ، التي يقدمها المتحدث العادي لضمان الجودة المستمرة.</p>\r\n<p style=\"text-align: right;\">استمتع الآن بتصميم داخلي لا تشوبه شائبة دون أي جهد !</p>\r\n<p style=\"text-align: right;\">&nbsp;لطالما جعلت <strong><em>أوكران نظافة</em></strong>&nbsp; نقطة شرف لصيانة منزلك ونظافته من خلال الحفاظ على صحتك وصحة موظفينا.</p>\r\n<p style=\"text-align: right;\">&nbsp;في سياق كوفيد -19، نعمل على تحسين التنظيف والتطهير في كل خدمة في منزلك ، لا سيما في نقاط الاتصال.</p>\r\n<p style=\"text-align: right;\"><strong>التنظيف من حين لآخر:</strong></p>\r\n<p style=\"text-align: right;\">أنت بحاجة إلى مساعدة من حين لآخر في تنظيف منزلك. دعوة <strong><em>أوكران نظافة</em></strong> !&nbsp; سوف تكون سعيدا بالعودة إلى المنزل! سيتم إجراء التنظيف العرضي لمنزلك بدقة ودقة بفضل خبراء التنظيف لدينا. &nbsp;&nbsp;</p>\r\n<p style=\"text-align: right;\">التنظيف الربيعي والتنظيف قبل شهر رمضان وبعد الانتقال أو قبله ... لا تتردد ، نحن هنا.</p>",
+        "about_low": "",
+        "about_low_fr": "",
+        "about_low_ar_dz": null
+    }
+},
+{
+    "model": "business.service",
+    "pk": 2,
+    "fields": {
+        "name": "Bureaux et locaux",
+        "name_fr": "Bureaux et locaux",
+        "name_ar_dz": "المكاتب والمباني",
+        "slug": "bureaux-et-locaux",
+        "image": "images/bureau_aOi2QNg.jpg",
+        "image_high": "images/bureau1.jpg",
+        "image_low": "images/remise.jpg",
+        "about_high": "<p>Quand vous recevez du public, vos locaux doivent &ecirc;tre irr&eacute;prochables, ils fournissent un premier aper&ccedil;u de vos affaires.</p>\r\n<p>Des locaux bien entretenus favorisent la bonne image de votre entreprise et le bien-&ecirc;tre de vos employ&eacute;s.</p>\r\n<p>Ne laissez pas la salet&eacute; s&rsquo;installer et nuire &agrave; vos affaires professionnelles, nous traitons toutes vos demandes et r&eacute;agissons rapidement.</p>\r\n<p>Bureaux professionnels, centres commerciaux, concessionnaires automobiles, copropri&eacute;t&eacute;s, b&acirc;timents industriels, boutiques...Lorsque nous nous rendons sur votre site, nous &eacute;laborons des sp&eacute;cifications pour r&eacute;pondre &agrave; vos attentes.</p>",
+        "about_high_fr": "<p>Quand vous recevez du public, vos locaux doivent &ecirc;tre irr&eacute;prochables, ils fournissent un premier aper&ccedil;u de vos affaires.</p>\r\n<p>Des locaux bien entretenus favorisent la bonne image de votre entreprise et le bien-&ecirc;tre de vos employ&eacute;s.</p>\r\n<p>Ne laissez pas la salet&eacute; s&rsquo;installer et nuire &agrave; vos affaires professionnelles, nous traitons toutes vos demandes et r&eacute;agissons rapidement.</p>\r\n<p>Bureaux professionnels, centres commerciaux, concessionnaires automobiles, copropri&eacute;t&eacute;s, b&acirc;timents industriels, boutiques...Lorsque nous nous rendons sur votre site, nous &eacute;laborons des sp&eacute;cifications pour r&eacute;pondre &agrave; vos attentes.</p>",
+        "about_high_ar_dz": "<p style=\"text-align: left;\"><strong>&nbsp;</strong></p>\r\n<p style=\"text-align: right;\">عندما تستقبل الجمهور، يجب أن تكون مبانيك ناصعتا، فهي توفر أول نظرة عامة على عملك.</p>\r\n<p style=\"text-align: right;\">تعزز المباني التي يتم صيانتها جيدًا الصورة الجيدة لشركتك ورفاهية موظفيك.</p>\r\n<p style=\"text-align: right;\">لا تدع الأوساخ تستقر وتضر بعملك المهني ، فنحن نتعامل مع جميع طلباتك ونتجاوب بسرعة .</p>\r\n<p style=\"text-align: right;\">المكاتب المهنية ومراكز التسوق وتجار السيارات والوحدات السكنية والمباني الصناعية والمحلات التجارية ... عندما نزور موقعك ، نقوم بتطوير المواصفات لتلبية توقعاتك.</p>",
+        "about_low": "",
+        "about_low_fr": "",
+        "about_low_ar_dz": null
+    }
+},
+{
+    "model": "business.service",
+    "pk": 3,
+    "fields": {
+        "name": "Secteur Copropriété",
+        "name_fr": "Secteur Copropriété",
+        "name_ar_dz": "قطاع الوحدات السكنية",
+        "slug": "secteur-copropriete",
+        "image": "images/copropriéte3.jpg",
+        "image_high": "images/remise2.jpg",
+        "image_low": "images/copropriéte1.jpg",
+        "about_high": "<p>Le saviez-vous ? La propret&eacute; au travail n'est pas la seule chose essentielle. Le milieu de vie a tout autant d'importance. Les espaces communs d'immeubles ou de r&eacute;sidences propres et agr&eacute;ables contribuent au bien-&ecirc;tre quotidien de ceux qui y habitent et des visiteurs. C&rsquo;est pourquoi <strong><em>OCRAN NADAFA</em></strong> collabore avec les syndics de copropri&eacute;t&eacute; et assure l'entretien de ces parties communes.</p>\r\n<p>&nbsp;</p>\r\n<p>En fonction de vos besoins, <strong><em>OCRAN NADAFA</em></strong> vous offre le meilleur service.</p>\r\n<p>&nbsp;</p>\r\n<p>En plus du nettoyage, si vous devez g&eacute;rer les d&eacute;chets, le nettoyage des all&eacute;es et des parkings, des sous-sols, nous pouvons r&eacute;agir &agrave; cela. Nous intervenons &agrave; la fr&eacute;quence et &agrave; l'heure que vous voulez. Toute notre expertise est mise &agrave; votre service. Nos agents de propret&eacute; et techniciens sont des professionnels chevronn&eacute;s, form&eacute;s &agrave; diverses techniques de nettoyage et machines de pointe. Ils sont d&eacute;vou&eacute;s &agrave; vous tous les jours, ainsi qu'&agrave; vos r&eacute;sidents.</p>\r\n<p>&nbsp;</p>\r\n<p>Vous prenez soin de vos r&eacute;sidents, laissez-nous prendre soin de vos r&eacute;sidences.</p>",
+        "about_high_fr": "<p>Le saviez-vous ? La propret&eacute; au travail n'est pas la seule chose essentielle. Le milieu de vie a tout autant d'importance. Les espaces communs d'immeubles ou de r&eacute;sidences propres et agr&eacute;ables contribuent au bien-&ecirc;tre quotidien de ceux qui y habitent et des visiteurs. C&rsquo;est pourquoi <strong><em>OCRAN NADAFA</em></strong> collabore avec les syndics de copropri&eacute;t&eacute; et assure l'entretien de ces parties communes.</p>\r\n<p>&nbsp;</p>\r\n<p>En fonction de vos besoins, <strong><em>OCRAN NADAFA</em></strong> vous offre le meilleur service.</p>\r\n<p>&nbsp;</p>\r\n<p>En plus du nettoyage, si vous devez g&eacute;rer les d&eacute;chets, le nettoyage des all&eacute;es et des parkings, des sous-sols, nous pouvons r&eacute;agir &agrave; cela. Nous intervenons &agrave; la fr&eacute;quence et &agrave; l'heure que vous voulez. Toute notre expertise est mise &agrave; votre service. Nos agents de propret&eacute; et techniciens sont des professionnels chevronn&eacute;s, form&eacute;s &agrave; diverses techniques de nettoyage et machines de pointe. Ils sont d&eacute;vou&eacute;s &agrave; vous tous les jours, ainsi qu'&agrave; vos r&eacute;sidents.</p>\r\n<p>&nbsp;</p>\r\n<p>Vous prenez soin de vos r&eacute;sidents, laissez-nous prendre soin de vos r&eacute;sidences.</p>",
+        "about_high_ar_dz": "<p style=\"text-align: right;\">هل تعلم ؟ النظافة في العمل ليست الشيء الأساسي الوحيد. البيئة المعيشية لا تقل أهمية. تساهم المناطق المشتركة من المباني أو المساكن النظيفة والممتعة في الرفاهية اليومية لأولئك الذين يعيشون هناك والزائرين. لهذا السبب تتعاون <strong><em>أوكران نظافة</em></strong> مع أمناء الملكية المشتركة وتضمن الحفاظ على هذه المناطق المشتركة.</p>\r\n<p style=\"text-align: right;\">&nbsp;بناءً على احتياجاتك ، تقدم لك <strong><em>أوكران نظافة </em></strong>أفضل خدمة.</p>\r\n<p style=\"text-align: right;\">بالإضافة إلى التنظيف ، إذا كنت بحاجة إلى إدارة النفايات وتنظيف الممرات ومواقف السيارات والطوابق السفلية ، فيمكننا الاستجابة لذلك. نتدخل بالوتيرة والوقت الذي تريده. كل خبراتنا في خدمتك. عمال النظافة والفنيون لدينا محترفون متمرسون ومدربون على مجموعة متنوعة من تقنيات وآلات التنظيف المتقدمة. إنهم مكرسون لك كل يوم وللمقيمين لديك.</p>",
+        "about_low": "",
+        "about_low_fr": "",
+        "about_low_ar_dz": null
+    }
+},
+{
+    "model": "business.service",
+    "pk": 4,
+    "fields": {
+        "name": "Désinfection d’espaces du virus COVID-19",
+        "name_fr": "Désinfection d’espaces du virus COVID-19",
+        "name_ar_dz": "تطهير المساحات من فيروس كوفيد -19",
+        "slug": "desinfection-despaces-du-virus-covid-19",
+        "image": "images/covid-19.jpg",
+        "image_high": "images/covid1.jpg",
+        "image_low": "",
+        "about_high": "<p>Dans le contexte de la menace de propagation du coronavirus, il est extr&ecirc;mement important de prendre des mesures de pr&eacute;vention et de d&eacute;contaminer vos espaces de travail de fa&ccedil;on r&eacute;guli&egrave;re.</p>\r\n<p>&nbsp;</p>\r\n<p>Notre soci&eacute;t&eacute; emploie des sp&eacute;cialistes sympathiques et actifs, capables de nettoyer rapidement et efficacement, la pr&eacute;paration de votre espace pour les r&eacute;unions d'invit&eacute;s, conf&eacute;rences ou tout autre &eacute;v&eacute;nement.</p>",
+        "about_high_fr": "<p>Dans le contexte de la menace de propagation du coronavirus, il est extr&ecirc;mement important de prendre des mesures de pr&eacute;vention et de d&eacute;contaminer vos espaces de travail de fa&ccedil;on r&eacute;guli&egrave;re.</p>\r\n<p>&nbsp;</p>\r\n<p>Notre soci&eacute;t&eacute; emploie des sp&eacute;cialistes sympathiques et actifs, capables de nettoyer rapidement et efficacement, la pr&eacute;paration de votre espace pour les r&eacute;unions d'invit&eacute;s, conf&eacute;rences ou tout autre &eacute;v&eacute;nement.</p>",
+        "about_high_ar_dz": "<p style=\"text-align: right;\">في سياق خطر انتشار فيروس كورونا، من المهم للغاية اتخاذ تدابير وقائية وتطهير مساحات العمل الخاصة بك على أساس منتظم.</p>\r\n<p style=\"text-align: right;\">توظف شركتنا متخصصين ودودين ونشطين، قادرين على التنظيف بسرعة وكفاءة، وإعداد مساحتك لاجتماعات الضيوف أو المؤتمرات أو أي حدث آخر آمن من فيروس كورونا.</p>",
+        "about_low": "",
+        "about_low_fr": "",
+        "about_low_ar_dz": null
+    }
+},
+{
+    "model": "business.service",
+    "pk": 5,
+    "fields": {
+        "name": "Remise en état de chantier après fin de travaux",
+        "name_fr": "Remise en état de chantier après fin de travaux",
+        "name_ar_dz": "إعادة تأهيل الموقع بعد انتهاء الأعمال",
+        "slug": "remise-en-etat-de-chantier-apres-fin-de-travaux",
+        "image": "images/remise_lgx7ekU.jpg",
+        "image_high": "images/remise1.jpg",
+        "image_low": "",
+        "about_high": "<p><strong>&nbsp;</strong></p>\r\n<p>Qu'il s'agisse d'un petit ou d'un grand projet de r&eacute;paration ou de r&eacute;novation, notre entreprise assure le nettoyage cl&eacute; en main de votre immeuble.</p>\r\n<p>&nbsp;</p>\r\n<p>Nous avons des aspirateurs puissants et des d&eacute;tergents sp&eacute;ciaux qui sont requis pour enlever les d&eacute;bris, les d&eacute;chets et la poussi&egrave;re. Munis de l'&eacute;quipement n&eacute;cessaire, nous arrivons sur place pour essuyer la poussi&egrave;re du pl&acirc;tre, chaux et du ciment des sols, murs, portes et meubles. Nous effectuons tous nos travaux &agrave; temps et dans les d&eacute;lais.</p>",
+        "about_high_fr": "<p><strong>&nbsp;</strong></p>\r\n<p>Qu'il s'agisse d'un petit ou d'un grand projet de r&eacute;paration ou de r&eacute;novation, notre entreprise assure le nettoyage cl&eacute; en main de votre immeuble.</p>\r\n<p>&nbsp;</p>\r\n<p>Nous avons des aspirateurs puissants et des d&eacute;tergents sp&eacute;ciaux qui sont requis pour enlever les d&eacute;bris, les d&eacute;chets et la poussi&egrave;re. Munis de l'&eacute;quipement n&eacute;cessaire, nous arrivons sur place pour essuyer la poussi&egrave;re du pl&acirc;tre, chaux et du ciment des sols, murs, portes et meubles. Nous effectuons tous nos travaux &agrave; temps et dans les d&eacute;lais.</p>",
+        "about_high_ar_dz": "<p style=\"text-align: right;\">&nbsp;</p>\r\n<p style=\"text-align: right;\">سواء كان مشروع إصلاحا أو تجديد صغيرًا أو كبيرًا، توفر شركتنا تنظيفًا جاهزًا للمبنى الخاص بك.</p>\r\n<p style=\"text-align: right;\">لدينا مكانس كهربائية قوية ومنظفات خاصة مطلوبة لإزالة الحطام والقمامة والغبار. مجهزين بالمعدات اللازمة ، نصل إلى الموقع لمسح غبار الجص والجير والأسمنت عن الأرضيات والجدران والأبواب والأثاث. نكمل جميع أعمالنا في الوقت المحدد وفي الموعد المحدد.</p>",
+        "about_low": "",
+        "about_low_fr": "",
+        "about_low_ar_dz": null
+    }
+},
+{
+    "model": "business.service",
+    "pk": 6,
+    "fields": {
+        "name": "Désinsectisation et dératisation",
+        "name_fr": "Désinsectisation et dératisation",
+        "name_ar_dz": "التطهير والتخلص من الجراثيم",
+        "slug": "desinsectisation-et-deratisation",
+        "image": "images/téléchargement.jpg",
+        "image_high": "images/Désinfection-désinsectisation-dératisation-Marrakech-Maroc-768x332.jpg",
+        "image_low": "",
+        "about_high": "<p><strong><em>OCRAN NADAFA</em></strong> Vous propose des solutions et des traitements efficaces pour la d&eacute;sinsectisation et la d&eacute;ratisation. Si vous avez un probl&egrave;me d&rsquo;insectes comme les cafards, fourmis et moustiques ou bien un probl&egrave;me des rongeurs comme les souris et des rats contactez notre soci&eacute;t&eacute; pour une solution et un traitement de qualit&eacute;. Notre soci&eacute;t&eacute; utilise des produits et des traitements de derni&egrave;re g&eacute;n&eacute;ration pour venir &agrave; bout des rongeurs, mais &eacute;galement des insectes volants et rampants, &eacute;tudes sp&eacute;cifiques en fonction de la nature et du degr&eacute; de l'infestation, de l'environnement, mise en place de solutions adapt&eacute;es &agrave; chaque type de rongeurs. <strong><em>OCRAN&nbsp; NADAFA </em></strong>offre une gamme compl&egrave;te de services et produits qui vous aideront &agrave; vous d&eacute;barrasser des nuisibles et parasites. Un personnel qualifi&eacute; qui se fera un plaisir de vous donner toutes les informations n&eacute;cessaires afin d'obtenir les meilleurs r&eacute;sultats possibles.</p>",
+        "about_high_fr": "<p><strong><em>OCRAN NADAFA</em></strong> Vous propose des solutions et des traitements efficaces pour la d&eacute;sinsectisation et la d&eacute;ratisation. Si vous avez un probl&egrave;me d&rsquo;insectes comme les cafards, fourmis et moustiques ou bien un probl&egrave;me des rongeurs comme les souris et des rats contactez notre soci&eacute;t&eacute; pour une solution et un traitement de qualit&eacute;. Notre soci&eacute;t&eacute; utilise des produits et des traitements de derni&egrave;re g&eacute;n&eacute;ration pour venir &agrave; bout des rongeurs, mais &eacute;galement des insectes volants et rampants, &eacute;tudes sp&eacute;cifiques en fonction de la nature et du degr&eacute; de l'infestation, de l'environnement, mise en place de solutions adapt&eacute;es &agrave; chaque type de rongeurs. <strong><em>OCRAN&nbsp; NADAFA </em></strong>offre une gamme compl&egrave;te de services et produits qui vous aideront &agrave; vous d&eacute;barrasser des nuisibles et parasites. Un personnel qualifi&eacute; qui se fera un plaisir de vous donner toutes les informations n&eacute;cessaires afin d'obtenir les meilleurs r&eacute;sultats possibles.</p>",
+        "about_high_ar_dz": "<p style=\"text-align: right;\">&nbsp;</p>\r\n<p style=\"text-align: right;\"><strong><em>أوكران نظافة </em></strong>تقدم حلولاً وعلاجات فعالة لمكافحة الحشرات والجرذان. إذا كانت لديك مشكلة حشرية مثل الصراصير والنمل والبعوض أو مشكلة القوارض مثل الفئران والجرذان، فاتصل بشركتنا للحصول على حل وعلاج عالي الجودة.&nbsp; تستخدم شركتنا أحدث منتجات وعلاجات الجيل للتخلص من القوارض، ولكن أيضًا الحشرات الطائرة والزاحفة، ودراسات محددة حسب طبيعة ودرجة الإصابة، والبيئة، وتنفيذ الحلول المناسبة لكل نوع من أنواع القوارض.<strong><em> أوكران نظافة</em></strong> تقدم مجموعة كاملة من الخدمات والمنتجات التي ستساعدك على التخلص من الآفات. فريق عمل مؤهل سيسعد بإعطائك جميع المعلومات اللازمة للحصول على أفضل النتائج الممكنة.&nbsp;</p>",
+        "about_low": "",
+        "about_low_fr": "",
+        "about_low_ar_dz": null
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-04-17T10:50:02.512Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "starmania",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-04-17T12:00:05.023Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "hello@acm.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-04-18T12:27:07.220Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-04-18T12:27:07.235Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-04-18T12:27:07.248Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-04-18T12:27:07.261Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-04-18T12:27:07.275Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-04-18T12:37:01.848Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-04-19T12:37:57.053Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-04-19T12:37:57.062Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-04-19T13:34:52.831Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-04-19T13:34:52.839Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-04-19T13:34:52.845Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "hello@acm.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-04-19T13:34:52.851Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "hello@acm.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-04-19T13:35:04.599Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-04-19T13:35:04.608Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "hello@starmania.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-04-19T13:35:04.615Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "hello@acm.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-04-19T14:18:50.219Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-04-19T14:18:50.228Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-04-19T15:16:39.549Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-04-20T12:01:25.142Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-04-20T12:13:19.890Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-04-20T12:49:44.451Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Manar BOUTOUATOU",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-04-20T12:49:44.458Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "starmania",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-04-20T12:49:44.465Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Octopus",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-04-20T12:49:44.472Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Octopus",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-04-20T12:49:44.479Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Algérie Cyber Market",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-04-20T12:49:44.486Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "starmania",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-04-30T10:10:53.409Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "dfghjk",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-04-30T10:10:53.419Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "manar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-05-08T10:55:51.737Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-05-08T11:03:01.824Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-05-08T11:05:52.057Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-05-08T11:08:12.119Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Pack nettoyage 1 :",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-05-08T11:08:24.828Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-05-08T11:08:31.794Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Pack nettoyage 1 :",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-05-08T11:08:31.801Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-05-08T11:08:31.807Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-05-08T11:08:38.775Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-05-08T11:09:29.213Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Pack nettoyage 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-05-08T11:10:09.494Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3 :",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-05-08T11:10:45.998Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Pack nettoyage ALL 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-05-08T11:10:52.096Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pack nettoyage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-05-08T11:15:32.153Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Pack nettoyage ALL 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre de fenetre\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-05-08T11:15:41.622Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre de fenetre\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-05-08T11:16:07.094Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre de fenetre\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-05-08T11:16:10.879Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-05-08T11:16:32.443Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Appartement",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-05-08T11:16:42.250Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "villa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-05-08T11:16:52.845Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "bureau",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-05-08T11:17:04.237Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "local",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-05-08T11:17:13.462Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "autres",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-05-08T11:17:28.478Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Villa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Surface en m2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-05-08T11:17:37.814Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Bureau",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Surface en m2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-05-08T11:17:44.078Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Autres",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Surface en m2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-05-08T11:17:50.743Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Surface en m2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-05-08T11:22:57.636Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Autres",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-05-08T11:22:57.644Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-05-08T11:22:57.649Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Bureau",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-05-08T11:22:57.654Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Villa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-05-08T11:22:57.661Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Appartement",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-05-08T11:23:12.960Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Appartement",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-05-08T11:23:32.262Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Villa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-05-08T11:23:50.363Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Bureau",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-05-08T11:24:07.214Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-05-08T11:25:25.655Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Autres",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-05-08T12:13:38.200Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "S1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-05-08T12:13:52.448Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "S1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-05-08T12:14:52.633Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "S1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-05-08T12:14:58.618Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "S1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-05-08T12:15:07.159Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "S2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-05-08T12:15:19.638Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "S3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-05-08T12:16:17.159Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "S3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-05-08T12:16:22.194Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "S3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-05-08T12:16:26.178Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "S3",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2022-05-08T12:16:29.315Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "S2",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2022-05-08T12:16:46.524Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "S4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2022-05-08T12:38:42.304Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2022-05-08T12:38:49.560Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Bureau",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2022-05-08T13:51:14.545Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "hello@user.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2022-05-08T14:41:41.881Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "S1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix unitaire\", \"Surface moyenne\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2022-05-08T14:41:46.293Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "S1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2022-05-08T14:42:05.222Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "S2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix unitaire\", \"Surface moyenne\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2022-05-08T14:42:37.110Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "S3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix unitaire\", \"Surface moyenne\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2022-05-08T14:42:50.401Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "S4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix unitaire\", \"Surface moyenne\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2022-05-08T15:26:39.273Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2022-05-08T15:26:39.286Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "hello@user.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2022-05-08T16:19:49.953Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Autres",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2022-05-08T16:19:52.937Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2022-05-08T16:19:57.711Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Villa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2022-05-08T16:20:00.138Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2022-05-08T16:20:04.297Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Pack nettoyage ALL 4",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2022-05-08T16:20:06.638Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2022-05-08T16:20:08.915Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Pack nettoyage 2",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2022-05-08T16:20:13.898Z",
+        "user": 2,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2022-05-08T16:20:22.036Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "S4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2022-05-08T16:20:25.938Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "S2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2022-05-08T16:20:29.816Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "S3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2022-05-08T16:20:34.592Z",
+        "user": 2,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "S1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.225Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "25",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.237Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "24",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.244Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "23",
+        "object_repr": "manar_boutouatou@ymail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.250Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "manar_boutouatou@ymail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.256Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "manar_boutouatou@ymail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.262Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "20",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.268Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.274Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "18",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.282Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.288Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.298Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.304Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.309Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.316Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.323Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.329Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.335Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.341Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.346Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.351Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.355Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "contact.chawkibouamra@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.359Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2022-05-09T08:18:33.364Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2022-05-09T08:22:31.180Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "27",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2022-05-09T08:22:31.192Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "26",
+        "object_repr": "m.boutouatou@octopus-consulting.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2022-05-09T10:46:03.206Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "hello",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2022-05-09T10:46:03.221Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "jknfs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2022-05-09T10:46:03.226Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "jknfs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2022-05-09T10:46:03.232Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "gdgdg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2022-05-09T10:46:03.240Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "hjksbcdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2022-05-09T11:09:57.516Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "gfgfddddddd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2022-05-09T11:09:57.529Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "manar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2022-05-09T11:09:57.535Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "ffffff",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2022-05-09T11:29:33.922Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "manar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2022-05-09T13:35:38.025Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2022-05-09T13:36:06.867Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Pack nettoyage 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2022-05-09T13:36:32.412Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2022-05-09T13:37:03.272Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Pack nettoyage ALL 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2022-05-15T09:07:13.765Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "About object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2022-05-15T09:09:11.416Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "About object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom de l'entreprise\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2022-05-15T09:10:34.498Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Slide object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2022-05-15T09:41:21.358Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2022-05-15T09:51:11.563Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2022-05-15T09:51:30.558Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2022-05-15T09:52:36.119Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2022-05-15T09:56:56.709Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page dossier taksit\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2022-05-15T10:19:19.214Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2022-05-15T10:20:01.995Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement :",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2022-05-15T10:20:51.859Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2022-05-15T10:34:16.526Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image du service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2022-05-15T10:36:04.908Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image du service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2022-05-15T10:40:37.749Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2022-05-15T10:43:42.494Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2022-05-15T10:46:38.185Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Désinfection d’espaces du virus COVID-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2022-05-15T10:48:50.939Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2022-05-15T10:50:46.465Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2022-05-15T10:53:03.948Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image du service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2022-05-15T11:12:33.456Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2022-05-15T12:18:13.762Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2022-05-15T12:18:22.161Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2022-05-15T12:18:26.023Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Désinfection d’espaces du virus COVID-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2022-05-15T12:18:30.515Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2022-05-15T12:18:34.151Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2022-05-15T12:18:38.397Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2022-05-15T12:24:54.520Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2022-05-15T12:34:28.680Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2022-05-15T12:53:47.319Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2022-05-15T12:54:40.023Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2022-05-15T12:55:23.808Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Désinfection d’espaces du virus COVID-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2022-05-15T12:55:53.066Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2022-05-15T12:56:14.544Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2022-05-15T12:56:56.303Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2022-05-15T13:26:10.602Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo a propos \"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2022-05-15T13:45:34.875Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo a propos Page d'accueil \"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2022-05-16T08:08:10.812Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "service french",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Service [en]\", \"Service [fr]\", \"Text service [en]\", \"Text service [fr]\", \"Page service \"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2022-05-16T08:47:06.459Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "service french",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2022-05-16T09:22:34.352Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Service [ar-dz]\", \"Text service\", \"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2022-05-16T09:26:06.024Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Service [ar-dz]\", \"Text service\", \"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2022-05-16T09:26:27.717Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2022-05-16T09:28:12.351Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Service [ar-dz]\", \"Text service\", \"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2022-05-16T09:28:22.419Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2022-05-16T09:28:46.354Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2022-05-16T09:29:30.809Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Désinfection d’espaces du virus COVID-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+        "action_time": "2022-05-16T09:30:15.843Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+        "action_time": "2022-05-16T09:30:50.782Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+        "action_time": "2022-05-16T09:34:57.634Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Désinfection d’espaces du virus COVID-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service [ar-dz]\", \"Text service\", \"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+        "action_time": "2022-05-16T09:36:40.343Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "5-\tRemise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Service [ar-dz]\", \"Text service\", \"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+        "action_time": "2022-05-16T09:36:48.873Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+        "action_time": "2022-05-16T09:37:50.853Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Service\", \"Service [ar-dz]\", \"Text service\", \"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+        "action_time": "2022-05-16T09:38:11.042Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+        "action_time": "2022-05-16T09:38:21.173Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+        "action_time": "2022-05-16T09:38:28.672Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+        "action_time": "2022-05-16T09:38:37.858Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+        "action_time": "2022-05-16T09:38:45.339Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 194,
+    "fields": {
+        "action_time": "2022-05-16T09:38:53.553Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+        "action_time": "2022-05-16T09:39:07.026Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+        "action_time": "2022-05-16T09:39:13.406Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+        "action_time": "2022-05-16T10:23:39.403Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom de l'entreprise\", \"Nom de l'entreprise [ar-dz]\", \"Text a propos\", \"Text a propos [ar-dz]\", \"Page a propos 2\", \"Page a propos 2 [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+        "action_time": "2022-05-16T10:26:23.644Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\", \"Page a propos 2\", \"Page a propos 2 [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 199,
+    "fields": {
+        "action_time": "2022-05-16T10:27:13.419Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page a propos 2 [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 200,
+    "fields": {
+        "action_time": "2022-05-16T10:45:27.026Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nom de l'entreprise\", \"Nom de l'entreprise [ar-dz]\", \"Adresse\", \"Adresse [ar-dz]\", \"Text a propos\", \"Text a propos [ar-dz]\", \"Page d'accueil\", \"Page d'accueil [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 201,
+    "fields": {
+        "action_time": "2022-05-16T10:46:55.995Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 202,
+    "fields": {
+        "action_time": "2022-05-16T10:49:06.680Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page d'accueil\", \"Page d'accueil [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 203,
+    "fields": {
+        "action_time": "2022-05-16T10:51:35.323Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 204,
+    "fields": {
+        "action_time": "2022-05-16T10:52:09.843Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page d'accueil\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 205,
+    "fields": {
+        "action_time": "2022-05-16T10:57:08.989Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\", \"Page d'accueil\", \"Page d'accueil [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 206,
+    "fields": {
+        "action_time": "2022-05-16T11:04:11.779Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 207,
+    "fields": {
+        "action_time": "2022-05-16T11:06:50.938Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 208,
+    "fields": {
+        "action_time": "2022-05-16T11:12:02.692Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 209,
+    "fields": {
+        "action_time": "2022-05-16T11:12:22.412Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 210,
+    "fields": {
+        "action_time": "2022-05-16T12:19:07.563Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Pack nettoyage 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pack nettoyage\", \"Pack nettoyage [ar-dz]\", \"Descriptions du pack\", \"Descriptions du pack [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 211,
+    "fields": {
+        "action_time": "2022-05-16T12:20:01.083Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Pack nettoyage 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pack nettoyage\", \"Pack nettoyage [ar-dz]\", \"Descriptions du pack\", \"Descriptions du pack [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 212,
+    "fields": {
+        "action_time": "2022-05-16T12:20:46.566Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pack nettoyage\", \"Pack nettoyage [ar-dz]\", \"Descriptions du pack\", \"Descriptions du pack [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 213,
+    "fields": {
+        "action_time": "2022-05-16T12:21:22.794Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Pack nettoyage ALL 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pack nettoyage\", \"Pack nettoyage [ar-dz]\", \"Descriptions du pack\", \"Descriptions du pack [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 214,
+    "fields": {
+        "action_time": "2022-05-16T12:27:46.917Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Adresse [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 215,
+    "fields": {
+        "action_time": "2022-05-16T12:30:12.234Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type de bien\", \"Type de bien [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 216,
+    "fields": {
+        "action_time": "2022-05-16T12:31:03.691Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Villa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type de bien\", \"Type de bien [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 217,
+    "fields": {
+        "action_time": "2022-05-16T12:31:44.482Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Bureau",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type de bien\", \"Type de bien [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 218,
+    "fields": {
+        "action_time": "2022-05-16T12:32:24.530Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Local",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type de bien\", \"Type de bien [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 219,
+    "fields": {
+        "action_time": "2022-05-16T12:33:40.438Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Autres",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type de bien\", \"Type de bien [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 220,
+    "fields": {
+        "action_time": "2022-05-16T12:34:07.091Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Autres",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type de bien [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 221,
+    "fields": {
+        "action_time": "2022-05-16T14:22:08.100Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 222,
+    "fields": {
+        "action_time": "2022-05-16T14:23:05.738Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 223,
+    "fields": {
+        "action_time": "2022-05-16T14:24:50.177Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 224,
+    "fields": {
+        "action_time": "2022-05-16T15:07:48.766Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 225,
+    "fields": {
+        "action_time": "2022-05-16T15:08:17.374Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 226,
+    "fields": {
+        "action_time": "2022-05-16T15:42:45.312Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 227,
+    "fields": {
+        "action_time": "2022-05-16T15:49:05.580Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 228,
+    "fields": {
+        "action_time": "2022-05-16T15:54:09.689Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email de receptions, contact, devis, recrutement\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 229,
+    "fields": {
+        "action_time": "2022-05-16T15:54:50.139Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 230,
+    "fields": {
+        "action_time": "2022-05-17T08:15:54.200Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Num\\u00e9ro de t\\u00e9l\\u00e9phone de l'entreprise\", \"2eme num\\u00e9ro de t\\u00e9l\\u00e9phone de l'entreprise\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 231,
+    "fields": {
+        "action_time": "2022-05-17T08:26:11.660Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Num\\u00e9ro de t\\u00e9l\\u00e9phone de l'entreprise\", \"2eme num\\u00e9ro de t\\u00e9l\\u00e9phone de l'entreprise\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 232,
+    "fields": {
+        "action_time": "2022-05-17T08:51:55.221Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 233,
+    "fields": {
+        "action_time": "2022-05-17T09:18:46.397Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\", \"Page d'accueil [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 234,
+    "fields": {
+        "action_time": "2022-05-17T09:19:55.006Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page d'accueil\", \"Page d'accueil [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 235,
+    "fields": {
+        "action_time": "2022-05-17T09:21:08.090Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\", \"Page a propos 2 [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 236,
+    "fields": {
+        "action_time": "2022-05-17T09:21:27.433Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page a propos 2 [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 237,
+    "fields": {
+        "action_time": "2022-05-17T09:29:08.067Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 238,
+    "fields": {
+        "action_time": "2022-05-17T09:29:15.503Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 239,
+    "fields": {
+        "action_time": "2022-05-17T09:29:37.788Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Secteur Copropriété",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 240,
+    "fields": {
+        "action_time": "2022-05-17T09:29:45.450Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Bureaux et locaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 241,
+    "fields": {
+        "action_time": "2022-05-17T09:29:54.339Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Maison ou appartement",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 242,
+    "fields": {
+        "action_time": "2022-05-17T09:30:33.942Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Remise en état de chantier après fin de travaux",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 243,
+    "fields": {
+        "action_time": "2022-05-17T09:31:03.421Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Désinsectisation et dératisation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text service [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 244,
+    "fields": {
+        "action_time": "2022-05-17T10:19:53.884Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 245,
+    "fields": {
+        "action_time": "2022-05-17T10:21:18.955Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 246,
+    "fields": {
+        "action_time": "2022-05-17T10:26:01.805Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 247,
+    "fields": {
+        "action_time": "2022-05-17T10:28:14.918Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\", \"Page a propos 2\", \"Page a propos 2 [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 248,
+    "fields": {
+        "action_time": "2022-05-17T10:29:23.324Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 249,
+    "fields": {
+        "action_time": "2022-05-17T10:29:52.751Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 250,
+    "fields": {
+        "action_time": "2022-05-17T10:32:03.323Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 251,
+    "fields": {
+        "action_time": "2022-05-17T10:38:53.144Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page d'accueil\", \"Page d'accueil [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 252,
+    "fields": {
+        "action_time": "2022-05-17T10:41:35.545Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 253,
+    "fields": {
+        "action_time": "2022-05-17T10:43:00.417Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 254,
+    "fields": {
+        "action_time": "2022-05-17T10:44:30.024Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 255,
+    "fields": {
+        "action_time": "2022-05-17T10:45:33.299Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 256,
+    "fields": {
+        "action_time": "2022-05-17T11:03:25.830Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 257,
+    "fields": {
+        "action_time": "2022-05-17T11:04:16.727Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 258,
+    "fields": {
+        "action_time": "2022-05-17T11:04:51.494Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text a propos\", \"Text a propos [ar-dz]\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 259,
+    "fields": {
+        "action_time": "2022-05-17T12:36:27.023Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email de receptions, contact, devis, recrutement\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 260,
+    "fields": {
+        "action_time": "2022-05-17T12:37:53.344Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 261,
+    "fields": {
+        "action_time": "2022-05-17T12:42:00.665Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "S1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 262,
+    "fields": {
+        "action_time": "2022-05-17T12:50:59.603Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Pack nettoyage 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 263,
+    "fields": {
+        "action_time": "2022-05-17T12:54:00.684Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "hello@octopus-consulting.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"E-mail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 264,
+    "fields": {
+        "action_time": "2022-05-17T12:56:19.359Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Appartement",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 265,
+    "fields": {
+        "action_time": "2022-05-17T13:04:24.460Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "hello@octopus-consulting.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 266,
+    "fields": {
+        "action_time": "2022-05-17T13:14:46.697Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page d'accueil\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 267,
+    "fields": {
+        "action_time": "2022-05-17T13:15:00.278Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Page d'accueil\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 268,
+    "fields": {
+        "action_time": "2022-05-17T13:43:30.410Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Slide object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slide haut de page\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 269,
+    "fields": {
+        "action_time": "2022-05-17T14:13:38.667Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Slide object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slide haut de page\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 270,
+    "fields": {
+        "action_time": "2022-05-25T08:01:04.833Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"2eme num\\u00e9ro de t\\u00e9l\\u00e9phone de l'entreprise\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 271,
+    "fields": {
+        "action_time": "2022-05-25T08:01:37.386Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "OCRAN NADAFA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"2eme num\\u00e9ro de t\\u00e9l\\u00e9phone de l'entreprise\"]}}]"
+    }
+}
+]

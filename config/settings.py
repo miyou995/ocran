@@ -205,3 +205,10 @@ TINYMCE_DEFAULT_CONFIG = {
     "custom_undo_redo_levels": 10,
     "language": "fr_FR"
 }
+
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
+
