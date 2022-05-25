@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
+SECRET_KEY = 'django-insecure-xabzzzxc1d@#2kb^*&t!6f(-^5cgj42n5=(lih!j6$ivxwjnb!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -30,7 +30,6 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -39,8 +38,12 @@ INSTALLED_APPS = [
      # Apps
     'business',
     # third party
-     'rosetta',    
-     "django_htmx",
+    'rosetta',    
+    "django_htmx",
+    'tinymce',
+    'modeltranslation',
+    'django.contrib.admin',
+    
 ]
 
 MIDDLEWARE = [
@@ -70,7 +73,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'business.context_processors.infos'
+                'business.context_processores.extras'
             ],
         },
     },
@@ -113,14 +116,19 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = "fr"
+gettext = lambda s: s
 
 LANGUAGES = (
-    ('en-us', _('English')),
+    # ('en-us', _('English')),
     ('fr', _('Français')),
     ('ar-dz', _('Algerian')),
 )
-
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'fr'
+MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'fr'
+MODELTRANSLATION_TRANSLATION_FILES = (
+    'business.translation',
+)
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
@@ -173,7 +181,27 @@ MESSAGE_TAGS = {
 }
 
 ##email 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.ocrannadafa.com'
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'website@ocrannadafa.com'
+EMAIL_HOST_PASSWORD = 'octopus2022'
+EMAIL_RECIPIENT = ['m.tebbouche@ocranservices.com']
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
+
+TINYMCE_DEFAULT_CONFIG = {
+    "height": "320px",
+    "width": "960px",
+    "menubar": "file edit view insert format tools table help",
+    "plugins": "advlist autolink lists link image charmap print preview anchor searchreplace visualblocks code "
+    "fullscreen insertdatetime media table paste code help wordcount spellchecker",
+    "toolbar": "undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft "
+    "aligncenter alignright alignjustify | outdent indent |  numlist bullist checklist | forecolor "
+    "backcolor casechange permanentpen formatpainter removeformat | pagebreak | charmap emoticons | "
+    "fullscreen  preview save print | insertfile image media pageembed template link anchor codesample | "
+    "a11ycheck ltr rtl | showcomments addcomment code",
+    "custom_undo_redo_levels": 10,
+    "language": "fr_FR"
+}

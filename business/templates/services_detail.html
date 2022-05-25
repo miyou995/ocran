@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+
+  
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'images/background/contact.jpg' %})">
+    	<div class="auto-container">
+        	<h2>{% trans "Services" %}</h2>
+            <ul class="page-breadcrumb">
+            	<li><a href="/">{% trans "Accueil" %} </a></li>
+                <li>{% trans "Services " %}</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+    
+		<!--Sidebar Page Container-->
+        <div class="sidebar-page-container">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    
+                    <!--Content Side / Services Detail -->
+                    <div class="content-side col-xl-9 col-lg-8 col-md-12 col-sm-12">
+                        <div class="services-detail">
+                            <div class="inner-box">
+                                <div class="bold-text"><h2>{{service.name}} </h2></div>
+                                <div class="text">
+                                    <!-- Two Column -->
+                                    <div class="two-column">
+                                        <div class="row clearfix">
+                                            <div class="column col-lg-4 col-md-4 col-sm-12"> <br><br>
+                                                <div class="image">
+                                                    <img src="{{service.image_high.url}}" alt="" />
+                                                </div>
+                                                <br><br><br><br>
+                                                {% if image_low %}
+                                                <div class="image">
+                                                    <img src="{{service.image_low.url}}"  alt="" />
+                                                </div>
+                                                
+                                                {% else %} 
+                                                <div class="image">
+                                                    
+                                                </div>
+                                                {% endif %}
+                                            </div>
+                                            <div class="content-column col-lg-8 col-md-8 col-sm-12">
+                                                <div class="inner-column" >
+                                                    {{service.about_high|safe}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>{% trans 'Meilleur service de nettoyage en algérie.' %}</h4>
+                                    <div class="service-contact-box"><h4 style="color:#fff;"> <a href="{% url 'business:contact' %}" style="text-decoration: none; color:#fff;"> {% trans "Contactez-nous" %}</a> {% trans "pour en savoir plus." %} </h4></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Sidebar Side-->
+                    <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                        <aside class="sidebar">
+                            <!-- Sidebar Widget / List Widget-->
+                            <div class="sidebar-widget list-widget">
+                                <!-- Services List -->
+                            {% for service in services %}
+                                <ul class="services-list">
+                                    <li><a href="{{service.get_absolute_url}}">{{service.name}}</a></li>
+                                </ul>
+				            {% endfor %}
+                            </div>
+                            
+                            <!-- Sidebar Widget / Contact Widget-->
+                            <div class="sidebar-widget contact-widget">
+                                <div class="widget-content" style="background-image: url(images/background/7.jpg);">  
+                                    <a href="{% url 'business:quote' %}"> <h3>{% trans "Obtenez un devis" %}</h3> </a>
+                                </div>
+                            </div>
+                        
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+    </div>  
+    <!--End pagewrapper-->
+{% include 'snippets/devis_cta.html' %}
+{% endblock content %}

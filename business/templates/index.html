@@ -6,118 +6,81 @@
 <title>OCRAN NADAFA</title>
 {% endblock %}
    <!-- Main Slider -->
-   <section class="main-slider" >
-	<div class="slider-box">
-	
-		<!-- Banner Carousel -->
-		<div class="banner-carousel owl-theme owl-carousel">
-		
-			<!-- Slide -->
-			<div class="slide">
-				<div class="image-layer" style="background-image:url({% static 'images/background/3.jpg' %})"></div>
-				<div class="auto-container">
-					<div class="content">
-						<h2>{% trans 'OCRAN NADAFA' %} </h2>
-						<div class="text"> <h4>{% trans 'ENTREPRISE DE NETTOYAGE PROFESSIONNEL' %} </h4></div>
-						{% comment %} <div class="btns-box">
-							<a href="#" class="theme-btn btn-style-one"><span class="txt">Know more</span></a>
-						</div> {% endcomment %}
+
+		<section class="main-slider" >
+			<div class="slider-box">
+				<!-- Banner Carousel -->
+				<div class="banner-carousel owl-theme owl-carousel" dir="ltr">
+					<!-- Slide -->
+					<div class="slide">
+						<div class="image-layer">
+						 <img src="{{slide.photo.url}}"  alt="ocran" /> 
+						</div>
+						<div class="auto-container">
+							<div class="content">
+								<h2>{% trans 'OCRAN NADAFA' %} </h2>
+								<div class="text"> <h4>{% trans 'ENTREPRISE DE NETTOYAGE PROFESSIONNEL' %} </h4></div>
+							</div>
+						</div>
 					</div>
-				</div>
+				</div>	
 			</div>
-
-			
-		</div>
-		
-	</div>
-	</section>
-<!-- End Banner Section -->
+		</section>
     
-
+		{% comment %} <section class="main-slider" >
+			<div class="slider-box">
+				<!-- Banner Carousel -->
+				<div class=" ">
+					<!-- Slide -->
+					<div class="slide">
+						<div class="image-layer" >
+						 <img src="{{slide.photo.url}}"  alt="" /> 
+						</div>
+						<div class="auto-container">
+							<div class="content">
+								<h2>{% trans 'OCRAN NADAFA' %} </h2>
+								<div class="text"> <h4>{% trans 'ENTREPRISE DE NETTOYAGE PROFESSIONNEL' %} </h4></div>
+								
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section> {% endcomment %}
+		<!-- End Banner Section -->
 	<!-- Services Section Three -->
 	<section class="services-section-three" >
 		<div class="auto-container">
 			
 			<!-- Sec Title -->
 			<div class="sec-title centered">
-				<h2>{% trans "OCRAN NADAFA Toujours étincelants !" %}</h2>
-				<div class="text">{% trans 'En faisant appel à' %} <strong>{% trans 'OCRAN NADAFA' %}</strong>{% trans ', vous avez le confort d’une prestation bien faite, réalisée par une equipe qualifié.' %}</div>
+				<h3 style="color:black;">{% trans "OCRAN NADAFA Toujours étincelants !" %}</h3>
+				<div class="text" style="color:black;">{% trans 'En faisant appel à' %} <strong>{% trans 'OCRAN NADAFA' %}</strong>{% trans ', vous avez le confort d’une prestation bien faite, réalisée par une equipe qualifié.' %}</div>
 			</div>
 			
-			<div class="row clearfix">
+			<div class="row clearfix d-flex justify-content-center">
+				{% for service in services %}
 				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-4 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:maison' %}"><img src="{% static 'images/resource/maison.jpg' %}"  alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:maison' %}">{% trans 'Maison ou appartement' %}</a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:maison' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-4 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:office' %}"><img src="{% static 'images/resource/bureau.jpg' %}"  alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:office' %}">{% trans 'Bureaux et locaux ' %}</a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:office' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-4 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:cop' %}"><img src="{% static 'images/resource/copropriéte.jpg' %}"  alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:cop' %}">{% trans 'Secteur Copropriété' %}</a></h3> 
-							<div class="text"></div>
-							<a href="{% url 'business:cop' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-4 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:des' %}"><img src="{% static 'images/resource/covid.jpg' %}"  alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:des' %}">{% trans 'Désinfection d’espaces du virus COVID-19' %}</a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:des' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-			</div>
 					<!-- Service Block -->
-          <div class="service-block-three style-two col-lg-3 col-md-4 col-sm-12">
-            <div class="inner-box wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
-              <div class="image">
-                <a href="{% url 'business:rem' %}"><img src="{% static 'images/resource/remise.jpg' %}"   alt="" /></a>
-              </div>
-              <div class="lower-content">
-                <h3><a href="{% url 'business:rem' %}">{% trans 'Remise en état de chantier après fin de travaux' %}</a></h3>
-                <div class="text"></div> <br>
-                <a href="{% url 'business:rem' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-              </div>
-            </div>
-          </div>
+						<div class="service-block-three style-two col-sm-12 col-md-6 col-lg-3 ">
+							<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+									<div class="image">
+					
+										<a href="{{service.get_absolute_url}}"><img src="{{service.image.url}}" style="width:278px; height:185px;" alt="" /></a>
+									</div>
+									<div class="lower-content">
+											<a href="{{service.get_absolute_url}}"/><h3 style="color:black;">{{service.name}}</h3></a>
+										<div class="text"> </div> <br>
+											<a href="{{service.get_absolute_url}}"><p class="read-more">{% trans 'En savoir plus' %}</p></a>
+									</div>
+							</div>
+						</div>
+				
+				{% endfor %}
+		
+          	</div>
+					<!-- Service Block -->
           
-        </div>
 		</div>
 	</section>
 	<!-- End Services Section -->
@@ -127,31 +90,20 @@
         	
 			<!--Content Column-->
 			<div class="content-column">
-				<div class="content-box">
-					<h2> <strong> {% trans 'OCRAN NADAFA' %} </strong> {% trans 'Toujours étincelants !' %} </h2>
-					<div class="text"> {% trans 'OCRAN NADAFA est une entreprise qui travaille dans le domaine de nettoyage, notre objectif est d&#8216;offrir d&#8216;excellents services de nettoyage à notre clientèle. Nous comprenons l’importance de la propreté pour vous qui contribue grandement à votre apparence, c’est pour quoi à chaque endroit que nous nettoyons nous vous garantissons une satisfaction totale.' %}</div>
-					<ul class="list-style-one">
-						<li> {% trans 'Nettoyage à la vapeur.' %}</li>
-						<li>{% trans 'Nettoyage post/après construction.' %}</li>
-						<li>{% trans 'Nettoyage de bureau/commercial.' %}</li>
-						<li>{% trans 'Polissage et cristallisation de marbre/pierre.' %}</li>
-						<li>{% trans 'Nettoyage de joints de carrelage/sol.' %}</li>
-						<li>{% trans 'Nettoyage sous pression.' %}</li>
-            			<li>{% trans 'Peinture maison/mur.' %}</li>
-            			<li>{% trans 'Le nettoyage des vitres.' %}</li>
-					</ul>
+				<div class="content-box" >
+					 <p style="color: #fff!important;"> {{business.about|safe}} </p>
 					<div class="bold-text">
              <br> <a href="{% url 'business:about' %}">{% trans 'En savoir plus' %}</a></div>
 				</div>
 			</div>
 			
 			<!--Image Column-->
-        	<div class="image-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms" style="background-image: url({% static 'images/why.jpg'  %})">
+        	<div class="image-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms" style="background-image: url({{business.about_photo.url}})">
 				<div class="inner-column">
 					<div class="image">
-						<img src="{% static 'images/why.jpg' %}" alt="">
+						<img src="{{business.about_photo.url}}" alt="">
 					</div>
-          <img src="{% static 'images/why.jpg' %}" class="overlay-link lightbox-image" alt="">
+          <img src="{{business.about_photo.url}}" class="overlay-link lightbox-image" alt="">
 				</div>
             </div>
             <!--End Image Column-->
@@ -168,54 +120,18 @@
 					<div class="image-column col-lg-4 col-md-12 col-sm-12">
 						<div class="inner-column">
 							<div class="image">
-								<img class="img-fluid ml-4 mt-4" src="{% static 'images/portfolio-6.jpg' %}"  alt="" />
+								<img class="img-fluid ml-4 mt-4" src="{{business.about_photo2.url}}"  alt=""  />
 							</div>
 						</div>
 					</div>
 					
 					<!-- Content Column -->
 					<div class="content-column col-lg-8 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<h2>{% trans 'Pourquoi choisir' %} <strong>{% trans 'OCRAN NADAFA' %}</strong> </h2> 
-							<div class="text">{% trans 'Nous offrons des services de nettoyage résidentiel et professionnels. Nos membres d’équipe sont des spécialistes et bien formés a fin de vous offrir un excellent service d’entretien ménager pour chaque endroit de votre immeuble, maison, bureau, crèche ou école privée, restaurant, façade en verre ou en allucobond, hôpital  etc.. ' %} <br>
-								<br> 
-								{% trans "Peu importe votre secteur d’activité, notre équipe est en mesure d’intervenir efficacement pour vous assurer un service d’entretien ménager à la hauteur de vos attentes." %} <br> <br>
-							{% trans "	OCRAN NADAFA offre un service de qualité à un prix concurrentiel. Notre premier but est de vous offrir les meilleurs prix et sûrement un service de qualité supérieure." %}
-								<br> <br>
-								{% trans 'L’équipe d’ocran nadafa offre un service professionnel pour les édifices, écoles, centres communautaires et loisirs, site de construction, restaurants, garderie. ' %} <br> <br>
-                {% trans 'L’honnêteté, la communication, la motivation et un travail efficace et rapide sont des valeurs qui nous tiennent à cœur afin de s’assurer la satisfaction entière de notre clientèle.' %}
-              </div>
+						<div class="inner-column" >
+						{{business.about_2|safe}}
+              				</div>
 							<div class="row clearfix">
-{% comment %} 							
-								<div class="interior-block col-lg-4 col-md-4 col-sm-12">
-									<div class="block-inner">
-										<div class="icon-box">
-											<span class="icon flaticon-award-1"></span>
-										</div>
-										<h3>{% trans 'Plusieurs années expérience' %}</h3>
-									</div>
-								</div>
-								
-								<div class="interior-block col-lg-4 col-md-4 col-sm-12">
-									<div class="block-inner">
-										<div class="icon-box">
-											<span class="icon flaticon-answer"></span>
-										</div>
-										<h3>{% trans 'Equipe professionnelle' %}</h3>
-									</div>
-								</div>
-								
-								<div class="interior-block col-lg-4 col-md-4 col-sm-12">
-									<div class="block-inner">
-										<div class="icon-box">
-											<span class="icon flaticon-hand"></span>
-										</div>
-										<h3>{% trans 'Services de qualité' %}</h3>
-									</div>
-								</div>
-								
-							</div>							
-							<div class="bold-text"><a href="{% url 'business:contact' %}"> {% trans 'Contactez-nous pour plus d&#8216;informations' %}</a></div> {% endcomment %}
+
 						</div>
 					</div>
 					
@@ -239,7 +155,7 @@
                     <div class="count-outer count-box">
                       <span class="count-text" data-speed="2500" data-stop="3">{% trans '0' %}</span> {% trans 'Ans' %}
                     </div>
-                    <h4 class="counter-title">{% trans 'd&#8216;expérience' %}</h4>
+                    <h3 class="counter-title">{% trans 'd&#8216;expérience' %}</h3>
                   </div>
                 </div>
               </div>
@@ -251,7 +167,7 @@
                     <div class="count-outer count-box alternate">
                       <span class="count-text" data-speed="3000" data-stop="25">{% trans '0' %}</span>{% trans '+' %}
                     </div>
-                    <h4 class="counter-title">{% trans 'Services' %}</h4>
+                    <h3 class="counter-title">{% trans 'Services' %}</h3>
                   </div>
                 </div>
               </div>
@@ -263,7 +179,7 @@
                     <div class="count-outer count-box">
                       <span class="count-text" data-speed="3000" data-stop="200">{% trans '0' %}</span>{% trans '+' %}
                     </div>
-                    <h4 class="counter-title">{% trans 'Clients satisfait' %}</h4>
+                    <h3 class="counter-title">{% trans 'Clients satisfait' %}</h3>
                   </div>
                 </div>
               </div>
@@ -275,7 +191,7 @@
                     <div class="count-outer count-box">
                       <span class="count-text" data-speed="2500" data-stop="45">{% trans '0' %}</span> 
                     </div>
-                    <h4 class="counter-title">{% trans 'Employée' %}</h4>
+                    <h3 class="counter-title">{% trans 'Employée' %}</h3>
                   </div>
                 </div>
               </div>
@@ -287,85 +203,7 @@
       </section>
       <!-- End Counter Section -->
     
-	<!-- Testimonial Section -->
-	{% comment %} <section class="testimonial-section">
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title-two centered">
-				<h2>Ce que disent nos clients</h2>
-				<div class="title-text">un centaine de clients satisfait</div>
-			</div>
-			
-			<div class="testimonial-carousel owl-carousel owl-theme">
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="content">
-							<div class="image-outer">
-								<div class="image">
-									<img src="images/resource/author-1.jpg" alt="" />
-								</div>
-							</div>
-							<h3>Residence el azhar</h3>
-							<div class="title">Extrêmement satisfaits</div>
-							<div class="text">Nous avons été extrêmement satisfaits par la qualité du service, à tout point de vue.</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="content">
-							<div class="image-outer">
-								<div class="image">
-									<img src="images/resource/author-2.jpg" alt="" />
-								</div>
-							</div>
-              <h3>Residence el azhar</h3>
-							<div class="title">Extrêmement satisfaits</div>
-							<div class="text">Nous avons été extrêmement satisfaits par la qualité du service, à tout point de vue.</div>
-            </div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="content">
-							<div class="image-outer">
-								<div class="image">
-									<img src="images/resource/author-1.jpg" alt="" />
-								</div>
-							</div>
-              <h3>Residence el azhar</h3>
-							<div class="title">Extrêmement satisfaits</div>
-							<div class="text">Nous avons été extrêmement satisfaits par la qualité du service, à tout point de vue.</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="content">
-							<div class="image-outer">
-								<div class="image">
-									<img src="images/resource/author-2.jpg" alt="" />
-								</div>
-							</div>
-							<h3>Residence el azhar</h3>
-							<div class="title">Extrêmement satisfaits</div>
-							<div class="text">Nous avons été extrêmement satisfaits par la qualité du service, à tout point de vue.</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section> {% endcomment %}
-	<!-- End Testimonial Section -->
+	
 	{% include 'snippets/devis_cta.html' %}
 
 

@@ -23,7 +23,7 @@
 			<!-- Sec Title -->
 			<div class="sec-title">
 				<h2>{% trans "Contactez-nous" %}</h2>
-				<div class="text"> {% trans 'Merci de nous laisser un message à l&#8216;aide du formulaire ci-dessous,  nous vous contacterons dans les plus brefs délais.' %}</div>
+				<div class="text"> <p style="color:#242424;"> {% trans 'Merci de nous laisser un message à l&#8216;aide du formulaire ci-dessous,  nous vous contacterons dans les plus brefs délais.' %} </p> </div>
 			</div>
 			<div class="ol-lg-6 col-md-6 col-sm-12">
 				   <!-- message -->
@@ -54,7 +54,7 @@
 									</div>
 									
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="phone" id="id_phone"  placeholder="{% trans 'Numéro *' %}" required>
+										<input type="text" name="phone" id="id_phone"  placeholder="{% trans 'Numéro *' %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
 									</div>
 									<div class="form-group col-lg-12 col-md-6 col-sm-12">
 										<input type="text" name="email" id="id_email"  placeholder="{% trans 'E-mail *' %}" required>

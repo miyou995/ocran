@@ -4,10 +4,10 @@ from django.shortcuts import render
 from django.core.mail import send_mail
 from django.urls import reverse_lazy
 from django.contrib.messages.views import SuccessMessageMixin
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView , DetailView
 from django.views.generic.edit import CreateView
 from .forms import ContactForm, QuoteForm, HiringForm
-from .models import Bien, Contact, Formule, Quote, Hiring, Surface
+from .models import Bien, Contact, Formule, Quote, Hiring, Surface, Slide, About, Service
 from django.utils.translation import gettext as _
 # Create your views here.
 from django.contrib import messages
@@ -18,30 +18,37 @@ class IndexView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(IndexView, self).get_context_data(**kwargs)
         context["formules"] =Formule.objects.all()
+        context["services"] =Service.objects.all()
+        context["slide"] =Slide.objects.last()
         context["biens"] = Bien.objects.all()
         context["surfaces"] =Surface.objects.all()
         return context
-##présentation
+
+
+##ABOUT
 class AboutView(TemplateView):
-    template_name= "presentation.html"
+    template_name= "about.html"
+    def get_context_data(self, **kwargs):
+        context = super(AboutView, self).get_context_data(**kwargs)
+        context["abouts"] =About.objects.all()
+        return context
+
 ##services
-class ServiceView(TemplateView):
+
+class ServiceView(ListView):
     template_name= "services.html"
+    model = Service
+    context_object_name ="services"
 
-class MaisonView(TemplateView):
-    template_name= "services-1.html"
-    
-class OfficeView(TemplateView):
-    template_name= "services-2.html"
+class ServiceDetail(DetailView):
+    model = Service
+    template_name='services_detail.html' 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["services"] =Service.objects.all()
+        return context
 
-class CopView(TemplateView):
-    template_name= "services-3.html"
 
-class DesView(TemplateView):
-    template_name= "services-4.html"
-    
-class RemView(TemplateView):
-    template_name= "services-5.html"
 ## CONTACT 
 
 class ContactView(SuccessMessageMixin, CreateView):
@@ -92,10 +99,6 @@ class RecruitingView(SuccessMessageMixin, CreateView):
 
     
 
-##email
-class EmailView(TemplateView):
-    template_name= "email.html"
-    
     
 def create_quote(request):
     context = {}
@@ -112,11 +115,16 @@ def create_quote(request):
             # print(form)
         total_cost = quote.get_total_cost()
         print('total', total_cost)
-        messages.success(request, f'le service que vous avez demandé à un cout approximatif de  <strong>{total_cost}</strong> DA. ')
+        messages.success(request, f'Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées.')
         if request.htmx:
             return render(request, 'snippets/message.html', context)
         # return HttpResponse(f'{quote.get_total_cost()}')
     return render(request, 'quote.html', context)
-#     <div class="alert alert-primary" role="alert">
+
+
+# le service que vous avez demandé à un cout approximatif de  <strong>{total_cost}</strong> DA.    
+# <div class="alert alert-primary" role="alert">
 #   This is a primary alert—check it out!
 # </div>
+
+

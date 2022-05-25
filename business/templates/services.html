@@ -23,85 +23,35 @@
 			
 			<!-- Sec Title -->
 			<div class="sec-title centered">
-				<h2>{% trans 'OCRAN NADAFA Toujours étincelants !' %}</h2>
+				<h3>{% trans 'OCRAN NADAFA Toujours étincelants !' %}</h3>
 				<div class="text">{% trans 'En faisant appel à' %} <strong>{% trans 'OCRAN NADAFA' %}</strong>{% trans ', vous avez le confort d’une prestation bien faite, réalisée par une equipe qualifié.' %}</div>
 			</div>
 			
 			<div class="row clearfix">
+				{% for service in services %}
 				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:service' %}"><img src="{% static 'images/resource/maison.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:maison' %}">{% trans 'Maison ou appartement' %}</a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:maison' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:office' %}"><img src="{% static 'images/resource/bureau.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:office' %}">{% trans 'Bureaux et locaux' %} </a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:office' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:cop' %}"><img src="{% static 'images/resource/copropriéte.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:cop' %}">{% trans 'Secteur Copropriété' %}</a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:cop' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block -->
-				<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="{% url 'business:des' %}"><img src="{% static 'images/resource/covid.jpg' %}" style="width:278px; height:185px;" alt="" /></a>
-						</div>
-						<div class="lower-content">
-							<h3><a href="{% url 'business:des' %}">{% trans 'Désinfection d’espaces du virus COVID-19' %}</a></h3>
-							<div class="text"></div>
-							<a href="{% url 'business:des' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-						</div>
-					</div>
-				</div>
-				
-			</div>
 					<!-- Service Block -->
-          <div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
-            <div class="inner-box wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
-              <div class="image">
-                <a href="{% url 'business:rem' %}"><img src="{% static 'images/resource/remise.jpg' %}"  style="width:278px; height:185px;" alt="" /></a>
-              </div>
-              <div class="lower-content">
-                <h3><a href="{% url 'business:rem' %}">{% trans 'Remise en état de chantier après fin de travaux' %}</a></h3>
-                <div class="text"></div> <br>
-                <a href="{% url 'business:rem' %}" class="read-more">{% trans 'En savoir plus' %}</a>
-              </div>
-            </div>
-          </div>
+						<div class="service-block-three style-two col-lg-3 col-md-6 col-sm-12">
+							<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+									<div class="image">
+									<a href="{{service.get_absolute_url}}">
+										<img src="{{service.image.url}}" style="width:278px; height:185px;" alt="" /></a>
+									</div>
+									<div class="lower-content">
+											<a href="{{service.get_absolute_url}}"><h3  style="color:black;">{{service.name}}</h3></a>
+										<div class="text"> </div> <br>
+									<a href="{{service.get_absolute_url}}">
+										<p class="read-more">{% trans 'En savoir plus' %}</p>	</a>
+									</div>
+							</div>
+						</div>
+				
+				{% endfor %}
+		
+          	</div>
           
         </div>
-		</div>
+	
 	</section>
 	<!-- End Services Section -->
         

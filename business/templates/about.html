@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% block title %}
+<title>OCRAN NADAFA</title>
+{% endblock %}
+{% for about  in  abouts %}
+
+
+    <!--Page Title--> 
+	
+		<section class="page-title" style="background-image:url({% static 'images/background/bureau3.jpg' %})">
+			<div class="auto-container">
+				<h2>{% trans 'Présentation' %}</h2>
+				<ul class="page-breadcrumb">
+					<li><a href="/">{% trans 'Accueil' %}</a></li>
+					<li>{% trans 'Présentation' %}</li>
+				</ul>
+			</div>
+
+    	</section>
+    <!--End Page Title-->
+
+	<section class="story-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Content Column -->
+				<div class="content-column col-lg-8 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<p style="color:#242424;">{{about.about_high|safe}} </p>
+					</div>
+				</div>
+				<!-- Image Column -->
+				<div class="image-column col-lg-4 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image">
+							<img src="{{about.image_high.url}}" alt="" style="margin-top:40px;" /> 
+              
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Story Section -->
+	<!-- Interior Section -->
+	<section class="interior-section style-two">
+		<div class="auto-container">
+			<div class="inner-container">
+				<div class="row clearfix">
+					
+					<!-- Image Column -->
+					<div class="image-column col-lg-4 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image">
+								<img class="img-fluid ml-4 mt-4" src="{{business.about_photo2.url}}"  alt="" />
+							</div>
+						</div>
+					</div>
+					
+					<!-- Content Column -->
+					<div class="content-column col-lg-8 col-md-12 col-sm-12">
+						<div class="inner-column">
+							
+						
+							<div class="text"> {{business.about_2|safe}} </div>
+             			 
+							<div class="row clearfix">
+
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End Interior Section --> 
+  <!-- Counter Section -->
+  <section class="counter-section style-two">
+    <div class="auto-container">
+    
+      <!-- Fact Counter -->
+      <div class="fact-counter">
+        <div class="row clearfix">
+
+          <!--Column-->
+          <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+            <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+              <div class="content">
+                <div class="count-outer count-box">
+                  <span class="count-text" data-speed="2500" data-stop="3">{% trans '0' %}</span> {% trans 'Ans' %}
+                </div>
+                <h3 class="counter-title">{% trans 'd&#8216;expérience' %}</h3>
+              </div>
+            </div>
+          </div>
+
+          <!--Column-->
+          <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+            <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+              <div class="content">
+                <div class="count-outer count-box alternate">
+                  <span class="count-text" data-speed="3000" data-stop="25">{% trans '0' %}</span>{% trans '+' %}
+                </div>
+                <h3 class="counter-title">{% trans 'Services' %}</h3>
+              </div>
+            </div>
+          </div>
+
+          <!--Column-->
+          <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+            <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+              <div class="content">
+                <div class="count-outer count-box">
+                  <span class="count-text" data-speed="3000" data-stop="200">{% trans '0' %}</span>{% trans '+' %}
+                </div>
+                <h3 class="counter-title">{% trans 'Clients satisfait' %}</h3>
+              </div>
+            </div>
+          </div>
+          
+          <!--Column-->
+          <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+            <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+              <div class="content">
+                <div class="count-outer count-box">
+                  <span class="count-text" data-speed="2500" data-stop="45">{% trans '0' %}</span> 
+                </div>
+                <h3 class="counter-title">{% trans 'Employée' %}</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- End Counter Section -->
+	<!-- Mission Section -->
+    <section class="mission-section" >
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Image Column -->
+				<div class="image-column col-xl-3 col-lg-4 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image mt-3">
+                            <img src="{{about.image_low.url}}" alt="ocran nadafa" />
+						</div>
+					</div>
+				</div>
+				
+				<!-- Content Column -->
+				<div class="content-column col-xl-9 col-lg-8 col-md-12 col-sm-12">
+					<div class="inner-column">
+					{{about.about_low|safe}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% include 'snippets/devis_cta.html' %}
+	
+{% endfor %}
+{% endblock content %}

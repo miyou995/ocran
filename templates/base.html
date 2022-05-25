@@ -5,9 +5,9 @@
 {% get_language_info for LANGUAGE_CODE as lang %}
 {% get_language_info_list for LANGUAGES as languages %}
 <!DOCTYPE html>
-<html lang="{{LANGUAGES}}" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
+<html lang="{{LANGUAGES}}" dir="{% if LANGUAGE_CODE == 'ar-dz' %}rtl{% else %}ltr{% endif %}">
 {% block title %}
-<title>base</title>
+  <title>{{business.title}}</title>
 {% endblock %}
 <head>
 <meta charset="utf-8">
@@ -26,28 +26,36 @@
 <meta name="language" content="{{LANGUAGES}}" />
 </head>
 {% include 'navbar.html' %}
-{% if LANGUAGE_CODE == 'ar' %}
+ {% if LANGUAGE_CODE == 'ar-dz' %}
     <style>
-      h1, h2, h3, h4, h5, h6, a, p, li, span {
+      h1, h2,  h4, h5, h6, a, p, li, span, .text h4, a, .span a, text, span, div.bold-text, .footer-widget div.widget-content {
         text-align: right;
-      }
       
-     /*  .header-right {
+      }
+.counter-title {
+  text-align: center;
+}
+     .header-right {
           margin-right: auto;
       }
       .megamenu {
             left: 0; 
             right: 100%;
       }
-      #bannersCarousel .owl-item {
-          left: 100%;
+     
+      main-footer .footer-widget h2:after {
+          {% comment %} position: absolute; {% endcomment %}
+          content: '';
+          left: 0px;
+          bottom: 0px;
+          width: 30px;
+          height: 1px;
+          background-color: #242424;
       }
-      #brandsCarousel .owl-item {
-          right: 0;
-      } */
+
 
     </style>
-  {% endif %}
+  {% endif %} 
 
 <body >
 

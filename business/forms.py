@@ -3,12 +3,13 @@ from django import forms
 from django.conf import settings
 from django.forms import ModelForm
 from config.settings import EMAIL_HOST_USER, EMAIL_RECIPIENT
-from .models import Contact, Formule, Quote, Hiring, Surface
+from .models import Business, Contact, Formule, Quote, Hiring, Surface
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 from django.utils.translation import gettext as _
         
+
 class ContactForm(ModelForm) :
     class Meta: 
         model = Contact 
@@ -33,7 +34,8 @@ class ContactForm(ModelForm) :
             from_email= EMAIL_HOST_USER,
             recipient_list= EMAIL_RECIPIENT,
         )
-
+ 
+    # {{business.email3}}
 
 
 class QuoteForm(ModelForm) :

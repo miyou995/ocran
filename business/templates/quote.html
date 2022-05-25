@@ -25,7 +25,7 @@
 			<!-- Sec Title -->
 			<div class="sec-title">
 				<h2>{% trans 'Obtenez un devis' %}</h2>
-				<div class="text">{% trans 'Merci de remplir le formulaire pour avoir un devis approximatif.' %}</div>
+				<div class="text"> <p style="color:#242424;">{% trans 'Merci de remplir le formulaire pour avoir un devis approximatif.' %}</p></div>
 			</div>
 			<div class="ol-lg-6 col-md-6 col-sm-12">
 				<!-- message -->
@@ -52,7 +52,7 @@
 									</div>
 									
 									<div class="form-group col-lg-12 col-md-6 col-sm-12">
-										<input type="text" name="phone" id="id_phone" value="" placeholder="{% trans 'Numéro *' %}" required>
+										<input type="text" name="phone" id="id_phone" value="" placeholder="{% trans 'Numéro +213 *' %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
 									</div>
 									<div class="form-group col-lg-12 col-md-6 col-sm-12">
 										<select class="custom-select-box" id="id_surface" name="surface">
@@ -94,24 +94,12 @@
 				<!-- Info Column -->
 				<div class="info-column col-lg-5 col-md-12 col-sm-12">
 					<div class="inner-column">
-						
-						<!-- Contact Info List -->
+							<!-- Contact Info List -->
+							{% for formule in formules %}	
 						<ul class="contact-info-list"> 
-							<li><strong>{% trans 'Pack nettoyage 1 :' %}</strong><br>{% trans "Nettoyage du sol + WC + SDB + dépoussiérage." %}</li>
+							<li><strong>{{formule.formule}}</strong><br>{{formule.description}}</li>
 						</ul>
-						<!-- Contact Info List -->
-						<ul class="contact-info-list">
-							<li><strong>{% trans 'Pack nettoyage 2 : ' %} </strong> <br> {% trans 'Nettoyage du sol, SDB, WC ,dépoussiérage,portes et fenêtres et vitrage (cabine de douche ou autres).' %}</li>
-						
-						</ul>
-						<!-- Contact Info List --> 
-						<ul class="contact-info-list">
-							<li><strong>{% trans 'Pack nettoyage 3 :' %}</strong> <br>{% trans 'Nettoyage spécial cuisine (éléments de cuisine et électroménager)' %} </li>
-						</ul>
-						<!-- Contact Info List --> 
-						<ul class="contact-info-list">
-							<li><strong>{% trans 'Pack nettoyage ALL 4 :' %}</strong><br> {% trans 'Pack 1+2+3+ extérieur, vaisselle et repassage.' %}</li>
-						</ul>
+							{% endfor %}
 						
 					</div>
 				</div>
