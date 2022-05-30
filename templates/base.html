@@ -5,7 +5,7 @@
 {% get_language_info for LANGUAGE_CODE as lang %}
 {% get_language_info_list for LANGUAGES as languages %}
 <!DOCTYPE html>
-<html lang="{{LANGUAGES}}" dir="{% if LANGUAGE_CODE == 'ar-dz' %}rtl{% else %}ltr{% endif %}">
+<html lang="{{LANGUAGES}}" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 {% block title %}
   <title>{{business.title}}</title>
 {% endblock %}
@@ -26,7 +26,7 @@
 <meta name="language" content="{{LANGUAGES}}" />
 </head>
 {% include 'navbar.html' %}
- {% if LANGUAGE_CODE == 'ar-dz' %}
+ {% if LANGUAGE_CODE == 'ar' %}
     <style>
       h1, h2,  h4, h5, h6, a, p, li, span, .text h4, a, .span a, text, span, div.bold-text, .footer-widget div.widget-content {
         text-align: right;

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-16 15:10+0100\n"
+"POT-Creation-Date: 2022-05-30 13:27+0100\n"
 "PO-Revision-Date: 2022-05-16 14:49+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,102 +19,133 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: .\business\models.py:25
+#: .\business\models.py:26
 msgid "contact"
 msgstr ""
 
-#: .\business\models.py:26
+#: .\business\models.py:27
 msgid "contacts"
 msgstr ""
 
-#: .\business\models.py:46
+#: .\business\models.py:47
 msgid "hiring"
 msgstr ""
 
-#: .\business\models.py:47
+#: .\business\models.py:48
 msgid "hirings"
 msgstr ""
 
-#: .\business\models.py:64
+#: .\business\models.py:66
 msgid "formule"
 msgstr ""
 
-#: .\business\models.py:65
+#: .\business\models.py:67
 msgid "formules"
 msgstr ""
 
-#: .\business\models.py:79
+#: .\business\models.py:81
 msgid "bien"
 msgstr ""
 
-#: .\business\models.py:80
+#: .\business\models.py:82
 msgid "biens"
 msgstr ""
 
-#: .\business\models.py:95
+#: .\business\models.py:97
 msgid "surface"
 msgstr ""
 
-#: .\business\models.py:96
+#: .\business\models.py:98
 msgid "surfaces"
 msgstr ""
 
-#: .\business\models.py:113
+#: .\business\models.py:115
 msgid "quote"
 msgstr ""
 
-#: .\business\models.py:114
+#: .\business\models.py:116
 msgid "quotes"
 msgstr ""
 
 #: .\business\templates\about.html:15 .\business\templates\about.html:18
+#: .\business\templates\presentation.html:12
+#: .\business\templates\presentation.html:15
 msgid "Présentation"
 msgstr " "
 
-#: .\business\templates\about.html:17 .\business\templates\quote.html:15
-#: .\business\templates\recrutement.html:15
+#: .\business\templates\about.html:17 .\business\templates\presentation.html:14
+#: .\business\templates\quote.html:15 .\business\templates\recrutement.html:15
+#: .\business\templates\services-1.html:15
+#: .\business\templates\services-2.html:15
+#: .\business\templates\services-3.html:15
+#: .\business\templates\services-4.html:15
+#: .\business\templates\services-5.html:15
 #: .\business\templates\services.html:13
 #: .\business\templates\services_detail.html:15
 msgid "Accueil"
 msgstr ""
 
-#: .\business\templates\about.html:94 .\business\templates\about.html:106
-#: .\business\templates\about.html:118 .\business\templates\about.html:130
-#: .\business\templates\index.html:140 .\business\templates\index.html:152
-#: .\business\templates\index.html:164 .\business\templates\index.html:176
+#: .\business\templates\about.html:93 .\business\templates\about.html:105
+#: .\business\templates\about.html:117 .\business\templates\about.html:129
+#: .\business\templates\index.html:157 .\business\templates\index.html:169
+#: .\business\templates\index.html:181 .\business\templates\index.html:193
+#: .\business\templates\presentation.html:133
+#: .\business\templates\presentation.html:145
+#: .\business\templates\presentation.html:157
+#: .\business\templates\presentation.html:169
 msgid "0"
 msgstr ""
 
-#: .\business\templates\about.html:94 .\business\templates\index.html:140
+#: .\business\templates\about.html:93 .\business\templates\index.html:157
+#: .\business\templates\presentation.html:133
 msgid "Ans"
 msgstr ""
 
-#: .\business\templates\about.html:96 .\business\templates\index.html:142
+#: .\business\templates\about.html:95 .\business\templates\index.html:159
+#: .\business\templates\presentation.html:135
 msgid "d&#8216;expérience"
 msgstr ""
 
-#: .\business\templates\about.html:106 .\business\templates\about.html:118
-#: .\business\templates\index.html:152 .\business\templates\index.html:164
+#: .\business\templates\about.html:105 .\business\templates\about.html:117
+#: .\business\templates\index.html:169 .\business\templates\index.html:181
+#: .\business\templates\presentation.html:145
+#: .\business\templates\presentation.html:157
 msgid "+"
 msgstr ""
 
-#: .\business\templates\about.html:108 .\business\templates\index.html:154
+#: .\business\templates\about.html:107 .\business\templates\index.html:171
+#: .\business\templates\presentation.html:147
+#: .\business\templates\services-1.html:13
+#: .\business\templates\services-2.html:13
+#: .\business\templates\services-2.html:16
+#: .\business\templates\services-3.html:13
+#: .\business\templates\services-3.html:16
+#: .\business\templates\services-4.html:13
+#: .\business\templates\services-4.html:16
+#: .\business\templates\services-5.html:13
+#: .\business\templates\services-5.html:16
 #: .\business\templates\services.html:11 .\business\templates\services.html:14
 #: .\business\templates\services_detail.html:13
 msgid "Services"
 msgstr ""
 
-#: .\business\templates\about.html:120 .\business\templates\index.html:166
+#: .\business\templates\about.html:119 .\business\templates\index.html:183
+#: .\business\templates\presentation.html:159
 msgid "Clients satisfait"
 msgstr ""
 
-#: .\business\templates\about.html:132 .\business\templates\index.html:178
+#: .\business\templates\about.html:131 .\business\templates\index.html:195
+#: .\business\templates\presentation.html:171
 msgid "Employée"
 msgstr ""
 
 #: .\business\templates\contact.html:11 .\business\templates\contact.html:14
-#: .\business\templates\contact.html:25
-#: .\business\templates\services_detail.html:59
+#: .\business\templates\contact.html:25 .\business\templates\services-1.html:61
+#: .\business\templates\services-2.html:58
+#: .\business\templates\services-3.html:62
+#: .\business\templates\services-4.html:54
+#: .\business\templates\services-5.html:56
+#: .\business\templates\services_detail.html:61
 msgid "Contactez-nous"
 msgstr ""
 
@@ -132,7 +163,7 @@ msgstr ""
 msgid "Votre nom *"
 msgstr ""
 
-#: .\business\templates\contact.html:57 .\business\templates\quote.html:56
+#: .\business\templates\contact.html:57
 #: .\business\templates\recrutement.html:50
 msgid "Numéro *"
 msgstr ""
@@ -200,38 +231,154 @@ msgstr ""
 msgid "Samedi – Jeudi"
 msgstr ""
 
-#: .\business\templates\index.html:19 .\business\templates\index.html:42
+#: .\business\templates\index.html:21 .\business\templates\index.html:59
+#: .\business\templates\presentation.html:29
+#: .\business\templates\presentation.html:32
+#: .\business\templates\presentation.html:34
+#: .\business\templates\presentation.html:71
+#: .\business\templates\services-1.html:47
+#: .\business\templates\services-1.html:49
+#: .\business\templates\services-1.html:53
+#: .\business\templates\services-3.html:50
+#: .\business\templates\services-3.html:52
 #: .\business\templates\services.html:27
 msgid "OCRAN NADAFA"
 msgstr ""
 
-#: .\business\templates\index.html:20
+#: .\business\templates\index.html:22 .\business\templates\presentation.html:30
 msgid "ENTREPRISE DE NETTOYAGE PROFESSIONNEL"
 msgstr ""
 
-#: .\business\templates\index.html:41 .\business\templates\services.html:26
+#: .\business\templates\index.html:58 .\business\templates\services.html:26
 #: .\business\templates\snippets\devis_cta.html:8
 msgid "OCRAN NADAFA Toujours étincelants !"
 msgstr ""
 
-#: .\business\templates\index.html:42 .\business\templates\services.html:27
+#: .\business\templates\index.html:59 .\business\templates\services-1.html:47
+#: .\business\templates\services.html:27
 msgid "En faisant appel à"
 msgstr ""
 
-#: .\business\templates\index.html:42 .\business\templates\services.html:27
+#: .\business\templates\index.html:59 .\business\templates\services.html:27
 msgid ""
 ", vous avez le confort d’une prestation bien faite, réalisée par une equipe "
 "qualifié."
 msgstr ""
 
-#: .\business\templates\index.html:58 .\business\templates\index.html:80
+#: .\business\templates\index.html:75 .\business\templates\index.html:97
 #: .\business\templates\services.html:44
 msgid "En savoir plus"
 msgstr ""
 
+#: .\business\templates\presentation.html:32
+msgid "Bienvenue et merci de visiter la meilleure société de nettoyage"
+msgstr ""
+
+#: .\business\templates\presentation.html:33
+msgid ""
+"Nous proposons les meilleurs services de nettoyage et de ménage à Alger et "
+"dans toutes les villes avoisinantes."
+msgstr ""
+
+#: .\business\templates\presentation.html:34
+msgid ""
+"Notre objectif est de fournir des services d'entretien ménager ponctuels. "
+"Choisir la bonne entreprise de nettoyage et de ménage pour votre "
+"établissement parmi toutes les entreprises de nettoyage à Alger peut être "
+"compliqué mais heureusement vous avez fait le bon choix de nous faire "
+"confiance. Toutefois, les services de nettoyage et de ménage d'"
+msgstr ""
+
+#: .\business\templates\presentation.html:35
+msgid ""
+"peuvent adapter un plan de site spécifique pour répondre à toutes vos "
+"préoccupations et besoins de nettoyage."
+msgstr ""
+
+#: .\business\templates\presentation.html:71
+msgid "Pourquoi choisir"
+msgstr ""
+
+#: .\business\templates\presentation.html:72
+msgid ""
+"Nous offrons des services de nettoyage résidentiel et professionnels. Nos "
+"membres d’équipe sont des spécialistes et bien formés a fin de vous offrir "
+"un excellent service d’entretien ménager pour chaque endroit de votre "
+"immeuble, maison, bureau, crèche ou école privée, restaurant, façade en "
+"verre ou en allucobond, hôpital  etc.. "
+msgstr ""
+
+#: .\business\templates\presentation.html:74
+msgid ""
+"Peu importe votre secteur d’activité, notre équipe est en mesure "
+"d’intervenir efficacement pour vous assurer un service d’entretien ménager à "
+"la hauteur de vos attentes."
+msgstr ""
+
+#: .\business\templates\presentation.html:75
+msgid ""
+"\tOCRAN NADAFA offre un service de qualité à un prix concurrentiel. Notre "
+"premier but est de vous offrir les meilleurs prix et sûrement un service de "
+"qualité supérieure."
+msgstr ""
+
+#: .\business\templates\presentation.html:77
+msgid ""
+"L’équipe d’ocran nadafa offre un service professionnel pour les édifices, "
+"écoles, centres communautaires et loisirs, site de construction, "
+"restaurants, garderie. "
+msgstr ""
+
+#: .\business\templates\presentation.html:78
+msgid ""
+"L’honnêteté, la communication, la motivation et un travail efficace et "
+"rapide sont des valeurs qui nous tiennent à cœur afin de s’assurer la "
+"satisfaction entière de notre clientèle."
+msgstr ""
+
+#: .\business\templates\presentation.html:199
+msgid "OCRAN NADAFA Toujours étincelants "
+msgstr ""
+
+#: .\business\templates\presentation.html:203
+msgid ""
+"Faites le ménage chez vous avec nos services de ménage exceptionnels. Nous "
+"avons une équipe de femmes de ménage et d’agents de nettoyage "
+"professionnelles mais amicales qui sont les meilleures pour aller au-delà "
+"des autres services de nettoyage à Alger. Nous, la société de nettoyage "
+msgstr ""
+
+#: .\business\templates\presentation.html:203
+msgid "OCRAN NADAFA "
+msgstr ""
+
+#: .\business\templates\presentation.html:203
+msgid ""
+"offrons une efficacité avec une touche personnelle, simplifiant votre vie "
+"tout en assurant que votre bien reste d'une propreté pétillante."
+msgstr ""
+
+#: .\business\templates\presentation.html:206
+msgid ""
+" Notre expertise porte sur les services de nettoyage résidentiel, les "
+"commerces, les bureaux, les écoles, les garderies, fin de chantier... bref, "
+"tout centimètre qui doit être nettoyé.  "
+msgstr ""
+
+#: .\business\templates\presentation.html:207
+msgid ""
+"Qu'il s'agisse d'une petite maison ou d'un grand bureau, nous avons les "
+"ressources pour répondre à vos attentes avec le meilleur matériel et le "
+"souci du détail."
+msgstr ""
+
 #: .\business\templates\quote.html:13 .\business\templates\quote.html:16
-#: .\business\templates\quote.html:27
-#: .\business\templates\services_detail.html:81
+#: .\business\templates\quote.html:27 .\business\templates\services-1.html:86
+#: .\business\templates\services-2.html:83
+#: .\business\templates\services-3.html:87
+#: .\business\templates\services-4.html:79
+#: .\business\templates\services-5.html:81
+#: .\business\templates\services_detail.html:83
 msgid "Obtenez un devis"
 msgstr ""
 
@@ -241,6 +388,10 @@ msgstr ""
 
 #: .\business\templates\quote.html:52
 msgid "E-Mail *"
+msgstr ""
+
+#: .\business\templates\quote.html:56
+msgid "Numéro +213 *"
 msgstr ""
 
 #: .\business\templates\quote.html:60
@@ -311,16 +462,253 @@ msgstr ""
 msgid "Horaires d&#8216;ouvertures :"
 msgstr ""
 
+#: .\business\templates\services-1.html:16
 #: .\business\templates\services_detail.html:16
 msgid "Services "
 msgstr ""
 
-#: .\business\templates\services_detail.html:58
+#: .\business\templates\services-1.html:30
+msgid "Maison ou appartement :"
+msgstr ""
+
+#: .\business\templates\services-1.html:46
+msgid "Ménage régulier :"
+msgstr ""
+
+#: .\business\templates\services-1.html:47
+msgid ""
+", vous bénéficiez du confort d'un service bien fait, assuré par un "
+"intervenant régulier afin de vous assurer une qualité constante."
+msgstr ""
+
+#: .\business\templates\services-1.html:48
+msgid "Profitez donc maintenant d'un intérieur impeccable sans aucun effort !"
+msgstr ""
+
+#: .\business\templates\services-1.html:49
+msgid ""
+" s'est toujours fait un devoir d'honneur pour l'entretien et l'hygiène de "
+"votre maison en préservant votre santé et celle de nos employés."
+msgstr ""
+
+#: .\business\templates\services-1.html:50
+msgid ""
+"Dans le contexte de la COVID-19, nous améliorons le nettoyage et la "
+"désinfection à chaque prestation à votre domicile, en particulier aux points "
+"de contact."
+msgstr ""
+
+#: .\business\templates\services-1.html:52
+msgid "Ménage occasionnel  :"
+msgstr ""
+
+#: .\business\templates\services-1.html:53
+msgid ""
+"Vous avez besoin d'une aide occasionnelle pour nettoyer votre maison. Faites "
+"appel à "
+msgstr ""
+
+#: .\business\templates\services-1.html:53
+msgid ""
+"! Vous serez heureux de rentrer chez vous ! Le nettoyage occasionnel de "
+"votre maison sera effectué précisément et méticuleusement grâce à nos "
+"experts en nettoyage.! Vous serez heureux de rentrer chez vous ! Le "
+"nettoyage occasionnel de votre maison sera effectué précisément et "
+"méticuleusement grâce à nos experts en nettoyage."
+msgstr ""
+
+#: .\business\templates\services-1.html:55
+msgid ""
+"Nettoyage de printemps, nettoyage avant le mois de Ramadan, après ou avant "
+"le déménagement... Pas d'hésitation, on est là."
+msgstr ""
+
+#: .\business\templates\services-1.html:60
+#: .\business\templates\services-2.html:57
+#: .\business\templates\services-3.html:61
+#: .\business\templates\services-4.html:53
+#: .\business\templates\services-5.html:55
+#: .\business\templates\services_detail.html:60
 msgid "Meilleur service de nettoyage en algérie."
 msgstr ""
 
-#: .\business\templates\services_detail.html:59
+#: .\business\templates\services-1.html:61
+#: .\business\templates\services-2.html:58
+#: .\business\templates\services-3.html:62
+#: .\business\templates\services-4.html:54
+#: .\business\templates\services_detail.html:61
 msgid "pour en savoir plus."
+msgstr ""
+
+#: .\business\templates\services-1.html:75
+#: .\business\templates\services-2.html:72
+#: .\business\templates\services-3.html:76
+#: .\business\templates\services-4.html:68
+#: .\business\templates\services-5.html:70
+msgid "Maison ou appartement "
+msgstr ""
+
+#: .\business\templates\services-1.html:76
+#: .\business\templates\services-2.html:73
+#: .\business\templates\services-3.html:77
+#: .\business\templates\services-4.html:69
+#: .\business\templates\services-5.html:71
+msgid "Bureaux et locaux"
+msgstr ""
+
+#: .\business\templates\services-1.html:77
+#: .\business\templates\services-3.html:78
+#: .\business\templates\services-4.html:70
+msgid "Secteur Copropriété "
+msgstr ""
+
+#: .\business\templates\services-1.html:78
+#: .\business\templates\services-2.html:75
+#: .\business\templates\services-3.html:79
+#: .\business\templates\services-4.html:71
+#: .\business\templates\services-5.html:73
+msgid "Désinfection d’espaces du virus COVID-19"
+msgstr ""
+
+#: .\business\templates\services-1.html:79
+#: .\business\templates\services-3.html:80
+msgid "Remise en état de chantier après fin de travaux"
+msgstr ""
+
+#: .\business\templates\services-2.html:30
+msgid "Bureaux et locaux  :"
+msgstr ""
+
+#: .\business\templates\services-2.html:47
+msgid ""
+"Quand vous recevez du public, vos locaux doivent être irréprochables, ils "
+"fournissent un premier aperçu de vos affaires."
+msgstr ""
+
+#: .\business\templates\services-2.html:48
+msgid ""
+"Des locaux bien entretenus favorisent la bonne image de votre entreprise et "
+"le bien-être de vos employés."
+msgstr ""
+
+#: .\business\templates\services-2.html:49
+msgid ""
+"Ne laissez pas la saleté s’installer et nuire à vos affaires "
+"professionnelles."
+msgstr ""
+
+#: .\business\templates\services-2.html:50
+msgid ""
+"Nous intervenons à Alger et dans tous ses environs, nous traitons toutes vos "
+"demandes et réagissons rapidement."
+msgstr ""
+
+#: .\business\templates\services-2.html:51
+msgid ""
+"Bureaux professionnels, centres commerciaux, concessionnaires automobiles, "
+"copropriétés, bâtiments industriels, boutiques...Lorsque nous nous rendons "
+"sur votre site, nous élaborons des spécifications pour répondre à vos "
+"attentes."
+msgstr ""
+
+#: .\business\templates\services-2.html:74
+#: .\business\templates\services-5.html:72
+msgid "Secteur Copropriété"
+msgstr ""
+
+#: .\business\templates\services-2.html:76
+#: .\business\templates\services-4.html:72
+#: .\business\templates\services-5.html:74
+msgid "Remise en état de chantier après fin de travaux "
+msgstr ""
+
+#: .\business\templates\services-3.html:30
+msgid "Secteur Copropriété  :"
+msgstr ""
+
+#: .\business\templates\services-3.html:49
+msgid ""
+"Le saviez-vous ? La propreté au travail n'est pas la seule chose "
+"essentielle. Le milieu de vie a tout autant d'importance. Les espaces "
+"communs d'immeubles ou de résidences propres et agréables contribuent au "
+"bien-être quotidien de ceux qui y habitent et des visiteurs. "
+msgstr ""
+
+#: .\business\templates\services-3.html:50
+msgid "En fonction de vos besoins, "
+msgstr ""
+
+#: .\business\templates\services-3.html:50
+msgid ""
+"collabore avec les syndics de copropriété et assure l'entretien de ces "
+"parties communes."
+msgstr ""
+
+#: .\business\templates\services-3.html:52
+msgid "Quels que soient vos besoins,"
+msgstr ""
+
+#: .\business\templates\services-3.html:52
+msgid "vous offre le meilleur service."
+msgstr ""
+
+#: .\business\templates\services-3.html:54
+msgid ""
+"En plus du nettoyage, si vous devez gérer les déchets, le nettoyage des "
+"allées et des parkings, des sous-sols, nous pouvons réagir à cela. Nous "
+"intervenons à la fréquence et à l'heure que vous voulez. Toute notre "
+"expertise est mise à votre service. Nos agents de propreté et techniciens "
+"sont des professionnels chevronnés, formés à diverses techniques de "
+"nettoyage et machines de pointe. Ils sont dévoués à vous tous les jours, "
+"ainsi qu'à vos résidents."
+msgstr ""
+
+#: .\business\templates\services-3.html:55
+msgid ""
+"Vous prenez soin de vos résidents, laissez-nous prendre soin de vos "
+"résidences."
+msgstr ""
+
+#: .\business\templates\services-4.html:30
+msgid "Désinfection d’espaces du virus COVID-19 :"
+msgstr ""
+
+#: .\business\templates\services-4.html:45
+msgid ""
+"Dans le contexte de la menace de propagation du coronavirus, il est "
+"extrêmement important de prendre des mesures de prévention et de "
+"décontaminer vos espaces de travail de façon régulière."
+msgstr ""
+
+#: .\business\templates\services-4.html:46
+msgid ""
+"Notre société emploie des spécialistes sympathiques et actifs, capables de "
+"nettoyer rapidement et efficacement, la préparation de votre espace pour les "
+"réunions d'invités, conférences ou tout autre événement."
+msgstr ""
+
+#: .\business\templates\services-5.html:30
+msgid "Remise en état de chantier après fin de travaux :"
+msgstr ""
+
+#: .\business\templates\services-5.html:44
+msgid ""
+"Qu'il s'agisse d'un petit ou d'un grand projet de réparation ou de "
+"rénovation, notre entreprise assure le nettoyage clé en main de votre "
+"immeuble."
+msgstr ""
+
+#: .\business\templates\services-5.html:45
+msgid ""
+"Nous avons des aspirateurs puissants et des détergents spéciaux qui sont "
+"requis pour enlever les débris, les déchets et la poussière. Munis de "
+"l'équipement nécessaire, nous arrivons sur place pour essuyer la poussière "
+"du plâtre, chaux et du ciment des sols, murs, portes et meubles. Nous "
+"effectuons tous nos travaux à temps et dans les délais."
+msgstr ""
+
+#: .\business\templates\services-5.html:56
+msgid " pour en savoir plus. "
 msgstr ""
 
 #: .\business\templates\snippets\devis_cta.html:14
@@ -332,7 +720,7 @@ msgid "Français"
 msgstr ""
 
 #: .\config\settings.py:125
-msgid "Algerian"
+msgid "Arabic"
 msgstr ""
 
 #: .\templates\admin\base.html:6

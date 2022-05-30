@@ -38,11 +38,11 @@ INSTALLED_APPS = [
      # Apps
     'business',
     # third party
-    'rosetta',    
     "django_htmx",
     'tinymce',
     'modeltranslation',
     'django.contrib.admin',
+    'rosetta',    
     
 ]
 
@@ -122,7 +122,7 @@ gettext = lambda s: s
 LANGUAGES = (
     # ('en-us', _('English')),
     ('fr', _('Français')),
-    ('ar-dz', _('Algerian')),
+    ('ar', _('Arabic')),
 )
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'fr'
 MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'fr'
@@ -150,8 +150,8 @@ LOCALE_PATHS = (
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = BASE_DIR / "static"
-# STATICFILES_DIRS = ['static']
+STATIC_ROOT = BASE_DIR / "assets"
+STATICFILES_DIRS = ['static']
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.FileSystemFinder",

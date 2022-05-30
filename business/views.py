@@ -13,6 +13,7 @@ from django.utils.translation import gettext as _
 from django.contrib import messages
 from django.shortcuts import redirect
 ###index 
+from django.utils import translation
 class IndexView(TemplateView):
     template_name= "index.html"
     def get_context_data(self, **kwargs):
@@ -22,6 +23,7 @@ class IndexView(TemplateView):
         context["slide"] =Slide.objects.last()
         context["biens"] = Bien.objects.all()
         context["surfaces"] =Surface.objects.all()
+        print('GET text', translation.get_language())
         return context
 
 

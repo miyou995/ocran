@@ -8,715 +8,381 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-30 11:53+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-05-16 15:10+0100\n"
+"PO-Revision-Date: 2022-05-17 11:34+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: .\business\forms.py:45
-msgid "Nettoyage du sol + WC + SDB + dépoussiérage.)."
-msgstr ""
-
-#: .\business\forms.py:46
-msgid ""
-"Nettoyage du sol, SDB, WC ,dépoussiérage, portes et fenêtres et vitrage "
-"(cabine de douche ou autres)."
-msgstr ""
-
-#: .\business\forms.py:47
-msgid "Nettoyage spécial cuisine (éléments de cuisine et électroménager)."
-msgstr ""
-
-#: .\business\forms.py:48 .\business\templates\quote.html:117
-msgid "Pack 1+2+3+ extérieur, vaisselle et repassage."
-msgstr ""
-
-#: .\business\models.py:28
+#: .\business\models.py:25
 msgid "contact"
 msgstr ""
 
-#: .\business\models.py:29
+#: .\business\models.py:26
 msgid "contacts"
 msgstr ""
 
 #: .\business\models.py:46
-msgid "quote"
-msgstr ""
-
-#: .\business\models.py:47
-msgid "quotes"
-msgstr ""
-
-#: .\business\models.py:95
 msgid "hiring"
 msgstr ""
 
-#: .\business\models.py:96
+#: .\business\models.py:47
 msgid "hirings"
 msgstr ""
 
+#: .\business\models.py:64
+msgid "formule"
+msgstr ""
+
+#: .\business\models.py:65
+msgid "formules"
+msgstr ""
+
+#: .\business\models.py:79
+msgid "bien"
+msgstr ""
+
+#: .\business\models.py:80
+msgid "biens"
+msgstr ""
+
+#: .\business\models.py:95
+msgid "surface"
+msgstr ""
+
+#: .\business\models.py:96
+msgid "surfaces"
+msgstr ""
+
+#: .\business\models.py:113
+msgid "quote"
+msgstr ""
+
+#: .\business\models.py:114
+msgid "quotes"
+msgstr ""
+
+#: .\business\templates\about.html:15 .\business\templates\about.html:18
+msgid "Présentation"
+msgstr "العرض التقديمي"
+
+#: .\business\templates\about.html:17 .\business\templates\quote.html:15
+#: .\business\templates\recrutement.html:15
+#: .\business\templates\services.html:13
+#: .\business\templates\services_detail.html:15
+msgid "Accueil"
+msgstr "ترحيب "
+
+#: .\business\templates\about.html:94 .\business\templates\about.html:106
+#: .\business\templates\about.html:118 .\business\templates\about.html:130
+#: .\business\templates\index.html:140 .\business\templates\index.html:152
+#: .\business\templates\index.html:164 .\business\templates\index.html:176
+msgid "0"
+msgstr "0"
+
+#: .\business\templates\about.html:94 .\business\templates\index.html:140
+msgid "Ans"
+msgstr "سنوات"
+
+#: .\business\templates\about.html:96 .\business\templates\index.html:142
+msgid "d&#8216;expérience"
+msgstr "خبرة"
+
+#: .\business\templates\about.html:106 .\business\templates\about.html:118
+#: .\business\templates\index.html:152 .\business\templates\index.html:164
+msgid "+"
+msgstr "+"
+
+#: .\business\templates\about.html:108 .\business\templates\index.html:154
+#: .\business\templates\services.html:11 .\business\templates\services.html:14
+#: .\business\templates\services_detail.html:13
+msgid "Services"
+msgstr "خدمات"
+
+#: .\business\templates\about.html:120 .\business\templates\index.html:166
+msgid "Clients satisfait"
+msgstr "زبون راض"
+
+#: .\business\templates\about.html:132 .\business\templates\index.html:178
+msgid "Employée"
+msgstr "موظف"
+
 #: .\business\templates\contact.html:11 .\business\templates\contact.html:14
 #: .\business\templates\contact.html:25
-#: .\business\templates\presentation.html:243
-#: .\business\templates\services-1.html:61
-#: .\business\templates\services-2.html:63
-#: .\business\templates\services-3.html:64
-#: .\business\templates\services-4.html:57
-#: .\business\templates\services-5.html:56
+#: .\business\templates\services_detail.html:59
 msgid "Contactez-nous"
-msgstr ""
+msgstr "اتصل بنا"
 
 #: .\business\templates\contact.html:13
 msgid "Accuiel"
-msgstr ""
+msgstr "ترحيب "
 
 #: .\business\templates\contact.html:26
 msgid ""
 "Merci de nous laisser un message à l&#8216;aide du formulaire ci-dessous,  "
 "nous vous contacterons dans les plus brefs délais."
 msgstr ""
+"يرجى ترك رسالة لنا باستخدام النموذج أدناه ، وسنتصل بك في أقرب وقت ممكن."
 
 #: .\business\templates\contact.html:53
 msgid "Votre nom *"
-msgstr ""
+msgstr "اسم *"
 
-#: .\business\templates\contact.html:57 .\business\templates\index.html:30
-#: .\business\templates\quote.html:57
+#: .\business\templates\contact.html:57 .\business\templates\quote.html:56
+#: .\business\templates\recrutement.html:50
 msgid "Numéro *"
-msgstr ""
+msgstr "رقم الهاتف *"
 
 #: .\business\templates\contact.html:60
 msgid "E-mail *"
-msgstr ""
+msgstr "البريد الالكتروني *"
 
 #: .\business\templates\contact.html:63
 msgid "Sujet *"
-msgstr ""
+msgstr "الموضوع *"
 
 #: .\business\templates\contact.html:67
 msgid "Message *"
-msgstr ""
+msgstr "الرسالة *"
 
-#: .\business\templates\contact.html:71 .\business\templates\index.html:59
-#: .\business\templates\quote.html:86 .\business\templates\recrutement.html:78
+#: .\business\templates\contact.html:71 .\business\templates\quote.html:85
+#: .\business\templates\recrutement.html:70
 msgid "Soumettre"
-msgstr ""
+msgstr "إرسال"
 
 #: .\business\templates\contact.html:87
 msgid "Adresse"
-msgstr ""
+msgstr "العنوان"
 
-#: .\business\templates\contact.html:87 .\templates\footer.html:59
+#: .\business\templates\contact.html:87
 msgid "Centre commercial et d'affaire Mohammadia mall 16000 Alger, Algérie"
-msgstr ""
+msgstr "مركز التسوق والأعمال المحمدية مول 16000 الجزائر "
 
 #: .\business\templates\contact.html:91
 msgid "Numéro"
-msgstr ""
+msgstr "رقم الهاتف"
 
-#: .\business\templates\contact.html:91
-#: .\business\templates\recrutement.html:98
-msgid "+213 668 092 824"
+#: .\business\templates\contact.html:91 .\business\templates\contact.html:92
+#: .\business\templates\recrutement.html:91
+msgid "023 80 42 61"
 msgstr ""
 
 #: .\business\templates\contact.html:92
+#: .\business\templates\recrutement.html:91
+msgid "Fix : "
+msgstr "هاتف ثابت :"
+
+#: .\business\templates\contact.html:93
+#: .\business\templates\recrutement.html:53
 msgid "E-mail"
-msgstr ""
+msgstr "البريد الالكتروني"
 
-#: .\business\templates\contact.html:92
-#: .\business\templates\recrutement.html:99
+#: .\business\templates\contact.html:93
+#: .\business\templates\recrutement.html:92
 msgid "contact@ocrannadafa.com"
-msgstr ""
+msgstr "contact@ocrannadafa.com"
 
-#: .\business\templates\contact.html:96
+#: .\business\templates\contact.html:97
 msgid "Horaires d'ouvertures"
-msgstr ""
+msgstr "مواقيت العمل "
 
-#: .\business\templates\contact.html:96
-#: .\business\templates\recrutement.html:103
+#: .\business\templates\contact.html:97
+#: .\business\templates\recrutement.html:96
 msgid "8:00 AM – 17:00 PM"
-msgstr ""
+msgstr "9:00 صباحًا - 4:00 مساءً"
 
-#: .\business\templates\contact.html:96
-#: .\business\templates\recrutement.html:103
+#: .\business\templates\contact.html:97
+#: .\business\templates\recrutement.html:96
 msgid "Samedi – Jeudi"
-msgstr ""
+msgstr "السبت - الخميس"
 
-#: .\business\templates\index.html:18 .\business\templates\quote.html:11
-#: .\business\templates\quote.html:14 .\business\templates\quote.html:25
-#: .\business\templates\services-1.html:86
-#: .\business\templates\services-2.html:88
-#: .\business\templates\services-3.html:89
-#: .\business\templates\services-4.html:82
-#: .\business\templates\services-5.html:81
-msgid "Obtenez un devis"
-msgstr ""
-
-#: .\business\templates\index.html:25 .\business\templates\quote.html:53
-msgid "E-Mail *"
-msgstr ""
-
-#: .\business\templates\index.html:36
-msgid "Appartement"
-msgstr ""
-
-#: .\business\templates\index.html:37 .\business\templates\quote.html:65
-msgid "Villa"
-msgstr ""
-
-#: .\business\templates\index.html:38 .\business\templates\quote.html:66
-msgid "Bureau"
-msgstr ""
-
-#: .\business\templates\index.html:39 .\business\templates\quote.html:67
-msgid "Local"
-msgstr ""
-
-#: .\business\templates\index.html:40 .\business\templates\quote.html:68
-msgid "Autre"
-msgstr ""
-
-#: .\business\templates\index.html:45 .\business\templates\quote.html:60
-msgid "Superficie m2 *"
-msgstr ""
-
-#: .\business\templates\index.html:50
-msgid "Pack nettoyage 1 "
-msgstr ""
-
-#: .\business\templates\index.html:51 .\business\templates\quote.html:74
-msgid "Pack nettoyage 2"
-msgstr ""
-
-#: .\business\templates\index.html:52
-msgid "Pack nettoyage 3"
-msgstr ""
-
-#: .\business\templates\index.html:53 .\business\templates\quote.html:76
-msgid "Pack nettoyage ALL 4"
-msgstr ""
-
-#: .\business\templates\index.html:57
-msgid "Veuillez vous rendre sur"
-msgstr ""
-
-#: .\business\templates\index.html:57
-msgid "devis"
-msgstr ""
-
-#: .\business\templates\index.html:57
-msgid "pour plus d'informations sur les packs."
-msgstr ""
-
-#: .\business\templates\index.html:82 .\business\templates\index.html:101
-#: .\business\templates\index.html:188 .\business\templates\index.html:377
-#: .\business\templates\presentation.html:29
-#: .\business\templates\presentation.html:32
-#: .\business\templates\presentation.html:34
-#: .\business\templates\presentation.html:78
-#: .\business\templates\services-1.html:47
-#: .\business\templates\services-1.html:49
-#: .\business\templates\services-3.html:49
-#: .\business\templates\services-3.html:51
-#: .\business\templates\services.html:27 .\templates\footer.html:20
-msgid "OCRAN NADAFA"
-msgstr ""
-
-#: .\business\templates\index.html:83 .\business\templates\presentation.html:30
-msgid "ENTREPRISE DE NETTOYAGE PROFESSIONNEL"
-msgstr ""
-
-#: .\business\templates\index.html:100
-#: .\business\templates\presentation.html:241
-#: .\business\templates\services.html:26
-msgid "OCRAN NADAFA Toujours étincelants !"
-msgstr ""
-
-#: .\business\templates\index.html:101 .\business\templates\services-1.html:47
+#: .\business\templates\index.html:19 .\business\templates\index.html:42
 #: .\business\templates\services.html:27
-msgid "En faisant appel à"
-msgstr ""
+msgid "OCRAN NADAFA"
+msgstr "أوكران نظافة"
 
-#: .\business\templates\index.html:101 .\business\templates\services.html:27
+#: .\business\templates\index.html:20
+msgid "ENTREPRISE DE NETTOYAGE PROFESSIONNEL"
+msgstr "شركة تنظيف مهنية "
+
+#: .\business\templates\index.html:41 .\business\templates\services.html:26
+#: .\business\templates\snippets\devis_cta.html:8
+msgid "OCRAN NADAFA Toujours étincelants !"
+msgstr "البراقه دائما أوكران نظافة !"
+
+#: .\business\templates\index.html:42 .\business\templates\services.html:27
+msgid "En faisant appel à"
+msgstr "من خلال الاتصال بنا "
+
+#: .\business\templates\index.html:42 .\business\templates\services.html:27
 msgid ""
 ", vous avez le confort d’une prestation bien faite, réalisée par une equipe "
 "qualifié."
-msgstr ""
+msgstr "، ستتمتع براحة خدمة جيدة ، يقوم بها فريق مؤهل."
 
-#: .\business\templates\index.html:113 .\business\templates\services.html:39
-msgid "Maison ou appartement"
-msgstr ""
-
-#: .\business\templates\index.html:115 .\business\templates\index.html:129
-#: .\business\templates\index.html:143 .\business\templates\index.html:157
-#: .\business\templates\index.html:172 .\business\templates\index.html:206
-#: .\business\templates\services.html:41 .\business\templates\services.html:55
-#: .\business\templates\services.html:69 .\business\templates\services.html:83
-#: .\business\templates\services.html:98
+#: .\business\templates\index.html:58 .\business\templates\index.html:80
+#: .\business\templates\services.html:44
 msgid "En savoir plus"
-msgstr ""
+msgstr "اقرأ المزيد"
 
-#: .\business\templates\index.html:127
-msgid "Bureaux et locaux "
-msgstr ""
+#: .\business\templates\quote.html:13 .\business\templates\quote.html:16
+#: .\business\templates\quote.html:27
+#: .\business\templates\services_detail.html:81
+msgid "Obtenez un devis"
+msgstr "تحصل على تسعير "
 
-#: .\business\templates\index.html:141 .\business\templates\services-2.html:79
-#: .\business\templates\services-5.html:72
-#: .\business\templates\services.html:67
-msgid "Secteur Copropriété"
-msgstr ""
-
-#: .\business\templates\index.html:155 .\business\templates\services-1.html:78
-#: .\business\templates\services-2.html:80
-#: .\business\templates\services-3.html:81
-#: .\business\templates\services-4.html:74
-#: .\business\templates\services-5.html:73
-#: .\business\templates\services.html:81
-msgid "Désinfection d’espaces du virus COVID-19"
-msgstr ""
-
-#: .\business\templates\index.html:170 .\business\templates\services-1.html:79
-#: .\business\templates\services-3.html:82
-#: .\business\templates\services.html:96
-msgid "Remise en état de chantier après fin de travaux"
-msgstr ""
-
-#: .\business\templates\index.html:188
-msgid "Toujours étincelants !"
-msgstr ""
-
-#: .\business\templates\index.html:196
-msgid "Nettoyage à la vapeur."
-msgstr ""
-
-#: .\business\templates\index.html:197
-msgid "Nettoyage post/après construction."
-msgstr ""
-
-#: .\business\templates\index.html:198
-msgid "Nettoyage de bureau/commercial."
-msgstr ""
-
-#: .\business\templates\index.html:199
-msgid "Polissage et cristallisation de marbre/pierre."
-msgstr ""
-
-#: .\business\templates\index.html:200
-msgid "Nettoyage de joints de carrelage/sol."
-msgstr ""
-
-#: .\business\templates\index.html:201
-msgid "Nettoyage sous pression."
-msgstr ""
-
-#: .\business\templates\index.html:202
-msgid "Peinture maison/mur."
-msgstr ""
-
-#: .\business\templates\index.html:203
-msgid "Le nettoyage des vitres."
-msgstr ""
-
-#: .\business\templates\index.html:377
-#: .\business\templates\presentation.html:78
-msgid "Pourquoi choisir"
-msgstr ""
-
-#: .\business\templates\index.html:380
-#: .\business\templates\presentation.html:81
-msgid ""
-"L’honnêteté, la communication, la motivation et un travail efficace et "
-"rapide sont des valeurs qui nous tiennent à cœur afin de s’assurer la "
-"satisfaction entière de notre clientèle."
-msgstr ""
-
-#: .\business\templates\index.html:390
-#: .\business\templates\presentation.html:91
-msgid "Plusieurs année expérience"
-msgstr ""
-
-#: .\business\templates\index.html:400
-#: .\business\templates\presentation.html:101
-msgid "Equipe professionnelle"
-msgstr ""
-
-#: .\business\templates\index.html:410
-#: .\business\templates\presentation.html:111
-msgid "Services de qualité"
-msgstr ""
-
-#: .\business\templates\index.html:415
-#: .\business\templates\presentation.html:116
-msgid "Contactez-nous pour plus d&#8216;informations"
-msgstr ""
-
-#: .\business\templates\index.html:437 .\business\templates\index.html:449
-#: .\business\templates\index.html:461 .\business\templates\index.html:473
-#: .\business\templates\presentation.html:138
-#: .\business\templates\presentation.html:150
-#: .\business\templates\presentation.html:162
-#: .\business\templates\presentation.html:174
-msgid "0"
-msgstr ""
-
-#: .\business\templates\index.html:437
-#: .\business\templates\presentation.html:138
-msgid "Année"
-msgstr ""
-
-#: .\business\templates\index.html:439
-#: .\business\templates\presentation.html:140
-msgid "Années d&#8216;expérience"
-msgstr ""
-
-#: .\business\templates\index.html:449 .\business\templates\index.html:461
-#: .\business\templates\presentation.html:150
-#: .\business\templates\presentation.html:162
-msgid "+"
-msgstr ""
-
-#: .\business\templates\index.html:451
-#: .\business\templates\presentation.html:152
-#: .\business\templates\services-1.html:13
-#: .\business\templates\services-2.html:13
-#: .\business\templates\services-2.html:16
-#: .\business\templates\services-3.html:13
-#: .\business\templates\services-3.html:16
-#: .\business\templates\services-4.html:13
-#: .\business\templates\services-4.html:16
-#: .\business\templates\services-5.html:13
-#: .\business\templates\services-5.html:16
-#: .\business\templates\services.html:11 .\business\templates\services.html:14
-msgid "Services"
-msgstr ""
-
-#: .\business\templates\index.html:463
-#: .\business\templates\presentation.html:164
-msgid "Clients satisfait"
-msgstr ""
-
-#: .\business\templates\index.html:475
-#: .\business\templates\presentation.html:176
-msgid "Employée"
-msgstr ""
-
-#: .\business\templates\presentation.html:12
-#: .\business\templates\presentation.html:15
-msgid "Présentation"
-msgstr ""
-
-#: .\business\templates\presentation.html:14 .\business\templates\quote.html:13
-#: .\business\templates\recrutement.html:15
-#: .\business\templates\services-1.html:15
-#: .\business\templates\services-2.html:15
-#: .\business\templates\services-3.html:15
-#: .\business\templates\services-4.html:15
-#: .\business\templates\services-5.html:15
-#: .\business\templates\services.html:13
-msgid "Accueil"
-msgstr ""
-
-#: .\business\templates\presentation.html:32
-msgid ""
-"Bienvenue et merci d&#8216;avoir visité la meilleure entreprise de nettoyage"
-msgstr ""
-
-#: .\business\templates\presentation.html:32
-msgid ""
-"Nous fournissons les meilleurs services de nettoyage et de ménage à Alger et "
-"dans toutes les villes limitrophes."
-msgstr ""
-
-#: .\business\templates\presentation.html:35
-msgid ""
-"spécifique visant à satisfaire toutes vos préoccupations et tous vos besoins "
-"de nettoyage."
-msgstr ""
-
-#: .\business\templates\presentation.html:79
-msgid ""
-"Ocran nadafa offre un service de qualité à un prix concurrentiel. Notre "
-"premier but est de vous offrir les meilleurs prix et sûrement un service de "
-"qualité supérieure."
-msgstr ""
-
-#: .\business\templates\presentation.html:80
-msgid ""
-"L’équipe d’Ocran nadafa offre un service professionnel pour les édifices, "
-"écoles, centres communautaires et loisirs, site de construction, "
-"restaurants, garderie."
-msgstr ""
-
-#: .\business\templates\presentation.html:242
-msgid "Services de nettoyage résidentiel et commercial."
-msgstr ""
-
-#: .\business\templates\presentation.html:242
-msgid "Nos"
-msgstr ""
-
-#: .\business\templates\presentation.html:242
-msgid "services"
-msgstr ""
-
-#: .\business\templates\presentation.html:242
-msgid " en details."
-msgstr ""
-
-#: .\business\templates\quote.html:26
+#: .\business\templates\quote.html:28
 msgid "Merci de remplir le formulaire pour avoir un devis approximatif."
-msgstr ""
+msgstr "يرجى ملء النموذج للحصول على عرض أسعار تقريبي."
 
-#: .\business\templates\quote.html:64
-msgid "Appartement "
-msgstr ""
+#: .\business\templates\quote.html:52
+msgid "E-Mail *"
+msgstr "البريد الالكتروني *"
 
-#: .\business\templates\quote.html:73
-msgid "Pack nettoyage 1"
-msgstr ""
+#: .\business\templates\quote.html:60
+msgid "Surface"
+msgstr "مساحة"
 
-#: .\business\templates\quote.html:75
-msgid "Pack nettoyage 3 "
-msgstr ""
+#: .\business\templates\quote.html:68
+msgid "Sélectionner un pack"
+msgstr "اختر حزمة"
 
-#: .\business\templates\quote.html:102
-msgid "Pack nettoyage 1 :"
-msgstr ""
-
-#: .\business\templates\quote.html:102
-msgid "Nettoyage du sol + WC + SDB + dépoussiérage."
-msgstr ""
-
-#: .\business\templates\quote.html:106
-msgid "Pack nettoyage 2 : "
-msgstr ""
-
-#: .\business\templates\quote.html:112
-msgid "Pack nettoyage 3 :"
-msgstr ""
-
-#: .\business\templates\quote.html:117
-msgid "Pack nettoyage ALL 4 :"
-msgstr ""
+#: .\business\templates\quote.html:76
+msgid "Sélectionner le type de bien"
+msgstr "حدد نوع الملكية"
 
 #: .\business\templates\recrutement.html:13
 #: .\business\templates\recrutement.html:16
 msgid "Recrutement"
-msgstr ""
-
-#: .\business\templates\recrutement.html:27
-msgid "Rejoignez notre équipe"
-msgstr ""
+msgstr "توظيف"
 
 #: .\business\templates\recrutement.html:28
+msgid "Rejoignez notre équipe"
+msgstr "انضم إلى فريقنا"
+
+#: .\business\templates\recrutement.html:29
 msgid ""
 "Merci de remplir formulaire ci-dessous,  nous vous contacterons dans les "
 "plus brefs délais."
-msgstr ""
+msgstr "يرجى ملء النموذج أدناه ، وسوف نتصل بك في أقرب وقت ممكن."
 
-#: .\business\templates\recrutement.html:55
+#: .\business\templates\recrutement.html:46
 msgid "Nom complet *"
-msgstr ""
+msgstr "الاسم الكامل *"
 
-#: .\business\templates\recrutement.html:94
+#: .\business\templates\recrutement.html:56
+msgid "Date de naissance *"
+msgstr "تاريخ الميلاد *"
+
+#: .\business\templates\recrutement.html:63
+msgid "Experience"
+msgstr "خبرة"
+
+#: .\business\templates\recrutement.html:66
+msgid "télécharger votre cv *"
+msgstr "تحميل السيرة الذاتية *"
+
+#: .\business\templates\recrutement.html:86
 msgid "Adresse :"
-msgstr ""
+msgstr "العنوان"
 
-#: .\business\templates\recrutement.html:94
+#: .\business\templates\recrutement.html:86
 msgid ""
 "Centre commercial et d&#8216;affaire Mohammadia mall 16000 Alger, Algérie"
-msgstr ""
+msgstr "مركز التسوق والأعمال المحمدية مول 16000 الجزائر "
 
-#: .\business\templates\recrutement.html:98
+#: .\business\templates\recrutement.html:90
 msgid "Numéro : "
+msgstr "هاتف نقال :"
+
+#: .\business\templates\recrutement.html:90
+msgid "0698 09 28 44 "
 msgstr ""
 
-#: .\business\templates\recrutement.html:103
+#: .\business\templates\recrutement.html:92
+msgid "E-mail  : "
+msgstr "البريد الالكتروني:"
+
+#: .\business\templates\recrutement.html:96
 msgid "Horaires d&#8216;ouvertures :"
-msgstr ""
+msgstr "مواقيت العمل:"
 
-#: .\business\templates\services-1.html:16
+#: .\business\templates\services_detail.html:16
 msgid "Services "
-msgstr ""
+msgstr "خدمات"
 
-#: .\business\templates\services-1.html:30
-msgid "Maison ou appartement :"
-msgstr ""
-
-#: .\business\templates\services-1.html:46
-msgid "Ménage régulier :"
-msgstr ""
-
-#: .\business\templates\services-1.html:47
-msgid ""
-"vous avez le confort d’une prestation bien faite, réalisée par un "
-"intervenant régulier pour vous assurer une qualité toujours constante."
-msgstr ""
-
-#: .\business\templates\services-1.html:48
-msgid ""
-"Alors profitez dès maintenant d’un intérieur impeccable sans le moindre "
-"effort !"
-msgstr ""
-
-#: .\business\templates\services-1.html:49
-msgid ""
-"a toujours mis un point d’honneur sur l’entretien et l’hygiène de votre "
-"domicile en préservant votre santé et celle de nos salariés."
-msgstr ""
-
-#: .\business\templates\services-1.html:50
-msgid ""
-"Face au covid-19, nous renforçons le nettoyage et la désinfection lors de "
-"chaque prestation à votre domicile et plus particulièrement sur les points "
-"de contact."
-msgstr ""
-
-#: .\business\templates\services-1.html:52
-msgid "Ménage occasionnel  :"
-msgstr ""
-
-#: .\business\templates\services-1.html:60
-#: .\business\templates\services-2.html:62
-#: .\business\templates\services-3.html:63
-#: .\business\templates\services-4.html:56
-#: .\business\templates\services-5.html:55
+#: .\business\templates\services_detail.html:58
 msgid "Meilleur service de nettoyage en algérie."
-msgstr ""
+msgstr "أفضل خدمة تنظيف في الجزائر."
 
-#: .\business\templates\services-1.html:61
-#: .\business\templates\services-2.html:63
-#: .\business\templates\services-3.html:64
-#: .\business\templates\services-4.html:57
+#: .\business\templates\services_detail.html:59
 msgid "pour en savoir plus."
-msgstr ""
+msgstr "لمعرفة المزيد."
 
-#: .\business\templates\services-1.html:75
-#: .\business\templates\services-2.html:77
-#: .\business\templates\services-3.html:78
-#: .\business\templates\services-4.html:71
-#: .\business\templates\services-5.html:70
-msgid "Maison ou appartement "
-msgstr ""
+#: .\business\templates\snippets\devis_cta.html:14
+msgid "OBTENEZ UN DEVIS GRATUIT"
+msgstr "تحصل على تسعير مجانا"
 
-#: .\business\templates\services-1.html:76
-#: .\business\templates\services-2.html:78
-#: .\business\templates\services-3.html:79
-#: .\business\templates\services-4.html:72
-#: .\business\templates\services-5.html:71
-#: .\business\templates\services.html:53
-msgid "Bureaux et locaux"
-msgstr ""
-
-#: .\business\templates\services-1.html:77
-#: .\business\templates\services-3.html:80
-#: .\business\templates\services-4.html:73
-msgid "Secteur Copropriété "
-msgstr ""
-
-#: .\business\templates\services-2.html:30
-msgid "Bureaux et locaux  :"
-msgstr ""
-
-#: .\business\templates\services-2.html:81
-#: .\business\templates\services-4.html:75
-#: .\business\templates\services-5.html:74
-msgid "Remise en état de chantier après fin de travaux "
-msgstr ""
-
-#: .\business\templates\services-3.html:30
-msgid "Secteur Copropriété  :"
-msgstr ""
-
-#: .\business\templates\services-3.html:49
-msgid "C’est pour cela qu’"
-msgstr ""
-
-#: .\business\templates\services-3.html:49
-msgid ""
-"s’associe aux syndics de copropriété et prend en charge l’entretien de ces "
-"parties communes. "
-msgstr ""
-
-#: .\business\templates\services-3.html:51
-msgid "Quels que soient vos besoins,"
-msgstr ""
-
-#: .\business\templates\services-3.html:51
-msgid "vous assure le meilleur service."
-msgstr ""
-
-#: .\business\templates\services-3.html:57
-msgid ""
-" Vous prenez soin de vos résidents, laissez-nous prendre soin de vos "
-"résidences."
-msgstr ""
-
-#: .\business\templates\services-4.html:30
-msgid "Désinfection d’espaces du virus COVID-19 :"
-msgstr ""
-
-#: .\business\templates\services-5.html:30
-msgid "Remise en état de chantier après fin de travaux :"
-msgstr ""
-
-#: .\business\templates\services-5.html:44
-msgid ""
-"Qu’il s’agisse de petits ou de grands travaux de réparation ou de "
-"rénovation, notre entreprise intervient pour un nettoyage clé-en-main de "
-"votre bâtiment."
-msgstr ""
-
-#: .\business\templates\services-5.html:56
-msgid " pour en savoir plus. "
-msgstr ""
-
-#: .\config\settings.py:118
+#: .\config\settings.py:124
 msgid "Français"
 msgstr ""
 
-#: .\config\settings.py:119
+#: .\config\settings.py:125
 msgid "Algerian"
 msgstr ""
 
-#: .\templates\footer.html:35 .\templates\navbar.html:45
-msgid "OCRAN"
+#: .\templates\admin\base.html:6
+msgid "PMATEL Dashboard"
 msgstr ""
 
-#: .\templates\footer.html:36 .\templates\navbar.html:46
+#: .\templates\footer.html:29
+msgid "Liens utiles"
+msgstr "روابط مفيدة"
+
+#: .\templates\footer.html:32 .\templates\navbar.html:48
+msgid "PRÉSENTATION"
+msgstr "العرض التقديمي"
+
+#: .\templates\footer.html:33 .\templates\navbar.html:49
 msgid "SERVICES"
-msgstr ""
+msgstr "خدمات"
 
-#: .\templates\footer.html:37 .\templates\navbar.html:47
+#: .\templates\footer.html:34 .\templates\navbar.html:50
 msgid "DEVIS"
-msgstr ""
+msgstr "تسعير"
 
-#: .\templates\footer.html:38 .\templates\navbar.html:48
+#: .\templates\footer.html:35 .\templates\navbar.html:51
 msgid "RECRUTEMENT"
-msgstr ""
+msgstr "توظيف"
 
-#: .\templates\footer.html:39 .\templates\navbar.html:49
+#: .\templates\footer.html:36 .\templates\navbar.html:52
 msgid "CONTACT"
-msgstr ""
+msgstr "اتصل بنا"
 
-#: .\templates\footer.html:60
-msgid "Email"
-msgstr ""
+#: .\templates\footer.html:51
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#: .\templates\footer.html:67
+msgid "réseau sociaux "
+msgstr "مواقع التواصل الاجتماعي"
 
 #: .\templates\navbar.html:9
 msgid " Appelez-nous:"
-msgstr ""
+msgstr "اتصل بنا"
 
 #: .\templates\navbar.html:15
 msgid "Obtenez un devis gratuit"
-msgstr ""
+msgstr "تحصل على تسعير مجانا"
 
-#: .\templates\navbar.html:44
+#: .\templates\navbar.html:47
 msgid "ACCUEIL"
-msgstr ""
+msgstr "ترحيب "
+
+#~ msgid "OCRAN"
+#~ msgstr "العرض ألتقديمي"
