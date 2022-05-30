@@ -136,7 +136,12 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-LOCALE_PATHS = [BASE_DIR / "locale"]
+
+# LOCALE_PATHS = [BASE_DIR / "locale"]
+LOCALE_PATHS = os.path.join(BASE_DIR, 'locale')
+
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
@@ -155,7 +160,6 @@ STATICFILES_FINDERS = (
 MEDIA_URL = "/media/" 
 
 MEDIA_ROOT = BASE_DIR / "media"
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
