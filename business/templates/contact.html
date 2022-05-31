@@ -10,8 +10,8 @@
     <div class="auto-container">
         <h2>{% trans "Contactez-nous" %}</h2>
         <ul class="page-breadcrumb">
-            <li><a href="/">{% trans "Accuiel" %}</a></li>
-            <li>{% trans "Contactez-nous" %}</li>
+            <li><a href="/" dir="ltr">{% trans "Accuiel" %}</a></li>
+            <li dir="ltr">{% trans "Contactez-nous" %}</li>
         </ul>
     </div>
 </section>
@@ -26,16 +26,26 @@
 				<div class="text"> <p style="color:#242424;"> {% trans 'Merci de nous laisser un message à l&#8216;aide du formulaire ci-dessous,  nous vous contacterons dans les plus brefs délais.' %} </p> </div>
 			</div>
 			<div class="ol-lg-6 col-md-6 col-sm-12">
+					<!-- message -->
+					 {% comment %} {% if messages %}
+						{% for message in messages %}
+							<div class="alert {{ message.tags }} alert-dismissible text-center" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							{{response}}
+							</div>
+						{% endfor %}
+					
+					{% endif %}  {% endcomment %}
 				   <!-- message -->
-				   {% if messages %}
-				   <ul class=" messages" >
-						   {% for message in messages %}
-						   <h6 {% if message.tags %} class="{{ message.tags }}"{% endif %} style= "background: transparent; color:green;" > {{ message }} </h6>
-						   {% endfor %}
-				   </ul> 
-				   <!-- message -->
-				   {% endif %} 
-				</div>
+
+						
+				<div id="messageQuote">
+					{% include 'snippets/message.html' %}
+					
+				</div> 
+			</div>
 			<div class="row clearfix">
 				
 				<!-- Form Column -->
@@ -54,7 +64,7 @@
 									</div>
 									
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="phone" id="id_phone"  placeholder="{% trans 'Numéro *' %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
+										<input type="text" name="phone" id="id_phone"  placeholder="{% trans 'Numéro +213*' %}" pattern="^(?:0|\(?\+213\)?\s?|00213\s?)[1-79](?:[\.\-\s]?\d\d){4}$" required>
 									</div>
 									<div class="form-group col-lg-12 col-md-6 col-sm-12">
 										<input type="text" name="email" id="id_email"  placeholder="{% trans 'E-mail *' %}" required>
@@ -88,8 +98,8 @@
 						</ul>
 						<!-- Contact Info List -->
 						<ul class="contact-info-list">
-							<li><strong>{% trans "Numéro" %} : </strong><a href="tel:23804261">{% trans "023 80 42 61" %}</a></li>
-							<li><strong>{% trans 'Fix : ' %}</strong><a href="tel:23804261">{% trans '023 80 42 61' %}</a></li>
+							<li><strong>{% trans "Numéro" %} : </strong><a href="tel:23804261" dir="ltr">{% trans "023 80 42 61" %}</a></li>
+							<li><strong>{% trans 'Fix : ' %}</strong><a href="tel:23804261" dir="ltr">{% trans '023 80 42 61' %}</a></li>
 							<li><strong>{% trans "E-mail" %}  : </strong><a href="">{% trans 'contact@ocrannadafa.com' %} </a></li>
 						</ul>
 						<!-- Contact Info List -->

@@ -27,10 +27,10 @@ class ContactForm(ModelForm) :
         return subject, msg, email
 
     def send_email(self):
-        subject, msg, email = self.get_info()
+        # subject, msg, email = self.get_info()
         send_mail(
-            subject=subject,
-            message=msg,
+            subject="subject",
+            message="msg",
             from_email= EMAIL_HOST_USER,
             recipient_list= EMAIL_RECIPIENT,
         )
@@ -44,23 +44,25 @@ class QuoteForm(ModelForm) :
         fields = '__all__' 
       
     def get_info(self):
-            cleaned_data = super().clean()
-            email = cleaned_data.get('email')
-            phone = cleaned_data.get('phone')
-            formule = cleaned_data.get('formule')
-            bien = cleaned_data.get('bien')
-            surface = cleaned_data.get('surface')
-            msg =  f'Bonjour OCRAN NADAFA,  une personne ayant le mail: {email}, et le numero de telephone suivant:  {email}, a demandé un devis, avec les inforamtions suivantes, pack : {formule}, type de bien: {bien}, et la surface : {surface} .'
-            return phone, msg, email
+        cleaned_data = super().clean()
+        email = cleaned_data.get('email')
+        phone = cleaned_data.get('phone')
+        formule = cleaned_data.get('formule')
+        bien = cleaned_data.get('bien')
+        surface = cleaned_data.get('surface')
+        msg =  f'Bonjour OCRAN NADAFA, une personne ayant le mail: {email}, et le numero de telephone suivant:  {email}, a demandé un devis, avec les inforamtions suivantes, pack : {formule}, type de bien: {bien}, et la surface : {surface} .'
+        return phone, msg, email
 
     def send_email(self):
-        subject, msg, email = self.get_info()
+        phone, msg, email = self.get_info()
+        print('sending email')
         send_mail(
-            subject=subject,
+            subject="Demande d'un devis",
             message=msg,
             from_email= EMAIL_HOST_USER,
             recipient_list=EMAIL_RECIPIENT,
         )
+
     
 
 
@@ -72,24 +74,24 @@ class HiringForm(ModelForm) :
         model = Hiring 
         fields = '__all__' 
         
-    def get_info(self):
+    # def get_info(self):
             
-        cleaned_data = super().clean()
-        name = cleaned_data.get('name').strip()
-        email = cleaned_data.get('email')
-        phone = cleaned_data.get('phone')
-        subject = cleaned_data.get('subject')
-        msg =  f'Bonjour OCRAN NADAFA,  une personne ayant le nom: {name}, le mail: {email}, et le numero de telephone suivant:  {phone}, a remplis un formulaire de recrutement.'
+    #     cleaned_data = super().clean()
+    #     name = cleaned_data.get('name').strip()
+    #     email = cleaned_data.get('email')
+    #     phone = cleaned_data.get('phone')
+    #     subject = cleaned_data.get('subject')
+    #     msg =  f'Bonjour OCRAN NADAFA,  une personne ayant le nom: {name}, le mail: {email}, et le numero de telephone suivant:  {phone}, a remplis un formulaire de recrutement.'
         
-        return subject, msg, email
+    #     return subject, msg, email
 
-    def send_email(self):
+    # def send_email(self):
 
-        subject, msg, email = self.get_info()
+    #     subject, msg, email = self.get_info()
 
-        send_mail(
-            subject=subject,
-             message=msg,
-            from_email= EMAIL_HOST_USER,
-            recipient_list=EMAIL_RECIPIENT,
-            )
+    #     send_mail(
+    #         subject=subject,
+    #          message=msg,
+    #         from_email= EMAIL_HOST_USER,
+    #         recipient_list=EMAIL_RECIPIENT,
+    #         )

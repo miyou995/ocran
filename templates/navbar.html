@@ -12,7 +12,7 @@
               <div class="top-right clearfix">
                   <!-- Info List -->
                     <ul class="info-list">
-                        <li class="quote"><a href="{% url 'business:create_quote' %}">{% trans "Obtenez un devis gratuit" %}</a></li> 
+                        {% comment %} <li class="quote"><a href="{% url 'business:create_quote' %}">{% trans "Obtenez un devis gratuit" %}</a></li>  {% endcomment %}
                        
                     </ul>
 
@@ -47,7 +47,7 @@
                                   <li ><a href="/">{% trans "ACCUEIL" %}</a> </li>
                                 <li><a href="{% url 'business:about' %}">{% trans "PRÉSENTATION" %}</a> </li>
                                 <li ><a href="{% url 'business:service' %}">{% trans "SERVICES" %}</a> </li>
-                                <li><a href="{% url 'business:create_quote' %}">{% trans "DEVIS" %}</a> </li>
+                                <li><a href="{% url 'business:quote' %}">{% trans "DEVIS" %}</a> </li>
                                 <li ><a href="{% url 'business:recruiting' %}">{% trans "RECRUTEMENT" %}</a> </li>
                                 <li><a href="{% url 'business:contact' %}">{% trans "CONTACT" %}</a></li> 
                                 <li>

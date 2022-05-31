@@ -12,6 +12,8 @@ from django.utils.translation import gettext as _
 # Create your views here.
 from django.contrib import messages
 from django.shortcuts import redirect
+from config.settings import EMAIL_HOST_USER, EMAIL_RECIPIENT
+
 ###index 
 from django.utils import translation
 class IndexView(TemplateView):
@@ -72,11 +74,11 @@ class QuoteoView(SuccessMessageMixin, CreateView):
     template_name= "quote.html"
     form_class= QuoteForm
     model = Quote 
-    success_message = "Un e-mail contenant les informations demandé vous a été envoyé."
+    success_message = "Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées."
     success_url = reverse_lazy('business:quote')
     def form_valid(self, form):
         form.send_email()   
-        return super().form_valid(form)
+        return super().form_valid(form) 
     def get_context_data(self, **kwargs):
         context = super(QuoteoView, self).get_context_data(**kwargs)
         context["formules"] =Formule.objects.all()
@@ -91,36 +93,45 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     model = Hiring 
     success_message = "Votre demande a été soumise, Un e-mail vous sera envoyé prochainement." 
     success_url = reverse_lazy('business:recruiting')
+
     def form_valid(self, form):
-        form.send_email() 
+        # form.send_email() 
         return super().form_valid(form)
 
     def form_invalid(self, form):
         messages.error(self.request,form.errors)
-        return redirect('business:recruiting')
+        return redirect('business:recruiting') 
 
     
 
     
 def create_quote(request):
+    print('init create htmx or not ')
     context = {}
+
+    form = QuoteForm()
+    # if request.POST:
+    #     if form.is_valid():
+    #         form.save(commit=False)
+    #         form.send_email() 
+    #         form.save()
+    #         print('is VAlid')
+    #         messages.success(request, f'Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées.')
+    #     else:
+    #         print('is NOT  VAlid', form.errors)
+    if request.htmx:
+        if form.is_valid():
+            form.save(commit=False)
+            # form.send_email() 
+            form.save()
+            return render(request, 'snippets/message.html', context)
+        # return HttpResponse(f'{quote.get_total_cost()}')
     context["formules"] =Formule.objects.all()
     context["biens"] = Bien.objects.all()
     context["surfaces"] =Surface.objects.all()
-    form = QuoteForm()
-    if request.method == 'POST':
-        form = QuoteForm(request.POST)
-        if form.is_valid():
-            form.send_email() 
-            quote = form.save()
-            print('sdvvdvsdv',quote)
-            # print(form)
-        total_cost = quote.get_total_cost()
-        print('total', total_cost)
-        messages.success(request, f'Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées.')
-        if request.htmx:
-            return render(request, 'snippets/message.html', context)
-        # return HttpResponse(f'{quote.get_total_cost()}')
+    context["form"] =form
+    context["message"] ='hello'
+
     return render(request, 'quote.html', context)
 
 

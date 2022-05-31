@@ -13,7 +13,7 @@ urlpatterns = [
     path('recruiting', RecruitingView.as_view(), name='recruiting'),
     path('contact', ContactView.as_view(), name='contact'),
     path('quote', QuoteoView.as_view(), name='quote'),
-    path('create_quote', create_quote, name='create_quote'),
+    path('create_quote', create_quote, name='create_quote'), 
 
    ]
 

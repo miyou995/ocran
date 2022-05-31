@@ -31,7 +31,7 @@
 										<ul class="list">
                                         	<li><a href="{% url 'business:about' %}">{% trans "PRÉSENTATION" %}</a></li>
                                             <li><a href="{% url 'business:service' %}">{% trans "SERVICES" %}</a></li>
-                                            <li><a href="{% url 'business:create_quote' %}">{% trans "DEVIS" %}</a></li>
+                                            <li><a href="{% url 'business:quote' %}">{% trans "DEVIS" %}</a></li>
                                             <li><a href="{% url 'business:recruiting' %}">{% trans "RECRUTEMENT" %}</a></li>
                                             <li><a href="{% url 'business:contact' %}">{% trans "CONTACT" %}</a></li>
                                         </ul>
@@ -68,7 +68,7 @@
 									
 										<ul class="social-icons">
 											<li><a href="https://wa.me/213698092844"><span class="fab fa-whatsapp">  {{business.phone2}}</span></a></li>
-											<li><a href="viber://chat?number=213698092844"><span class="fab fa-viber">  {{business.phone2}} </span></a></li>
+											<li><a href="https://viber.me/213698092844"><span class="fab fa-viber">  {{business.phone2}} </span></a></li>
 											<li><a href="{{business.facebook}}"><span class="fab fa-facebook-f"> OCRAN-Nadafa </span></a></li>
 											<li><a href="{{business.insta}}"><span class="fab fa-instagram"> ocran_nadafa </span></a></li>
 										

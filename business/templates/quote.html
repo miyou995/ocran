@@ -27,11 +27,28 @@
 				<h2>{% trans 'Obtenez un devis' %}</h2>
 				<div class="text"> <p style="color:#242424;">{% trans 'Merci de remplir le formulaire pour avoir un devis approximatif.' %}</p></div>
 			</div>
+		
+				
 			<div class="ol-lg-6 col-md-6 col-sm-12">
 				<!-- message -->
+					 {% comment %} {% if messages %}
+						{% for message in messages %}
+							<div class="alert {{ message.tags }} alert-dismissible text-center" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							{{response}}
+							</div>
+						{% endfor %}
+					
+					{% endif %}  {% endcomment %}
+				   <!-- message -->
+
+						
 				<div id="messageQuote">
 					{% include 'snippets/message.html' %}
-				</div>
+					
+				</div> 
 			 </div>
 			<div class="row clearfix">
 				
@@ -43,9 +60,10 @@
 						<div class="contact-form">
 								
 							<!--Contact Form-->
-							{% comment %} <form method="POST", action={% url 'business:create_quote' %}>
-								{% csrf_token %} {% endcomment %}
-						 <form hx-post="{% url 'business:create_quote' %}" hx-swap="innerHTML" hx-target="#messageQuote">  
+						    {% comment %} <form hx-post="{% url 'business:create_quote' %}" hx-swap="innerHTML" hx-target="#messageQuote"> {% endcomment %}
+
+							<form method="POST" action={% url 'business:quote' %}>
+								{% csrf_token %}  
 								<div class="row clearfix">
 									<div class="form-group col-lg-12 col-md-6 col-sm-12">
 										<input type="email" name="email" id="id_email" value="" placeholder="{% trans 'E-Mail *' %}" required>

@@ -5222,7 +5222,7 @@ img{
 }
 
 .page-breadcrumb li a{
-	color:#7faf52;
+	color:#000;
 	font-weight:400;
 	text-transform: capitalize;
 	transition:all 0.3s ease;
