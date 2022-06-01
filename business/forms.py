@@ -27,10 +27,10 @@ class ContactForm(ModelForm) :
         return subject, msg, email
 
     def send_email(self):
-        # subject, msg, email = self.get_info()
+        subject, msg, email = self.get_info()
         send_mail(
-            subject="subject",
-            message="msg",
+            subject= subject,
+            message= msg,
             from_email= EMAIL_HOST_USER,
             recipient_list= EMAIL_RECIPIENT,
         )

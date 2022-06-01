@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
-from .views import IndexView, AboutView, RecruitingView, ContactView, QuoteoView, create_quote, ServiceView, ServiceDetail
-
+from .views import IndexView, AboutView, RecruitingView, ContactView, QuoteoView,  ServiceView, ServiceDetail
+# create_quote
 app_name= 'business'
 
 urlpatterns = [
@@ -13,7 +13,7 @@ urlpatterns = [
     path('recruiting', RecruitingView.as_view(), name='recruiting'),
     path('contact', ContactView.as_view(), name='contact'),
     path('quote', QuoteoView.as_view(), name='quote'),
-    path('create_quote', create_quote, name='create_quote'), 
+    # path('create_quote', create_quote, name='create_quote'), 
 
    ]
 

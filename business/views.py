@@ -59,7 +59,7 @@ class ContactView(SuccessMessageMixin, CreateView):
     template_name= "contact.html"
     form_class= ContactForm
     model = Contact 
-    success_message = "Votre message a été envoyé avec succès, un e-mail vous sera envoyé prochainement."
+    success_message = "Votre message a été envoyé avec succès, Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail."
     success_url = reverse_lazy('business:contact')
    
     def form_valid(self, form):
@@ -91,7 +91,7 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     template_name= "recrutement.html"
     form_class= HiringForm
     model = Hiring 
-    success_message = "Votre demande a été soumise, Un e-mail vous sera envoyé prochainement." 
+    success_message = "Votre demande a été soumise, Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail." 
     success_url = reverse_lazy('business:recruiting')
 
     def form_valid(self, form):
@@ -105,34 +105,34 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     
 
     
-def create_quote(request):
-    print('init create htmx or not ')
-    context = {}
+# def create_quote(request):
+#     print('init create htmx or not ')
+#     context = {}
 
-    form = QuoteForm()
-    # if request.POST:
-    #     if form.is_valid():
-    #         form.save(commit=False)
-    #         form.send_email() 
-    #         form.save()
-    #         print('is VAlid')
-    #         messages.success(request, f'Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées.')
-    #     else:
-    #         print('is NOT  VAlid', form.errors)
-    if request.htmx:
-        if form.is_valid():
-            form.save(commit=False)
-            # form.send_email() 
-            form.save()
-            return render(request, 'snippets/message.html', context)
-        # return HttpResponse(f'{quote.get_total_cost()}')
-    context["formules"] =Formule.objects.all()
-    context["biens"] = Bien.objects.all()
-    context["surfaces"] =Surface.objects.all()
-    context["form"] =form
-    context["message"] ='hello'
+#     form = QuoteForm()
+#     # if request.POST:
+#     #     if form.is_valid():
+#     #         form.save(commit=False)
+#     #         form.send_email() 
+#     #         form.save()
+#     #         print('is VAlid')
+#     #         messages.success(request, f'Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées.')
+#     #     else:
+#     #         print('is NOT  VAlid', form.errors)
+#     if request.htmx:
+#         if form.is_valid():
+#             form.save(commit=False)
+#             # form.send_email() 
+#             form.save()
+#             return render(request, 'snippets/message.html', context)
+#         # return HttpResponse(f'{quote.get_total_cost()}')
+#     context["formules"] =Formule.objects.all()
+#     context["biens"] = Bien.objects.all()
+#     context["surfaces"] =Surface.objects.all()
+#     context["form"] =form
+#     context["message"] ='hello'
 
-    return render(request, 'quote.html', context)
+#     return render(request, 'quote.html', context)
 
 
 # le service que vous avez demandé à un cout approximatif de  <strong>{total_cost}</strong> DA.    
