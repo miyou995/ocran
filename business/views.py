@@ -63,7 +63,10 @@ class ContactView(SuccessMessageMixin, CreateView):
     success_url = reverse_lazy('business:contact')
    
     def form_valid(self, form):
-        form.send_email() 
+        try: 
+            form.send_email() 
+        except: 
+            pass
         return super().form_valid(form)
     
       
@@ -77,7 +80,10 @@ class QuoteoView(SuccessMessageMixin, CreateView):
     success_message = "Un agent vous contactera prochainement avec un appel téléphonique ou un e-mail contenant les informations demandées."
     success_url = reverse_lazy('business:quote')
     def form_valid(self, form):
-        form.send_email()   
+        try: 
+            form.send_email() 
+        except: 
+            pass  
         return super().form_valid(form) 
     def get_context_data(self, **kwargs):
         context = super(QuoteoView, self).get_context_data(**kwargs)
@@ -95,7 +101,10 @@ class RecruitingView(SuccessMessageMixin, CreateView):
     success_url = reverse_lazy('business:recruiting')
 
     def form_valid(self, form):
-        # form.send_email() 
+        try: 
+            form.send_email() 
+        except: 
+            pass
         return super().form_valid(form)
 
     def form_invalid(self, form):
