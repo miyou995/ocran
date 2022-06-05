@@ -21,9 +21,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xabzzzxc1d@#2kb^*&t!6f(-^5cgj42n5=(lih!j6$ivxwjnb!'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
      # Apps
     'business',
     # third party
+    'djangosecure',
     "django_htmx",
     'tinymce',
     'modeltranslation',
@@ -111,7 +112,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
@@ -202,8 +202,13 @@ TINYMCE_DEFAULT_CONFIG = {
 }
 
 
+
+
 try: 
     from .local_settings import *
 except ImportError:
     pass
+
+
+
 
