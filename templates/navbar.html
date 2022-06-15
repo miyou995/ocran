@@ -45,7 +45,7 @@
                           <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                               <ul class="navigation clearfix" >
                               {% if LANGUAGE_CODE == 'fr' %}
-                                    <li ><a href="/" >{% trans "ACCUEIL" %}</a> </li>
+                                    <li ><a href="{% url 'business:index' %}"  >{% trans "ACCUEIL" %}</a> </li>
                                     <li ><a href="{% url 'business:about' %}" >{% trans "PRÉSENTATION" %}</a> </li>
                                     <li > <a href="{% url 'business:service' %}" >{% trans "SERVICES" %}</a> </li>
                                     <li ><a href="{% url 'business:quote' %}" >{% trans "DEVIS" %}</a> </li>
@@ -57,7 +57,7 @@
                                     <li ><a href="{% url 'business:quote' %}" >{% trans "DEVIS" %}</a> </li>
                                     <li > <a href="{% url 'business:service' %}" >{% trans "SERVICES" %}</a> </li>
                                     <li ><a href="{% url 'business:about' %}" >{% trans "PRÉSENTATION" %}</a> </li>
-                                    <li ><a href="/" >{% trans "ACCUEIL" %}</a> </li>
+                                    <li ><a href="{% url 'business:index' %}" >{% trans "ACCUEIL" %}</a> </li>
                                 {% endif %} 
                                 <li>
                                     {% if LANGUAGE_CODE == 'ar' %}

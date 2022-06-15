@@ -131,7 +131,7 @@ class Business(models.Model):
     favicon         = models.ImageField(upload_to='images/logos', verbose_name="Favicon", blank=True, null=True)
     logo_negatif    = models.ImageField(upload_to='images/slides', verbose_name="Logo négatif", blank=True, null=True)
     title           = models.CharField(verbose_name="Titre", max_length=50, blank=True)
-    adress          = models.CharField(verbose_name="Adresse", max_length=50, blank=True)
+    adress          = models.CharField(verbose_name="Adresse", max_length=200, blank=True)
     email           = models.EmailField(verbose_name="email de l'entreprise", max_length=50, blank=True)
     email2          = models.EmailField(verbose_name="2eme email de l'entreprise", max_length=50, blank=True)
     email3          = models.EmailField(verbose_name="email de receptions, contact, devis, recrutement", max_length=50, blank=True)

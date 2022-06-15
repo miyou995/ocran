@@ -188,18 +188,18 @@ msgid "contact@ocrannadafa.com"
 msgstr "contact@ocrannadafa.com"
 
 #: .\business\templates\contact.html:97
-msgid "Horaires d'ouvertures"
+msgid "Horaires d'ouverture"
 msgstr "مواقيت العمل "
 
 #: .\business\templates\contact.html:97
 #: .\business\templates\recrutement.html:96
-msgid "8:00 AM – 17:00 PM"
-msgstr "9:00 صباحًا - 4:00 مساءً"
+msgid "8:30 AM – 16:00 PM"
+msgstr "8:30 صباحًا - 4:30 مساءً"
 
 #: .\business\templates\contact.html:97
 #: .\business\templates\recrutement.html:96
-msgid "Samedi – Jeudi"
-msgstr "السبت - الخميس"
+msgid "DIMANCHE  – JEUDI"
+msgstr "الاحد  - الخميس"
 
 #: .\business\templates\index.html:19 .\business\templates\index.html:42
 #: .\business\templates\services.html:27

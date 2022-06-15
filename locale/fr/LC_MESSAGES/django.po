@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-30 13:27+0100\n"
-"PO-Revision-Date: 2022-05-16 14:49+0000\n"
+"POT-Creation-Date: 2022-06-15 09:21+0100\n"
+"PO-Revision-Date: 2022-06-15 09:14+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -75,11 +75,6 @@ msgstr " "
 
 #: .\business\templates\about.html:17 .\business\templates\presentation.html:14
 #: .\business\templates\quote.html:15 .\business\templates\recrutement.html:15
-#: .\business\templates\services-1.html:15
-#: .\business\templates\services-2.html:15
-#: .\business\templates\services-3.html:15
-#: .\business\templates\services-4.html:15
-#: .\business\templates\services-5.html:15
 #: .\business\templates\services.html:13
 #: .\business\templates\services_detail.html:15
 msgid "Accueil"
@@ -115,15 +110,6 @@ msgstr ""
 
 #: .\business\templates\about.html:107 .\business\templates\index.html:171
 #: .\business\templates\presentation.html:147
-#: .\business\templates\services-1.html:13
-#: .\business\templates\services-2.html:13
-#: .\business\templates\services-2.html:16
-#: .\business\templates\services-3.html:13
-#: .\business\templates\services-3.html:16
-#: .\business\templates\services-4.html:13
-#: .\business\templates\services-4.html:16
-#: .\business\templates\services-5.html:13
-#: .\business\templates\services-5.html:16
 #: .\business\templates\services.html:11 .\business\templates\services.html:14
 #: .\business\templates\services_detail.html:13
 msgid "Services"
@@ -140,11 +126,7 @@ msgid "Employée"
 msgstr ""
 
 #: .\business\templates\contact.html:11 .\business\templates\contact.html:14
-#: .\business\templates\contact.html:25 .\business\templates\services-1.html:61
-#: .\business\templates\services-2.html:58
-#: .\business\templates\services-3.html:62
-#: .\business\templates\services-4.html:54
-#: .\business\templates\services-5.html:56
+#: .\business\templates\contact.html:25
 #: .\business\templates\services_detail.html:61
 msgid "Contactez-nous"
 msgstr ""
@@ -159,76 +141,72 @@ msgid ""
 "nous vous contacterons dans les plus brefs délais."
 msgstr ""
 
-#: .\business\templates\contact.html:53
+#: .\business\templates\contact.html:64
 msgid "Votre nom *"
 msgstr ""
 
-#: .\business\templates\contact.html:57
-#: .\business\templates\recrutement.html:50
-msgid "Numéro *"
+#: .\business\templates\contact.html:68
+msgid "Numéro +213*"
 msgstr ""
 
-#: .\business\templates\contact.html:60
+#: .\business\templates\contact.html:71
 msgid "E-mail *"
 msgstr ""
 
-#: .\business\templates\contact.html:63
+#: .\business\templates\contact.html:74
 msgid "Sujet *"
 msgstr ""
 
-#: .\business\templates\contact.html:67
+#: .\business\templates\contact.html:78
 msgid "Message *"
 msgstr ""
 
-#: .\business\templates\contact.html:71 .\business\templates\quote.html:85
+#: .\business\templates\contact.html:82 .\business\templates\quote.html:104
 #: .\business\templates\recrutement.html:70
 msgid "Soumettre"
 msgstr ""
 
-#: .\business\templates\contact.html:87
-msgid "Adresse"
+#: .\business\templates\contact.html:98
+#: .\business\templates\recrutement.html:86
+#: .\business\templates\snippets\info.html:11
+msgid "Adresse :"
 msgstr ""
 
-#: .\business\templates\contact.html:87
-msgid "Centre commercial et d'affaire Mohammadia mall 16000 Alger, Algérie"
-msgstr ""
-
-#: .\business\templates\contact.html:91
+#: .\business\templates\contact.html:104
 msgid "Numéro"
 msgstr ""
 
-#: .\business\templates\contact.html:91 .\business\templates\contact.html:92
-#: .\business\templates\recrutement.html:91
+#: .\business\templates\contact.html:104 .\business\templates\contact.html:105
+#: .\business\templates\recrutement.html:93
+#: .\business\templates\snippets\info.html:18
 msgid "023 80 42 61"
 msgstr ""
 
-#: .\business\templates\contact.html:92
-#: .\business\templates\recrutement.html:91
+#: .\business\templates\contact.html:105
+#: .\business\templates\recrutement.html:93
+#: .\business\templates\snippets\info.html:18
 msgid "Fix : "
 msgstr ""
 
-#: .\business\templates\contact.html:93
+#: .\business\templates\contact.html:106
 #: .\business\templates\recrutement.html:53
 msgid "E-mail"
 msgstr ""
 
-#: .\business\templates\contact.html:93
-#: .\business\templates\recrutement.html:92
-msgid "contact@ocrannadafa.com"
+#: .\business\templates\contact.html:110
+msgid "Horaires d'ouverture"
 msgstr ""
 
-#: .\business\templates\contact.html:97
-msgid "Horaires d'ouvertures"
+#: .\business\templates\contact.html:110
+#: .\business\templates\recrutement.html:98
+#: .\business\templates\snippets\info.html:23
+msgid "08:00 AM - 16:30 PM"
 msgstr ""
 
-#: .\business\templates\contact.html:97
-#: .\business\templates\recrutement.html:96
-msgid "8:00 AM – 17:00 PM"
-msgstr ""
-
-#: .\business\templates\contact.html:97
-#: .\business\templates\recrutement.html:96
-msgid "Samedi – Jeudi"
+#: .\business\templates\contact.html:110
+#: .\business\templates\recrutement.html:98
+#: .\business\templates\snippets\info.html:23
+msgid "DIMANCHE  – JEUDI"
 msgstr ""
 
 #: .\business\templates\index.html:21 .\business\templates\index.html:59
@@ -236,11 +214,6 @@ msgstr ""
 #: .\business\templates\presentation.html:32
 #: .\business\templates\presentation.html:34
 #: .\business\templates\presentation.html:71
-#: .\business\templates\services-1.html:47
-#: .\business\templates\services-1.html:49
-#: .\business\templates\services-1.html:53
-#: .\business\templates\services-3.html:50
-#: .\business\templates\services-3.html:52
 #: .\business\templates\services.html:27
 msgid "OCRAN NADAFA"
 msgstr ""
@@ -254,8 +227,7 @@ msgstr ""
 msgid "OCRAN NADAFA Toujours étincelants !"
 msgstr ""
 
-#: .\business\templates\index.html:59 .\business\templates\services-1.html:47
-#: .\business\templates\services.html:27
+#: .\business\templates\index.html:59 .\business\templates\services.html:27
 msgid "En faisant appel à"
 msgstr ""
 
@@ -373,11 +345,7 @@ msgid ""
 msgstr ""
 
 #: .\business\templates\quote.html:13 .\business\templates\quote.html:16
-#: .\business\templates\quote.html:27 .\business\templates\services-1.html:86
-#: .\business\templates\services-2.html:83
-#: .\business\templates\services-3.html:87
-#: .\business\templates\services-4.html:79
-#: .\business\templates\services-5.html:81
+#: .\business\templates\quote.html:27
 #: .\business\templates\services_detail.html:83
 msgid "Obtenez un devis"
 msgstr ""
@@ -386,23 +354,23 @@ msgstr ""
 msgid "Merci de remplir le formulaire pour avoir un devis approximatif."
 msgstr ""
 
-#: .\business\templates\quote.html:52
+#: .\business\templates\quote.html:71
 msgid "E-Mail *"
 msgstr ""
 
-#: .\business\templates\quote.html:56
+#: .\business\templates\quote.html:75
 msgid "Numéro +213 *"
 msgstr ""
 
-#: .\business\templates\quote.html:60
+#: .\business\templates\quote.html:79
 msgid "Surface"
 msgstr ""
 
-#: .\business\templates\quote.html:68
+#: .\business\templates\quote.html:87
 msgid "Sélectionner un pack"
 msgstr ""
 
-#: .\business\templates\quote.html:76
+#: .\business\templates\quote.html:95
 msgid "Sélectionner le type de bien"
 msgstr ""
 
@@ -425,6 +393,10 @@ msgstr ""
 msgid "Nom complet *"
 msgstr ""
 
+#: .\business\templates\recrutement.html:50
+msgid "Numéro *"
+msgstr ""
+
 #: .\business\templates\recrutement.html:56
 msgid "Date de naissance *"
 msgstr ""
@@ -437,278 +409,41 @@ msgstr ""
 msgid "télécharger votre cv *"
 msgstr ""
 
-#: .\business\templates\recrutement.html:86
-msgid "Adresse :"
-msgstr ""
-
-#: .\business\templates\recrutement.html:86
-msgid ""
-"Centre commercial et d&#8216;affaire Mohammadia mall 16000 Alger, Algérie"
-msgstr ""
-
-#: .\business\templates\recrutement.html:90
+#: .\business\templates\recrutement.html:92
+#: .\business\templates\snippets\info.html:17
 msgid "Numéro : "
 msgstr ""
 
-#: .\business\templates\recrutement.html:90
+#: .\business\templates\recrutement.html:92
+#: .\business\templates\snippets\info.html:17
 msgid "0698 09 28 44 "
 msgstr ""
 
-#: .\business\templates\recrutement.html:92
+#: .\business\templates\recrutement.html:94
+#: .\business\templates\snippets\info.html:19
 msgid "E-mail  : "
 msgstr ""
 
-#: .\business\templates\recrutement.html:96
-msgid "Horaires d&#8216;ouvertures :"
+#: .\business\templates\recrutement.html:94
+#: .\business\templates\snippets\info.html:19
+msgid "contact@ocrannadafa.com"
 msgstr ""
 
-#: .\business\templates\services-1.html:16
+#: .\business\templates\recrutement.html:98
+#: .\business\templates\snippets\info.html:23
+msgid "Horaires d'ouverture :"
+msgstr "مواقيت العمل "
+
 #: .\business\templates\services_detail.html:16
 msgid "Services "
 msgstr ""
 
-#: .\business\templates\services-1.html:30
-msgid "Maison ou appartement :"
-msgstr ""
-
-#: .\business\templates\services-1.html:46
-msgid "Ménage régulier :"
-msgstr ""
-
-#: .\business\templates\services-1.html:47
-msgid ""
-", vous bénéficiez du confort d'un service bien fait, assuré par un "
-"intervenant régulier afin de vous assurer une qualité constante."
-msgstr ""
-
-#: .\business\templates\services-1.html:48
-msgid "Profitez donc maintenant d'un intérieur impeccable sans aucun effort !"
-msgstr ""
-
-#: .\business\templates\services-1.html:49
-msgid ""
-" s'est toujours fait un devoir d'honneur pour l'entretien et l'hygiène de "
-"votre maison en préservant votre santé et celle de nos employés."
-msgstr ""
-
-#: .\business\templates\services-1.html:50
-msgid ""
-"Dans le contexte de la COVID-19, nous améliorons le nettoyage et la "
-"désinfection à chaque prestation à votre domicile, en particulier aux points "
-"de contact."
-msgstr ""
-
-#: .\business\templates\services-1.html:52
-msgid "Ménage occasionnel  :"
-msgstr ""
-
-#: .\business\templates\services-1.html:53
-msgid ""
-"Vous avez besoin d'une aide occasionnelle pour nettoyer votre maison. Faites "
-"appel à "
-msgstr ""
-
-#: .\business\templates\services-1.html:53
-msgid ""
-"! Vous serez heureux de rentrer chez vous ! Le nettoyage occasionnel de "
-"votre maison sera effectué précisément et méticuleusement grâce à nos "
-"experts en nettoyage.! Vous serez heureux de rentrer chez vous ! Le "
-"nettoyage occasionnel de votre maison sera effectué précisément et "
-"méticuleusement grâce à nos experts en nettoyage."
-msgstr ""
-
-#: .\business\templates\services-1.html:55
-msgid ""
-"Nettoyage de printemps, nettoyage avant le mois de Ramadan, après ou avant "
-"le déménagement... Pas d'hésitation, on est là."
-msgstr ""
-
-#: .\business\templates\services-1.html:60
-#: .\business\templates\services-2.html:57
-#: .\business\templates\services-3.html:61
-#: .\business\templates\services-4.html:53
-#: .\business\templates\services-5.html:55
 #: .\business\templates\services_detail.html:60
 msgid "Meilleur service de nettoyage en algérie."
 msgstr ""
 
-#: .\business\templates\services-1.html:61
-#: .\business\templates\services-2.html:58
-#: .\business\templates\services-3.html:62
-#: .\business\templates\services-4.html:54
 #: .\business\templates\services_detail.html:61
 msgid "pour en savoir plus."
-msgstr ""
-
-#: .\business\templates\services-1.html:75
-#: .\business\templates\services-2.html:72
-#: .\business\templates\services-3.html:76
-#: .\business\templates\services-4.html:68
-#: .\business\templates\services-5.html:70
-msgid "Maison ou appartement "
-msgstr ""
-
-#: .\business\templates\services-1.html:76
-#: .\business\templates\services-2.html:73
-#: .\business\templates\services-3.html:77
-#: .\business\templates\services-4.html:69
-#: .\business\templates\services-5.html:71
-msgid "Bureaux et locaux"
-msgstr ""
-
-#: .\business\templates\services-1.html:77
-#: .\business\templates\services-3.html:78
-#: .\business\templates\services-4.html:70
-msgid "Secteur Copropriété "
-msgstr ""
-
-#: .\business\templates\services-1.html:78
-#: .\business\templates\services-2.html:75
-#: .\business\templates\services-3.html:79
-#: .\business\templates\services-4.html:71
-#: .\business\templates\services-5.html:73
-msgid "Désinfection d’espaces du virus COVID-19"
-msgstr ""
-
-#: .\business\templates\services-1.html:79
-#: .\business\templates\services-3.html:80
-msgid "Remise en état de chantier après fin de travaux"
-msgstr ""
-
-#: .\business\templates\services-2.html:30
-msgid "Bureaux et locaux  :"
-msgstr ""
-
-#: .\business\templates\services-2.html:47
-msgid ""
-"Quand vous recevez du public, vos locaux doivent être irréprochables, ils "
-"fournissent un premier aperçu de vos affaires."
-msgstr ""
-
-#: .\business\templates\services-2.html:48
-msgid ""
-"Des locaux bien entretenus favorisent la bonne image de votre entreprise et "
-"le bien-être de vos employés."
-msgstr ""
-
-#: .\business\templates\services-2.html:49
-msgid ""
-"Ne laissez pas la saleté s’installer et nuire à vos affaires "
-"professionnelles."
-msgstr ""
-
-#: .\business\templates\services-2.html:50
-msgid ""
-"Nous intervenons à Alger et dans tous ses environs, nous traitons toutes vos "
-"demandes et réagissons rapidement."
-msgstr ""
-
-#: .\business\templates\services-2.html:51
-msgid ""
-"Bureaux professionnels, centres commerciaux, concessionnaires automobiles, "
-"copropriétés, bâtiments industriels, boutiques...Lorsque nous nous rendons "
-"sur votre site, nous élaborons des spécifications pour répondre à vos "
-"attentes."
-msgstr ""
-
-#: .\business\templates\services-2.html:74
-#: .\business\templates\services-5.html:72
-msgid "Secteur Copropriété"
-msgstr ""
-
-#: .\business\templates\services-2.html:76
-#: .\business\templates\services-4.html:72
-#: .\business\templates\services-5.html:74
-msgid "Remise en état de chantier après fin de travaux "
-msgstr ""
-
-#: .\business\templates\services-3.html:30
-msgid "Secteur Copropriété  :"
-msgstr ""
-
-#: .\business\templates\services-3.html:49
-msgid ""
-"Le saviez-vous ? La propreté au travail n'est pas la seule chose "
-"essentielle. Le milieu de vie a tout autant d'importance. Les espaces "
-"communs d'immeubles ou de résidences propres et agréables contribuent au "
-"bien-être quotidien de ceux qui y habitent et des visiteurs. "
-msgstr ""
-
-#: .\business\templates\services-3.html:50
-msgid "En fonction de vos besoins, "
-msgstr ""
-
-#: .\business\templates\services-3.html:50
-msgid ""
-"collabore avec les syndics de copropriété et assure l'entretien de ces "
-"parties communes."
-msgstr ""
-
-#: .\business\templates\services-3.html:52
-msgid "Quels que soient vos besoins,"
-msgstr ""
-
-#: .\business\templates\services-3.html:52
-msgid "vous offre le meilleur service."
-msgstr ""
-
-#: .\business\templates\services-3.html:54
-msgid ""
-"En plus du nettoyage, si vous devez gérer les déchets, le nettoyage des "
-"allées et des parkings, des sous-sols, nous pouvons réagir à cela. Nous "
-"intervenons à la fréquence et à l'heure que vous voulez. Toute notre "
-"expertise est mise à votre service. Nos agents de propreté et techniciens "
-"sont des professionnels chevronnés, formés à diverses techniques de "
-"nettoyage et machines de pointe. Ils sont dévoués à vous tous les jours, "
-"ainsi qu'à vos résidents."
-msgstr ""
-
-#: .\business\templates\services-3.html:55
-msgid ""
-"Vous prenez soin de vos résidents, laissez-nous prendre soin de vos "
-"résidences."
-msgstr ""
-
-#: .\business\templates\services-4.html:30
-msgid "Désinfection d’espaces du virus COVID-19 :"
-msgstr ""
-
-#: .\business\templates\services-4.html:45
-msgid ""
-"Dans le contexte de la menace de propagation du coronavirus, il est "
-"extrêmement important de prendre des mesures de prévention et de "
-"décontaminer vos espaces de travail de façon régulière."
-msgstr ""
-
-#: .\business\templates\services-4.html:46
-msgid ""
-"Notre société emploie des spécialistes sympathiques et actifs, capables de "
-"nettoyer rapidement et efficacement, la préparation de votre espace pour les "
-"réunions d'invités, conférences ou tout autre événement."
-msgstr ""
-
-#: .\business\templates\services-5.html:30
-msgid "Remise en état de chantier après fin de travaux :"
-msgstr ""
-
-#: .\business\templates\services-5.html:44
-msgid ""
-"Qu'il s'agisse d'un petit ou d'un grand projet de réparation ou de "
-"rénovation, notre entreprise assure le nettoyage clé en main de votre "
-"immeuble."
-msgstr ""
-
-#: .\business\templates\services-5.html:45
-msgid ""
-"Nous avons des aspirateurs puissants et des détergents spéciaux qui sont "
-"requis pour enlever les débris, les déchets et la poussière. Munis de "
-"l'équipement nécessaire, nous arrivons sur place pour essuyer la poussière "
-"du plâtre, chaux et du ciment des sols, murs, portes et meubles. Nous "
-"effectuons tous nos travaux à temps et dans les délais."
-msgstr ""
-
-#: .\business\templates\services-5.html:56
-msgid " pour en savoir plus. "
 msgstr ""
 
 #: .\business\templates\snippets\devis_cta.html:14
@@ -724,30 +459,35 @@ msgid "Arabic"
 msgstr ""
 
 #: .\templates\admin\base.html:6
-msgid "PMATEL Dashboard"
+msgid "OCTOPUS CONSULTING"
 msgstr ""
 
 #: .\templates\footer.html:29
 msgid "Liens utiles"
 msgstr ""
 
-#: .\templates\footer.html:32 .\templates\navbar.html:48
+#: .\templates\footer.html:32 .\templates\navbar.html:50
+#: .\templates\navbar.html:60
 msgid "PRÉSENTATION"
 msgstr ""
 
-#: .\templates\footer.html:33 .\templates\navbar.html:49
+#: .\templates\footer.html:33 .\templates\navbar.html:51
+#: .\templates\navbar.html:59
 msgid "SERVICES"
 msgstr ""
 
-#: .\templates\footer.html:34 .\templates\navbar.html:50
+#: .\templates\footer.html:34 .\templates\navbar.html:52
+#: .\templates\navbar.html:58
 msgid "DEVIS"
 msgstr ""
 
-#: .\templates\footer.html:35 .\templates\navbar.html:51
+#: .\templates\footer.html:35 .\templates\navbar.html:53
+#: .\templates\navbar.html:57
 msgid "RECRUTEMENT"
 msgstr ""
 
-#: .\templates\footer.html:36 .\templates\navbar.html:52
+#: .\templates\footer.html:36 .\templates\navbar.html:54
+#: .\templates\navbar.html:56
 msgid "CONTACT"
 msgstr ""
 
@@ -763,10 +503,6 @@ msgstr ""
 msgid " Appelez-nous:"
 msgstr ""
 
-#: .\templates\navbar.html:15
-msgid "Obtenez un devis gratuit"
-msgstr ""
-
-#: .\templates\navbar.html:47
+#: .\templates\navbar.html:49 .\templates\navbar.html:61
 msgid "ACCUEIL"
 msgstr ""
