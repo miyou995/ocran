@@ -1,3 +1,4 @@
+from dataclasses import field
 import email
 from django import forms
 from django.conf import settings
@@ -8,13 +9,23 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 from django.utils.translation import gettext as _
-        
+from django.core.exceptions import ValidationError
 
 class ContactForm(ModelForm) :
+    username = forms.CharField(required=False)
+
     class Meta: 
         model = Contact 
         fields = '__all__' 
         
+    def clean(self):
+        cleaned_data = super().clean()
+        username = cleaned_data.get("username")
+        if username:
+            raise ValidationError(
+                    "BAD BOT"
+                )
+
     def get_info(self):
         cleaned_data = super().clean()
 
@@ -39,10 +50,18 @@ class ContactForm(ModelForm) :
 
 
 class QuoteForm(ModelForm) :
+    username = forms.CharField(required=False)
     class Meta: 
         model = Quote 
         fields = '__all__' 
-      
+    def clean(self):
+        cleaned_data = super().clean()
+        username = cleaned_data.get("username")
+        if username:
+            raise ValidationError(
+                    "BAD BOT"
+                )
+
     def get_info(self):
         cleaned_data = super().clean()
         email = cleaned_data.get('email')
@@ -70,10 +89,17 @@ class QuoteForm(ModelForm) :
 
 
 class HiringForm(ModelForm) :
+    username = forms.CharField(required=False)
     class Meta: 
         model = Hiring 
         fields = '__all__' 
-        
+    def clean(self):
+        cleaned_data = super().clean()
+        username = cleaned_data.get("username")
+        if username:
+            raise ValidationError(
+                    "BAD BOT"
+                )   
     # def get_info(self):
             
     #     cleaned_data = super().clean()

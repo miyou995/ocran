@@ -44,12 +44,12 @@ INSTALLED_APPS = [
     'modeltranslation',
     'django.contrib.admin',
     'rosetta',    
-    
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',   
     "django_htmx.middleware.HtmxMiddleware",  # htmx
     'django.middleware.locale.LocaleMiddleware', # for translation
     'django.middleware.common.CommonMiddleware',
@@ -58,7 +58,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',   
 ]
 
 ROOT_URLCONF = 'config.urls'
