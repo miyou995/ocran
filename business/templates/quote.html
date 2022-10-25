@@ -62,7 +62,7 @@
 							<!--Contact Form-->
 						    {% comment %} <form hx-post="{% url 'business:create_quote' %}" hx-swap="innerHTML" hx-target="#messageQuote"> {% endcomment %}
 
-							<form method="POST" action={% url 'business:quote' %}>
+							<form method="POST" action="{% url 'business:quote' %}">
 								{% csrf_token %}  
 								<div class="row clearfix">
 									<div class="form-group col-lg-12 col-md-6 col-sm-12">

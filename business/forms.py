@@ -69,7 +69,7 @@ class QuoteForm(ModelForm) :
         formule = cleaned_data.get('formule')
         bien = cleaned_data.get('bien')
         surface = cleaned_data.get('surface')
-        msg =  f'Bonjour OCRAN NADAFA, une personne ayant le mail: {email}, et le numero de telephone suivant:  {email}, a demandé un devis, avec les inforamtions suivantes, pack : {formule}, type de bien: {bien}, et la surface : {surface} .'
+        msg =  f'Bonjour OCRAN NADAFA, une personne ayant le mail: {email}, et le numero de telephone suivant:  {phone}, a demandé un devis, avec les inforamtions suivantes, pack : {formule}, type de bien: {bien}, et la surface : {surface} .'
         return phone, msg, email
 
     def send_email(self):
