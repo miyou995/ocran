@@ -10,7 +10,7 @@
     <div class="auto-container">
         <h2>{% trans "Contactez-nous" %}</h2>
         <ul class="page-breadcrumb">
-            <li><a href="/" dir="ltr">{% trans "Accuiel" %}</a></li>
+            <li><a href="{% url 'business:index' %}" dir="ltr">{% trans "Accuiel" %}</a></li>
             <li dir="ltr">{% trans "Contactez-nous" %}</li>
         </ul>
     </div>
@@ -101,7 +101,7 @@
 						<ul class="contact-info-list">
 							<li><strong>{% trans "Numéro" %} : </strong><a href="tel:23804261" dir="ltr">{% trans "023 80 42 61" %}</a></li>
 							<li><strong>{% trans 'Fix : ' %}</strong><a href="tel:23804261" dir="ltr">{% trans '023 80 42 61' %}</a></li>
-							<li><strong>{% trans "E-mail" %}  : </strong><a href=""> {{business.email}}</a></li>
+							<li><strong>{% trans "E-mail" %}  : </strong><a href="mailto:{{business.email}}" > {{business.email}}</a></li>
 						</ul>
 						<!-- Contact Info List -->
 						<ul class="contact-info-list">

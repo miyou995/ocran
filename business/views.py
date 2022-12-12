@@ -82,6 +82,7 @@ class QuoteoView(SuccessMessageMixin, CreateView):
     def form_valid(self, form):
         try: 
             form.send_email() 
+            print('form.send_email()' )
         except: 
             pass  
         return super().form_valid(form) 
